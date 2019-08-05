@@ -1,3 +1,6 @@
+//global config to make gh pages/local dev easier
+var prefix = './'
+
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
   .factory('d3Service', ['$document', '$q', '$rootScope',
@@ -13,7 +16,7 @@ angular.module('d3', [])
       var scriptTag = $document[0].createElement('script');
       scriptTag.type = 'text/javascript';
       scriptTag.async = true;
-      scriptTag.src = 'http://d3js.org/d3.v3.min.js';
+      scriptTag.src = prefix + 'js/d3.min.js';
       scriptTag.onreadystatechange = function () {
         if (this.readyState == 'complete') onScriptLoad();
       }
@@ -32,7 +35,7 @@ var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.transl
 
 app.config(function($routeProvider) {
     //prefix var just to make switching between local dev and gh pages easier
-    let prefix = "/rcf-comediens/"
+    let prefix = "./"
     $routeProvider
     .when("/", {
         templateUrl : prefix + "views/home.html"
@@ -61,7 +64,7 @@ app.config(function($routeProvider) {
 app.config(function ($translateProvider) {
     $translateProvider
     .useStaticFilesLoader({
-        prefix: '/locales/locale-',
+        prefix: prefix + 'locales/locale-',
         suffix: '.json'
     })
     .useSanitizeValueStrategy('sanitizeParameters')
