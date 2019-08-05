@@ -4,25 +4,25 @@
     <title>RCF II - les comédiens</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script scr = "js/d3.js"></script>
-    <script src = "/js/jquery.min.js"></script>
-    <script src = "/js/angular.min.js"></script>
-    <script src = "/js/angular-route.js"></script>
-    <script src = "/js/angular-translate.min.js"></script>
-    <script src = "/js/translate-loader.min.js"></script>
-    <script src = "/js/ui-bootstrap.min.js"></script>
+    <script scr = "./js/d3.js"></script>
+    <script src = "./js/jquery.min.js"></script>
+    <script src = "./js/angular.min.js"></script>
+    <script src = "./js/angular-route.js"></script>
+    <script src = "./js/angular-translate.min.js"></script>
+    <script src = "./js/translate-loader.min.js"></script>
+    <script src = "./js/ui-bootstrap.min.js"></script>
     <script src="./js/angular-scroll.min.js"></script>
-    <script src = "/js/app.js"></script>
-    <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src = "./js/app.js"></script>
+    <link rel="stylesheet" href="./style/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/main.css">
   </head>
   <body>
     <!--TODO: maybe indicate which is selected (not obvious on the home page)-->
     <span id="lang-buttons">
-     <img width="35" height="20" src="style/img/en-flag.png" class="lang-flag" ng-click="changeLang('en')">
-     <img width="35" height="20" src="style/img/fr-flag.png" class="lang-flag" ng-click="changeLang('fr')">
+     <img width="35" height="20" src="./style/img/en-flag.png" class="lang-flag" ng-click="changeLang('en')">
+     <img width="35" height="20" src="./style/img/fr-flag.png" class="lang-flag" ng-click="changeLang('fr')">
    </span>
     <ng-view class="col-md-12" id="view-content"></ng-view>
   </body>

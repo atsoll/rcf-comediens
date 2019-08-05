@@ -31,27 +31,29 @@ angular.module('d3', [])
 var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'd3', 'duScroll']);
 
 app.config(function($routeProvider) {
+    //prefix var just to make switching between local dev and gh pages easier
+    let prefix = "/rcf-comediens/"
     $routeProvider
     .when("/", {
-        templateUrl : "/views/home.html"
+        templateUrl : prefix + "views/home.html"
     })
     .when("/joly", {
-        templateUrl : "/views/joly.html"
+        templateUrl : prefix + "views/joly.html"
     })
     .when("/contat", {
-        templateUrl : "/views/contat.html"
+        templateUrl : prefix + "views/contat.html"
     })
     .when("/mole", {
-        templateUrl : "/views/mole.html"
+        templateUrl : prefix + "views/mole.html"
     })
     .when("/preville", {
-        templateUrl : "/views/preville.html"
+        templateUrl : prefix + "views/preville.html"
     })
     .when("/vanhove-petit-talma", {
-        templateUrl : "/views/vanhove-petit-talma.html"
+        templateUrl : prefix + "views/vanhove-petit-talma.html"
     })
     .when("/bellecour", {
-        templateUrl : "/views/bellecour.html"
+        templateUrl : prefix + "views/bellecour.html"
     })
 
 });
