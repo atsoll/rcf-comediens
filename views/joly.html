@@ -1,0 +1,35 @@
+<div class= "actor-details" -du-scroll-container>
+  <div class="header col-md-12">
+    <div class="header-text">
+      <div class="title">{{'content.joly.title.main' | translate}}</div>
+      <div class="subtitle">{{'content.joly.title.sub' | translate}}</div>
+    </div>
+    <div class="portrait">
+      <img style="border-color: {{model.curr.colour}}" class="stacked icon" ng-src ="{{model.curr.img_src}}"></img>
+      <a href="{{model.curr.cf_link}}" target="_blank"><img class="stacked frame" src ="/style/img/frame.png"></img></a>
+    </div>
+  </div>
+  <div class="col-md-10 col-md-offset-1 main-content">
+    <!--REMEMBER: override the border on the last content-->
+    <div class= "content-item timepoint"  id="joly-one">
+      <div class="timeline-point" section="joly-one" style="border-color: {{model.curr.colour}}"></div>
+      <div class="timepoint-heading">
+        <span class="date">{{'content.joly.sections.one.date' | translate}}:</span>
+        <span class="caption"> {{'content.joly.sections.one.caption' | translate}}</span>
+      </div>
+      <div class="timeline-event" style="border-color: {{model.curr.colour}}">
+        <div class="content">{{'content.joly.sections.one.text' | translate}}</div>
+      </div>
+    </div>
+    <div class= "content-item timepoint" id="joly-two" >
+      <div class="timeline-point" section="joly-two" style="border-color: {{model.curr.colour}}"></div>
+      <div class="timepoint-heading">
+        <span class="date">{{'content.joly.sections.two.date' | translate}}:</span>
+        <span class="caption"> {{'content.joly.sections.two.caption' | translate}}</span>
+      </div>
+      <div class="timeline-event" style="border-color: {{model.curr.colour}}">
+        <div class="content">{{'content.joly.sections.two.text' | translate}}</div>
+      </div>
+    </div>
+  </div>
+</div>

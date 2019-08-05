@@ -1,0 +1,28 @@
+<div class="main-viz" class="col-md-12">
+  <div class="col-md-2 profiles" style="float:left">
+    <div ng-repeat ="item in model.entities.femmes">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front" style="background: url({{item.img_src}}); border-color:{{item.colour}}" ></div>
+          <div class="back" style="border-color:{{item.colour}}">
+            <a class="pseudo" href="{{item.link}}">{{item.pseudo}}</a>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+  <time-line class="col-md-8" timeline-data=model.timeline_data max-date="1830-01-01" min-date="1721-01-01" id="timeline"></time-line>
+  </div>
+  <div class="col-md-2 profiles">
+    <div ng-repeat ="item in model.entities.hommes">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front" style="background: url({{item.img_src}}); border-color:{{item.colour}}" ></div>
+          <div class="back" style="border-color:{{item.colour}}">
+            <a class="pseudo" href="{{item.link}}">{{item.pseudo}}</a>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
