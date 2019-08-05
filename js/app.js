@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comdiens/'
+var prefix = '/rcf-comediens/'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -285,7 +285,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
             //properly position the tooltip
             svg.on("mousemove", function(){
             tipPixels = parseInt(tip.style("height").replace("px", ""));
-            return tip.style("top", (d3.event.pageY-tipPixels-margin-3.5*radius)+"px").style("left",(d3.event.pageX-width* 0.25)+"px");})
+            return tip.style("top", (d3.event.pageY-tipPixels-margin-7*radius)+"px").style("left",(d3.event.pageX-width* 0.25)+"px");})
             .on("mouseout", function(){return tip.style("opacity", 0).style("top","0px").style("left","0px");});
 
         });
