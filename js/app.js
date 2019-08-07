@@ -144,7 +144,7 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
 
 });
 //TODO: trigger redraw on resize
-app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', '$document', function(d3Service, $translate, $timeout, $location, $document) {
+app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', '$document', '$window',function(d3Service, $translate, $timeout, $location, $document, $window) {
   return {
     restrict: 'E',
     scope: {
@@ -154,142 +154,164 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
     },
     translude: true,
     link: function(scope, element) {
-      //timeline layour based on timekots plugin: https://github.com/alangrafu/timeknots/blob/master/src/timeknots.js
-      element.ready(function(){
-        d3Service.d3().then(function(d3) {
-          //get and set details
-          elem = element[0]
-          var width = elem.offsetWidth;
-          var height = window.innerHeight * 0.8
-          var indiv_height = Math.floor(height/6)
-          //append svg
-          var svg = d3.select('#timeline').append('svg').attr("width", width).attr("height", height)
-          //figure out scale factors
-          var max = Date.parse(scope.maxDate)
-          var min = Date.parse(scope.minDate)
+      //timeline layout based on timekots plugin: https://github.com/alangrafu/timeknots/blob/master/src/timeknots.js
 
-          //globals
-          var radius = Math.floor(indiv_height/12);
-          var line_width = radius * 0.9;
-          var margin = (radius * 1.5) + line_width
-          var step = (width-2*margin)/(max-min)
-          var series_data = [{link: "/joly", colour:"#f28e2b"}, {link: "/bellecour", colour: "#4e79a7"}, {link:"/contat", colour:"#ff9da7"}, {link:"/mole", colour:"#b07aa1"}, {link:"/vanhove-petit-talma", colour:"#59a14f"}, {link:"/preville", colour:"#edc948"}]
+      //function for node click
+      //scroll function for onclick
+      var enterAndScroll = function(link, anchor) {
+        $location.path(link);
+        scope.$apply()
+        if(anchor) {
+          $timeout( function(){
+            var someElement = document.getElementById(anchor);
+            $document.duScrollToElementAnimated(someElement);
+          }, 200 );
+        }
+      }
 
-          //declaree tooltip used for hover
-          //TODO: maybe add max-width
-          var tip = d3.select('#timeline')
-            .append('div')
-            .style("opacity", 0)
-            .style("position", "absolute")
-            .style("background","rgba(100, 100, 100, 0.5)")
-            .style("color", "white")
-            .style("padding", "5px 10px 5px 10px")
-            .style("-moz-border-radius", "8px 8px")
-            .style("border-radius", "8px 8px");
-
-          //functions for x and y vals
-          var xVal = function(date){
-            let d = new Date(date).getTime()
-            return step * (d - min) + margin
-          }
-
-          var yVal = function(index) {
-            return index*indiv_height + indiv_height/2
-          }
-
-          //scroll function for onclick
-          var enterAndScroll = function(link, anchor) {
-            $location.path(link);
-            scope.$apply()
-            if(anchor) {
-              $timeout( function(){
-                var someElement = document.getElementById(anchor);
-                $document.duScrollToElementAnimated(someElement);
-              }, 200 );
-            }
-          }
-
-          /*draw the lines
-            don't necessarily need to sort but just to be safe
-            not very efficient but better than brute forcing the combinatorics*/
-          scope.timelineDate = scope.timelineData.sort(function(a, b) {
-              return a.series - b.series || xVal(a.date) - xVal(b.date)
-          });
-
-          let pairs = []
-          //relies on the prior sorting
-          for(let i=0;i<scope.timelineData.length-1;i++) {
-            if(scope.timelineData[i].series==scope.timelineData[i+1].series) {
-              let yValue = yVal(scope.timelineData[i].series)
-              pairs.push({data:[{x: xVal(scope.timelineData[i].date), y: yValue}, {x: xVal(scope.timelineData[i+1].date), y:yValue}], colour: series_data[scope.timelineData[i].series].colour})
-            }
-          }
+      //preliminary data processing
+      var max = Date.parse(scope.maxDate)
+      var min = Date.parse(scope.minDate)
 
 
-            svg.selectAll("line")
-             .data(pairs)
-             .enter()
-             .append("line")
-             .attr("x1", function(d){return d.data[0].x})
-             .attr("y1", function(d){return d.data[0].y})
-             .attr("x2", function(d){return d.data[1].x})
-             .attr("y2", function(d){return d.data[1].y})
-             .style("stroke", function(d){return d.colour})
-             .style("stroke-width", line_width);
+      var draw = function() {
 
+        element.ready(function(){
+          d3Service.d3().then(function(d3) {
+            //get and set details
+            let elem = element[0]
+            let width = window.innerWidth - ((window.innerHeight/100)*60) ;
+            let height = window.innerHeight * 0.8
+            let indiv_height = Math.floor(height/6)
 
-          //draw the dots
-          svg.selectAll('circle')
-            .data(scope.timelineData).enter().append('circle')
-            .attr("class", "timeline-event")
-            .attr("r", radius )
-            .style("stroke", function(d){
-              return series_data[d.series].colour
-            })
-            .style("stroke-width", Math.floor(line_width/2))
-            .style("fill", "#fff")
-            .attr("cy", function(d){
-              return yVal(d.series)
-            })
-            .attr("cx", function(d){
-              return xVal(d.date)
-            })
-            .on("mouseover", function(d){
-              //translate
-              let langText = $translate.instant(d.hoverText)
-              let formatDate = d.fudged? d.date.substr(0,4):d.date
-              //append the tooltip
-              d3.select(this)
-              .style("fill", 'rgb(255,0,0)').transition()
-              .duration(100).attr("r",  radius*1.5);
-              tip.html("");
-              tip.append("div").style("float", "left").html('<b>' + formatDate  + '</b>');
-              tip.append("div").html('<br/><p>' + langText+ '</p>')
-              tip.transition()
-              .duration(100)
-              .style("opacity", .9);
+            //append svg
+            let svg = d3.select('#timeline').append('svg').attr("width", width).attr("height", height)
+            //figure out scale factors
+            let radius = Math.floor(indiv_height/12);
+            let line_width = radius * 0.9;
+            let margin = (radius * 1.5) + line_width
+            let step = (width-2*margin)/(max-min)
+            let  series_data = [{link: "/joly", colour:"#f28e2b"}, {link: "/bellecour", colour: "#4e79a7"}, {link:"/contat", colour:"#ff9da7"}, {link:"/mole", colour:"#b07aa1"}, {link:"/vanhove-petit-talma", colour:"#59a14f"}, {link:"/preville", colour:"#edc948"}]
 
-            })
-            .on("mouseout", function(){
-              d3.select(this)
-              .style("fill", '#fff').transition()
-              .duration(100).attr("r", radius);
-              tip.transition()
-              .duration(100)
+            //declare tooltip used for hover
+            //TODO: maybe add max-width
+            var tip = d3.select('#timeline')
+              .append('div')
               .style("opacity", 0)
-            })
-            .on('click', function(d){
-              enterAndScroll(series_data[d.series].link, d.anchorScroll)
+              .style("position", "absolute")
+              .style("background","rgba(100, 100, 100, 0.5)")
+              .style("color", "white")
+              .style("padding", "5px 10px 5px 10px")
+              .style("-moz-border-radius", "8px 8px")
+              .style("border-radius", "8px 8px");
+
+            //functions for x and y vals
+            var xVal = function(date){
+              let d = new Date(date).getTime()
+              return step * (d - min) + margin
+            }
+
+            var yVal = function(index) {
+              return index*indiv_height + indiv_height/2
+            }
+
+            /*draw the lines
+              don't necessarily need to sort but just to be safe
+              not very efficient but better than brute forcing the combinatorics*/
+            scope.timelineDate = scope.timelineData.sort(function(a, b) {
+                return a.series - b.series || xVal(a.date) - xVal(b.date)
             });
 
-            //properly position the tooltip
-            svg.on("mousemove", function(){
-            tipPixels = parseInt(tip.style("height").replace("px", ""));
-            return tip.style("top", (d3.event.pageY-tipPixels-margin-7*radius)+"px").style("left",(d3.event.pageX-width* 0.25)+"px");})
-            .on("mouseout", function(){return tip.style("opacity", 0).style("top","0px").style("left","0px");});
+            let pairs = []
+            //relies on the prior sorting
+            for(let i=0;i<scope.timelineData.length-1;i++) {
+              if(scope.timelineData[i].series==scope.timelineData[i+1].series) {
+                let yValue = yVal(scope.timelineData[i].series)
+                pairs.push({data:[{x: xVal(scope.timelineData[i].date), y: yValue}, {x: xVal(scope.timelineData[i+1].date), y:yValue}], colour: series_data[scope.timelineData[i].series].colour})
+              }
+            }
 
+              //draw lines
+              svg.selectAll("line")
+               .data(pairs)
+               .enter()
+               .append("line")
+               .attr("x1", function(d){return d.data[0].x})
+               .attr("y1", function(d){return d.data[0].y})
+               .attr("x2", function(d){return d.data[1].x})
+               .attr("y2", function(d){return d.data[1].y})
+               .style("stroke", function(d){return d.colour})
+               .style("stroke-width", line_width);
+
+
+            //draw the dots
+            svg.selectAll('circle')
+              .data(scope.timelineData).enter().append('circle')
+              .attr("class", "timeline-event")
+              .attr("r", radius )
+              .style("stroke", function(d){
+                return series_data[d.series].colour
+              })
+              .style("stroke-width", Math.floor(line_width/2))
+              .style("fill", "#fff")
+              .attr("cy", function(d){
+                return yVal(d.series)
+              })
+              .attr("cx", function(d){
+                return xVal(d.date)
+              })
+              .on("mouseover", function(d){
+                //translate
+                let langText = $translate.instant(d.hoverText)
+                let formatDate = d.fudged? d.date.substr(0,4):d.date
+                //append the tooltip
+                d3.select(this)
+                .style("fill", 'rgb(255,0,0)').transition()
+                .duration(100).attr("r",  radius*1.5);
+                tip.html("");
+                tip.append("div").style("float", "left").html('<b>' + formatDate  + '</b>');
+                tip.append("div").html('<br/><p>' + langText+ '</p>')
+                tip.transition()
+                .duration(100)
+                .style("opacity", .9);
+
+              })
+              .on("mouseout", function(){
+                d3.select(this)
+                .style("fill", '#fff').transition()
+                .duration(100).attr("r", radius);
+                tip.transition()
+                .duration(100)
+                .style("opacity", 0)
+              })
+              .on('click', function(d){
+                enterAndScroll(series_data[d.series].link, d.anchorScroll)
+              });
+
+              //properly position the tooltip
+              svg.on("mousemove", function(){
+              let mouse = d3.mouse(this)
+              tipPixels = parseInt(tip.style("height").replace("px", ""));
+              return tip.style("top", (mouse[1]-tipPixels-margin-2*radius)+"px").style("left",(mouse[0])+"px");})
+              .on("mouseout", function(){return tip.style("opacity", 0).style("top","0px").style("left","0px");});
+
+          });
         });
+      }
+
+      var onResize = function() {
+          d3Service.d3().then(function(d3) {
+            d3.select("#timeline").selectAll("*").remove();
+            draw()
+          });
+      }
+
+      angular.element($window).on('resize', function(e){
+        $document.ready(function() {
+          onResize()
+        })
       });
+      draw()
     }
   };
 }]);

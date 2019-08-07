@@ -15,8 +15,10 @@ body {
 }
 
 #lang-buttons {
-  float: right;
   margin-top: 10px;
+  width: 100%;
+  display:block;
+  text-align: right;
 }
 
 .flip-container {
@@ -30,8 +32,8 @@ body {
   transform: rotateY(180deg);
 }
 .flip-container, .front, .back {
-  width: 150px;
-  height: 150px;
+  width: 23vh;
+  height: 23vh;
   border-radius: 50%;
 }
 /* flip speed goes here */
@@ -47,7 +49,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border: 4px solid
+  border: 0.75vh solid
 }
 /* front pane, placed above back */
 .front {
@@ -64,6 +66,13 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+.profiles {
+  width: 25vh;
+}
+
+.main-viz {
+  display: inline;
 }
 
 #timeline {
