@@ -9,11 +9,15 @@
       "six": "Joly receives a raise following a complaint of added responsibilites and no compensation",
       "seven": "Mademoiselle Joly is banned from participating in the troupe's administrative meetings",
       "eight": "During the french revolution, Joly is imprisoned along with several other members of the company",
-      "nine": "Mademoiselle Joly pases away"
+      "nine": "Mademoiselle Joly passes away"
     },
     "bellecour": {
-      "one": "",
-      "two":""
+      "one": "Jean-Claude-Gilles Colson, known as Bellecour, is born",
+      "two":"Monsieur Bellecour joins the Comédie Française",
+      "three": "Bellecour's request to retire is denied",
+      "four": "Due to his failing health, Bellecour frequently fails to attend administrative meetings",
+      "five": "Following an incident, Bellecour calms and defends his colleague Monsieur Raymond",
+      "six": ""
     }
   },
   "content": {

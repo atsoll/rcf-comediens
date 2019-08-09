@@ -12,8 +12,12 @@
       "nine": "Mademoiselle Joly est morte"
     },
     "bellecour": {
-      "one": "Jean-Claude-Gilles Colson, dit Bellecour, fils du peintre de portraits Gilles Colson, est né",
-      "two":""
+      "one": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
+      "two":"Monsieur Bellecour entre à la Comédie-Française",
+      "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
+      "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblé",
+      "five": "Monsieur Bellcour calme son camarade Raymond, suite à un incident, et lui défend à l'assemblé",
+      "six":""
     }
   },
   "content": {
