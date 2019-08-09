@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = './'
+var prefix = '/rcf-comediens/'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -34,8 +34,6 @@ angular.module('d3', [])
 var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'd3', 'duScroll']);
 
 app.config(function($routeProvider) {
-    //prefix var just to make switching between local dev and gh pages easier
-    let prefix = "./"
     $routeProvider
     .when("/", {
         templateUrl : prefix + "views/home.html"
@@ -87,7 +85,7 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
     //fudged variable used to flag dates that are only years
     timeline_data: [
       //Joly
-      {series: 0, date:"1761-04-08", anchorScroll:"joly-one", hoverText:"timeline.joly.one", fudged: false}, {series: 0, date:"1768-10-30", anchorScroll:"joly-two", hoverText:"timeline.joly.two", fudged: false}, {series: 0, date:"1781-03-28", anchorScroll:"joly-three", hoverText:"timeline.joly.three", fudged: false}, {series: 0, date:"1783-06-30", anchorScroll:"joly-four", hoverText:"timeline.joly.four", fudged: false}, {series: 0, date:"1784-09-21", anchorScroll:"joly-five", hoverText:"timeline.joly.five", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-six", hoverText:"timeline.joly.six", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-seven", hoverText:"timeline.joly.seven", fudged: false}, {series: 0, date:"1793-01-01", anchorScroll:"joly-eight", hoverText:"timeline.joly.eight", fudged: true},
+      {series: 0, date:"1761-04-08", anchorScroll:"joly-one", hoverText:"timeline.joly.one", fudged: false}, {series: 0, date:"1768-10-30", anchorScroll:"joly-two", hoverText:"timeline.joly.two", fudged: false}, {series: 0, date:"1781-03-28", anchorScroll:"joly-three", hoverText:"timeline.joly.three", fudged: false}, {series: 0, date:"1783-06-30", anchorScroll:"joly-four", hoverText:"timeline.joly.four", fudged: false}, {series: 0, date:"1784-09-21", anchorScroll:"joly-five", hoverText:"timeline.joly.five", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-six", hoverText:"timeline.joly.six", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-seven", hoverText:"timeline.joly.seven", fudged: false}, {series: 0, date:"1793-01-01", anchorScroll:"joly-eight", hoverText:"timeline.joly.eight", fudged: true}, {series: 0, date:"1798-01-01", anchorScroll:"joly-nine", hoverText:"timeline.joly.nine", fudged: true},
       //Bellecour
       {series: 1, date: "1725-01-16", anchorScroll: null, hoverText: "timeline.bellecour.one", fudged: false}, {series: 1, date: "1750-01-01", anchorScroll: null, hoverText: "timeline.bellecour.two", fudged: true},
       //Contat
@@ -203,7 +201,8 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               .style("color", "white")
               .style("padding", "5px 10px 5px 10px")
               .style("-moz-border-radius", "8px 8px")
-              .style("border-radius", "8px 8px");
+              .style("border-radius", "8px 8px")
+              .style("z-index", 999);
 
             //functions for x and y vals
             var xVal = function(date){
@@ -267,7 +266,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
                 let formatDate = d.fudged? d.date.substr(0,4):d.date
                 //append the tooltip
                 d3.select(this)
-                .style("fill", 'rgb(255,0,0)').transition()
+                .style("fill", series_data[d.series].colour).transition()
                 .duration(100).attr("r",  radius*1.75);
                 tip.html("");
                 tip.append("div").style("float", "left").html('<b>' + formatDate  + '</b>');
@@ -290,6 +289,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               });
 
               //properly position the tooltip
+              //maybe apply this to the whole container so it doesn't get cut off?? Not sure it will work with d3
               svg.on("mousemove", function(){
               let mouse = d3.mouse(this)
               tipPixels = parseInt(tip.style("height").replace("px", ""));
