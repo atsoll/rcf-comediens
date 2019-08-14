@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comediens/'
+var prefix = './'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])

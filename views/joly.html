@@ -1,12 +1,12 @@
-<div class= "actor-details" -du-scroll-container>
-  <div class="header col-md-12">
-    <div class="header-text">
-      <div class="title">{{'content.joly.title.main' | translate}}</div>
-      <div class="subtitle">{{'content.joly.title.sub' | translate}}</div>
-    </div>
-    <div class="portrait">
+<div class= "actor-details col-md-12" -du-scroll-container>
+  <div class="header col-md-10 col-md-offset-1">
+    <div class="portrait col-md-3">
       <img style="border-color: {{model.curr.colour}}" class="stacked icon" ng-src ="{{model.curr.img_src}}"></img>
       <a href="{{model.curr.cf_link}}" target="_blank"><img class="stacked frame" src ="https://svgsilh.com/svg/1296759.svg"></img></a>
+    </div>
+    <div class="header-text col-md-7">
+      <div class="title">{{'content.joly.title.main' | translate}}</div>
+      <div class="subtitle">{{'content.joly.title.sub' | translate}}</div>
     </div>
   </div>
   <div class="col-md-10 col-md-offset-1 main-content">
