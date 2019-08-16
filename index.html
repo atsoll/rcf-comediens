@@ -19,10 +19,9 @@
     <link rel="stylesheet" href="./style/main.css">
   </head>
   <body>
-    <!--TODO: maybe indicate which is selected (not obvious on the home page)-->
     <span id="lang-buttons">
-      <div class="lang" ng-click="changeLang('fr')" ng-style="{'background-color': model.lang=='fr'? 'rgba(255,0,0,0.25)' : 'white'}"><div class="text">FR</div></div>
-      <div class="lang" ng-click="changeLang('en')" ng-style="{'background-color': model.lang=='en'? 'rgba(255,0,0,0.25)' : 'white'}"><div class="text">EN</div></div>
+      <div class="lang" ng-click="changeLang('fr')" ng-style="{'background-color': model.lang=='fr'? 'rgba(41, 207, 8 ,0.4)' : 'white'}"><div class="text">FR</div></div>
+      <div class="lang" ng-click="changeLang('en')" ng-style="{'background-color': model.lang=='en'? 'rgba(41, 207, 8, 0.4)' : 'white'}"><div class="text">EN</div></div>
    </span>
     <ng-view class="col-md-12" id="view-content"></ng-view>
   </body>

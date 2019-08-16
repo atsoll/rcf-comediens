@@ -17,7 +17,37 @@
       "three": "Bellecour's request to retire is denied",
       "four": "Due to his failing health, Bellecour frequently fails to attend administrative meetings",
       "five": "Following an incident, Bellecour calms and defends his colleague Monsieur Raymond",
-      "six": ""
+      "six": "Monsieur Bellecour responds to a highly critical letter",
+      "seven": "Monsieur Lekain, Bellecour's colleague and dear friend, dies",
+      "eight": "Bellecour is tasked with the responsibility of investigating the possibility of the formation of second troupe to serve solely the royal court",
+      "nine":"Monsieur Bellecour reflects on his experiences at the Comédie-Française",
+      "ten": "Following the death of Monsieur Bellcour, Monsieur Préville writes to Monsieur La Harpe of the Mercure de France to protest the mean spritited eulogy that they had printed"
+    },
+    "contat": {
+      "one":"Louise Contat is born into a low class family",
+      "two":"Mademoiselle Contat officially debuts at the Comédie-Française",
+      "three": "Contat is formally recognized as a member of the troupe and receives a quarter share",
+      "four": "Contat is given a raise, bringing her to a half share",
+      "five": "Contat is given a raise, bringing her to three quarters of a share",
+      "six": "The adminstration debates the issue of maternity payment, with regards to Mademoiselle Contat",
+      "seven": "Contat receives a further raise, bringing her to a full share",
+      "eight":"During the french revolution, Contat is imprisoned along with several other members of the company",
+      "nine": "Mademoiselle Contat reflects frankly on her experiences with love",
+      "ten": "Following Contat's retirement, a performance of Othello is held in her benefit",
+      "eleven": "Mademoiselle Contat passes away"
+    },
+    "mole": {
+      "one": "François-René Molé is born",
+      "two": "Molé's father passes away",
+      "three":"Molé debutes at the Comédie-Française, but is refused and returns to the provincial theatres",
+      "four": "Molé becomes a member of the Comédie-Française society",
+      "five": "With Lekain out sick, Molé creates the role of Hamlet",
+      "six": "Monsieur Molé creates the role of Romeo in 'Romeo and Juliette'",
+      "seven": "Molé and his wife are both severely ill",
+      "eight": "Molé misses an adminstrative meeting, giving the excuse that he has to relearn a role which he has completely forgotten",
+      "nine":""
+
+
     }
   },
   "content": {
@@ -60,13 +90,13 @@
     "mole": {
       "title": {
         "main": "François-René Molé",
-        "sub": ""
+        "sub": "The Don Juan of the wings"
       }
     },
     "preville": {
       "title": {
         "main": "Pierre-Louis Du Bus dit Préville",
-        "sub": ""
+        "sub": "The father of the troupe"
       }
     }
   }

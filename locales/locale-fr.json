@@ -7,7 +7,7 @@
       "four": "Joly refuse à jouer et est remplacée par Mademoiselle Olivier",
       "five": "Par une une décision polémique, Mademoiselle Joly est reçue par la troupe comme sociétaire",
       "six":"Joly reçoit une augmentation suite à une plainte de responsabilités hors de son emploi",
-      "seven": "Mademoiselle Joly est suspendue de l'assemblé",
+      "seven": "Mademoiselle Joly est suspendue de l'assemblée",
       "eight":"Joly est une des membres de la troupe emprisonnée lors de la révolution",
       "nine": "Mademoiselle Joly est morte"
     },
@@ -15,9 +15,37 @@
       "one": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
       "two":"Monsieur Bellecour entre à la Comédie-Française",
       "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
-      "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblé",
-      "five": "Monsieur Bellcour calme son camarade Raymond, suite à un incident, et lui défend à l'assemblé",
-      "six":""
+      "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
+      "five": "Monsieur Bellcour calme son camarade Raymond, suite à un incident, et lui défend à l'assemblée",
+      "six":"Monsieur Bellecour répond à des critiques faites de lui",
+      "seven": "Monsieur Lekain,collègue et cher ami de Bellecour, est mort",
+      "eight": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
+      "nine": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
+      "ten": "Suite à la mort de Bellcour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de l'éloge écrit de son collègue"
+    },
+    "contat": {
+      "one":"Louise Contat est née à des parents de statut peu élevé",
+      "two":"La Comédie accord à Mademoiselle Contat son ordre de début",
+      "three": "Contat est reçue à la troupe et est accordée un quart de part",
+      "four": "Contat reçoit une augmentation, ce qui fait qu'elle a son demi part",
+      "five": "Contat reçoit une augmentation, ce qui fait qu'elle a son trois quart de part",
+      "six": "L'assemblée débat sur la question d'un paiement de grossesse, en ce qui concerne Mademoiselle Contat",
+      "seven": "Contat reçoit encore une autre augmentation, ce qui lui donne sa part entière",
+      "eight":"Contat est une des membres de la troupe emprisonnée lors de la révolution",
+      "nine": "Mademoiselle Contat reflet franchement au sujet de ses expériences de l'amour",
+      "ten": "Suite à la retraite de Contat, une représentation d'Othello est donnée dans son bénéfice",
+      "eleven":"Mademoiselle Contat est morte"
+    },
+    "mole": {
+      "one":"François-René Molé est né",
+      "two":"Le père de Molé est mort",
+      "three":"Molé débute à la Comédie-Française, mais est jugé insuffisant et repart en province",
+      "four": "Molé devient sociétaire",
+      "five": "En raison de la maladie de Lekain, Molé crée le rôle de Hamlet",
+      "six": "Monsieur Molé crée de rôle de Roméo dans «Roméo et Juliette»",
+      "seven": "Molé et sa femme sont tous les deux gravement malades",
+      "eight": "Molé est absent de l'assemblée, en donnant comme excuse qu'il a complètement oublié son rôle et doit le réapprendre",
+      "nine":""
     }
   },
   "content": {

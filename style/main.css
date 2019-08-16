@@ -137,6 +137,10 @@ body {
   margin-top: -3vh;
 }
 
+.frame:hover {
+  transform: scale(1.01);
+}
+
 .header-text {
   vertical-align: middle;
 }
