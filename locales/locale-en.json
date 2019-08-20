@@ -12,8 +12,8 @@
       "nine": "Mademoiselle Joly passes away"
     },
     "bellecour": {
-      "one": "Jean-Claude-Gilles Colson, known as Bellecour, is born",
-      "two":"Monsieur Bellecour joins the Comédie Française",
+      "one": "Jean-Claude-Gilles Colson, later known as Bellecour, is born",
+      "two":"Monsieur Bellecour is formally admitted to the Comédie Française",
       "three": "Bellecour's request to retire is denied",
       "four": "Due to his failing health, Bellecour frequently fails to attend administrative meetings",
       "five": "Following an incident, Bellecour calms and defends his colleague Monsieur Raymond",
@@ -45,9 +45,36 @@
       "six": "Monsieur Molé creates the role of Romeo in 'Romeo and Juliette'",
       "seven": "Molé and his wife are both severely ill",
       "eight": "Molé misses an adminstrative meeting, giving the excuse that he has to relearn a role which he has completely forgotten",
-      "nine":""
-
-
+      "nine":"Molé takes Mademoiselle Candeille as a student",
+      "ten":"The other members of the troupe write to Molé to remind him that, despite his status within the company, he is still required to follow the rules set by the society",
+      "eleven":"Following the revolution, Molé returns to the theatre.",
+      "twelve": "Monsieur Molé and his family take a vacation",
+      "thirteen": "Already gone for too long, the troupe implore Molé to come back from his prolonged stay in the country",
+      "fourteen": "Monsieur Molé passes away"
+    },
+    "vpt": {
+      "one": "Caroline Vanhove is born",
+      "two":"At the age of 6, Vanhove makes her first appearence at the Comédie-Française in the role of Joas is Racine's Athalie",
+      "three": "Vanhove's reappearence as an adult is critally well received, her perfomances at court being particularly praised",
+      "four": "Vanhove marries Petit, who is a violonist at the Comédie-Française",
+      "five": "Madame Petit is formally admitted to the troupe as a double for Mademoiselle Olivier",
+      "six": "An argument occurs between Olivier and her Daughter and Madame Petit over the distribution of rôles",
+      "seven": "Much to the anger of Mademoiselle Fleury, Petit pulls rank in order to play the rôle of Iphéginie",
+      "eight": "Vanhove marries infamous fellow actor François-Joseph Talma",
+      "nine": "Madame Talma retires from the Comédie-Française",
+      "ten": "Mademoiselle Vanhove becomes a countesse through her marrige to the Count of Chalot",
+      "eleven": "Caroline passes away"
+    },
+    "preville": {
+      "one":"Pierre-Louis Du Bus, later known as Préville, is born",
+      "two": "From 1738 to 1753, Préville plies his trade in provincial theatres",
+      "three":"Monsieur Préville is formally admitted to the Comédie-Française",
+      "four": "Career on the rise, Préville's performances are critically well received",
+      "five":"Having gained significant status, Préville weighs in on the troupe's adminstrative decisions",
+      "six": "Préville copes with tha aftermath of a violent incident in Senlis",
+      "seven":"At the fervent request of his former colleagues, Préville comes out of retirement to return to the Comédie-Française",
+      "eight":"Following a long period of illness, Madame Préville passes away",
+      "nine":"Monsieur Préville passes away"
     }
   },
   "content": {

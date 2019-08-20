@@ -13,7 +13,7 @@
     },
     "bellecour": {
       "one": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
-      "two":"Monsieur Bellecour entre à la Comédie-Française",
+      "two":"Monsieur Bellecour est reçu à la Comédie-Française",
       "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
       "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
       "five": "Monsieur Bellcour calme son camarade Raymond, suite à un incident, et lui défend à l'assemblée",
@@ -45,7 +45,36 @@
       "six": "Monsieur Molé crée de rôle de Roméo dans «Roméo et Juliette»",
       "seven": "Molé et sa femme sont tous les deux gravement malades",
       "eight": "Molé est absent de l'assemblée, en donnant comme excuse qu'il a complètement oublié son rôle et doit le réapprendre",
-      "nine":""
+      "nine":"Molé prend comme élève Mademoiselle Candeille",
+      "ten":"Les autres comédiens écrivent à Molé pour lui rappelé que, même étant doyen, il est obligé de suivre les règles de la société",
+      "eleven":"Suite à la révolution, Molé retourne au théâtre",
+      "twelve": "Monsieur Molé et sa famille partent en voyage",
+      "thirteen":"Déjà parti depuis trop longtemps, les autres comédiens implorent Monsieur Molé de revenir de la province",
+      "fourteen": "Monsieur Molé est mort"
+    },
+    "vpt": {
+      "one":"Caroline Vanhove est née",
+      "two": "À l'age de six ans, Vanhove parait pour la première fois sur scène à la Comédie Française dans le rôle de Joas dans l'Athalie de Racine",
+      "three":"L'apparence de Vanhove en tant qu'adulte est bien reçue à la cour et par la presse",
+      "four":"Vanhove se mari avec Petit, un violoniste de à la Comédie-Française",
+      "five": "Madame Petit est reçue à la troupe comme double immédiat de Mademoiselle Olivier",
+      "six": "Petit se dispute avec Olivier et sa fille au sujet de la répartition des rôles",
+      "seven": "Au grand dam de Mademoiselle Fleury, Petit utilise son statut au sein de la troupe pour prendre le rôle d'Iphéginie",
+      "eight": "Vanhove se mari avec son célèbre collègue François-Joseph Talma",
+      "nine": "Madame Talma se retire de la Comédie-Française",
+      "ten": "Mademoiselle Vanhove devient comtesse en épousant le comte de Chalot",
+      "eleven": "Caroline est morte"
+    },
+    "preville": {
+      "one":"Pierre-Louis Di Bus, dit Préville, est né",
+      "two":"De 1738 en 1753, Préville parait dans les théâtres provinciales",
+      "three": "Monsieur Préville est reçu à la Comédie-Française",
+      "four": "La carrière de Préville fleuri, ses interprétations étant bien reçues",
+      "five": "Ayant gagné un status assez important, Préville aide aus décisions adminstratives de la troupe",
+      "six": "Préville s'occupe des affaires de la troupe suite à un incident violent à Senlis",
+      "seven":"À la demande ardente de ses collègues, Préville sort de la retraite pour retourner à la Comédie-Française",
+      "eight":"Après une longue maladie, Madame Préville est morte",
+      "nine":"Monsieur Préville est mort"
     }
   },
   "content": {
