@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comediens/'
+var prefix = './'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -192,7 +192,6 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
             let  series_data = [{link: "/joly", colour:"#f28e2b"}, {link: "/bellecour", colour: "#4e79a7"}, {link:"/contat", colour:"#ff9da7"}, {link:"/mole", colour:"#b07aa1"}, {link:"/vanhove-petit-talma", colour:"#59a14f"}, {link:"/preville", colour:"#edc948"}]
 
             //declare tooltip used for hover
-            //TODO: maybe add max-width
             var tip = d3.select('#timeline')
               .append('div')
               .style("opacity", 0)
@@ -202,7 +201,9 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               .style("padding", "5px 10px 5px 10px")
               .style("-moz-border-radius", "8px 8px")
               .style("border-radius", "8px 8px")
-              .style("z-index", 999);
+              .style("z-index", 9999)
+              .style("min-width", '15vw')
+              .style("max-width", '21vw');
 
             //functions for x and y vals
             var xVal = function(date){
@@ -269,8 +270,8 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
                 .style("fill", series_data[d.series].colour).transition()
                 .duration(100).attr("r",  radius*1.75);
                 tip.html("");
-                tip.append("div").style("float", "left").html('<b>' + formatDate  + '</b>');
-                tip.append("div").html('<br/><p>' + langText+ '</p>')
+                tip.append("div").html('<b>' + formatDate  + '</b>');
+                tip.append("div").html('<p>' + langText+ '</p>')
                 tip.transition()
                 .duration(100)
                 .style("opacity", .9);
@@ -288,11 +289,10 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
                 enterAndScroll(series_data[d.series].link, d.anchorScroll)
               });
 
-              //FIX POSITIONING
-              //properly position the tooltip
-              //maybe apply this to the whole container so it doesn't get cut off?? Not sure it will work with d3
+              //todo later - find a way to flip if possible
               svg.on("mousemove", function(){
               let mouse = d3.mouse(this)
+
               tipPixels = parseInt(tip.style("height").replace("px", ""));
               return tip.style("top", (mouse[1]-tipPixels-margin-radius)+"px").style("left", mouse[0]+"px");})
               .on("mouseout", function(){return tip.style("opacity", 0).style("top","0px").style("left","0px");});

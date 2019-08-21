@@ -105,6 +105,7 @@ body {
 #timeline {
   margin-top: 3vh;
   margin-bottom: 3vh;
+  position: relative;
 }
 
 .header {
