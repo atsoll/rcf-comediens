@@ -75,6 +75,14 @@
       "seven":"À la demande ardente de ses collègues, Préville sort de la retraite pour retourner à la Comédie-Française",
       "eight":"Après une longue maladie, Madame Préville est morte",
       "nine":"Monsieur Préville est mort"
+    },
+    "axis": {
+      "history": {
+        "one": "Révolution??"
+      },
+      "troupe": {
+        "one": "La Comédie-Française déménage à la Salle des Machines dans le Palais des Tuileries"
+      }
     }
   },
   "content": {
@@ -101,6 +109,58 @@
       "title": {
         "main": "Jean-Claude-Gilles Colson, dit Bellecour",
         "sub": "Le bonhomme bienveillant"
+      },
+      "sections": {
+        "one" : {
+          "date":"",
+          "caption":"Naissance",
+          "text":""
+        },
+        "two" : {
+          "date":"",
+          "caption":"Réception à la Comédie-Française",
+          "text":""
+        },
+        "three" : {
+          "date":"",
+          "caption":"Tentative de retraite",
+          "text":""
+        },
+        "four" : {
+          "date":"",
+          "caption":"Des troubles de santé",
+          "text":""
+        },
+        "five" : {
+          "date":"",
+          "caption":"Une présence calmante",
+          "text":""
+        },
+        "six" : {
+          "date":"",
+          "caption":"Sur la question des pensions..",
+          "text":""
+        },
+        "seven" : {
+          "date":"",
+          "caption":"La mort de Lekain",
+          "text":""
+        },
+        "eight" : {
+          "date":"",
+          "caption":"Une troupe à la cour?",
+          "text":""
+        },
+        "nine" : {
+          "date":"",
+          "caption":"Mécontentement",
+          "text":""
+        },
+        "ten" : {
+          "date":"",
+          "caption":"Mort",
+          "text":""
+        }
       }
     },
     "contat": {

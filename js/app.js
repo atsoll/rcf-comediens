@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = './'
+var prefix = '/rcf-comediens/'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -119,8 +119,8 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
   $scope.$on('$locationChangeSuccess', function(event, toState){
     let target = toState.split('!/')[1]
     if(target) {
-      let h = $scope.model.entities.hommes.filter(function(s){return s.pseudo.toLowerCase()==target})[0]
-      let f =  $scope.model.entities.femmes.filter(function(s){return s.pseudo.toLowerCase()==target})[0]
+      let h = $scope.model.entities.hommes.filter(function(s){return s.pseudo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")==target})[0]
+      let f =  $scope.model.entities.femmes.filter(function(s){return s.pseudo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")==target})[0]
       $scope.model.curr = f? f: h
     }
   });
@@ -167,6 +167,13 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
         }
       }
 
+      //vertical axis
+      var vert_axis = [
+        {id: "hist-1",date: "1793-06-01", hoverText: "timeline.axis.history.one", fudged:true, type:"h"},
+        {id:"troupe-1", date: "1770-01-01", hoverText:"timeline.axis.troupe.one", fudged:true, type:"t"}
+      ]
+
+
       //preliminary data processing
       var max = Date.parse(scope.maxDate)
       var min = Date.parse(scope.minDate)
@@ -179,8 +186,8 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
             //get and set details
             let elem = element[0]
             let width = window.innerWidth - ((window.innerHeight/100)*60) ;
-            let height = window.innerHeight * 0.8
-            let indiv_height = Math.floor(height/6)
+            let height = window.innerHeight
+            let indiv_height = Math.floor((height*0.8)/6)
 
             //append svg
             let svg = d3.select('#timeline').append('svg').attr("width", width).attr("height", height)
@@ -230,6 +237,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
                 pairs.push({data:[{x: xVal(scope.timelineData[i].date), y: yValue}, {x: xVal(scope.timelineData[i+1].date), y:yValue}], colour: series_data[scope.timelineData[i].series].colour})
               }
             }
+
 
               //draw lines
               svg.selectAll("line")
@@ -296,6 +304,116 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               tipPixels = parseInt(tip.style("height").replace("px", ""));
               return tip.style("top", (mouse[1]-tipPixels-margin-radius)+"px").style("left", mouse[0]+"px");})
               .on("mouseout", function(){return tip.style("opacity", 0).style("top","0px").style("left","0px");});
+
+              //draw axis for historical events
+              svg.selectAll("axis")
+              .data(vert_axis)
+              .enter()
+              .append("line")
+              .attr("x1", function(d){return xVal(d.date)})
+              .attr("y1", yVal(0) - 30)
+              .attr("x2", function(d){return xVal(d.date)})
+              .attr("y2", yVal(5) + 30)
+              .attr('id', function(d){return d.id})
+              .style("stroke", "rgb(175,175,175)")
+              .style("stroke-width", Math.floor(line_width/3))
+
+
+              //add points for vertical axis (history) interactivity
+              svg.selectAll("axis-point")
+              .data(vert_axis.filter(function(x){return x.type=='h'}))
+              .enter()
+              .append("circle")
+              .attr("cx", function(d){return xVal(d.date)})
+              .attr("cy", yVal(0) - 30)
+              .attr("r", radius/2)
+              .attr("stroke", "rgb(175,175,175)")
+              .style("stroke-width", Math.floor(line_width/2))
+              .style("fill", "rgb(175,175,175)")
+              .on("mouseover", function(d){
+                //translate
+                let langText = $translate.instant(d.hoverText)
+                let formatDate = d.fudged? d.date.substr(0,4):d.date
+                //swell and colour change
+                d3.select(this)
+                .style("fill", "red").transition()
+                .style("stroke","red")
+                .duration(100).attr("r", radius*0.75);
+
+                d3.select("#" + d.id)
+                .style("stroke","red").transition()
+                //append the tooltip
+                tip.html("");
+                tip.append("div").html('<b>' + formatDate  + '</b>');
+                tip.append("div").html('<p>' + langText+ '</p>')
+                tip.transition()
+                .duration(100)
+                .style("opacity", .9);
+
+              })
+              .on("mouseout", function(d){
+                d3.select(this)
+                .style("stroke", 'rgb(175,175,175)')
+                .style("fill", 'rgb(175,175,175)').transition()
+                .duration(100).attr("r", radius/2);
+
+                d3.select("#" + d.id)
+                .style("stroke","rgb(175,175,175)").transition()
+
+                tip.transition()
+                .duration(100)
+                .style("opacity", 0)
+              })
+
+
+              //do the same for the troupe events
+              svg.selectAll("axis-point")
+              .data(vert_axis.filter(function(x){return x.type=='t'}))
+              .enter()
+              .append("circle")
+              .attr("cx", function(d){return xVal(d.date)})
+              .attr("cy", yVal(5) + 30)
+              .attr("r", radius/2)
+              .attr("stroke", "rgb(175,175,175)")
+              .style("stroke-width", Math.floor(line_width/2))
+              .style("fill", "rgb(175,175,175)")
+              .on("mouseover", function(d){
+                //translate
+                let langText = $translate.instant(d.hoverText)
+                let formatDate = d.fudged? d.date.substr(0,4):d.date
+                //swell and colour change
+                d3.select(this)
+                .style("fill", "red").transition()
+                .style("stroke","red")
+                .duration(100).attr("r", radius*0.75);
+
+                d3.select("#" + d.id)
+                .style("stroke","red").transition()
+                //append the tooltip
+                tip.html("");
+                tip.append("div").html('<b>' + formatDate  + '</b>');
+                tip.append("div").html('<p>' + langText+ '</p>')
+                tip.transition()
+                .duration(100)
+                .style("opacity", .9);
+
+              })
+              .on("mouseout", function(d){
+                d3.select(this)
+                .style("stroke", 'rgb(175,175,175)')
+                .style("fill", 'rgb(175,175,175)').transition()
+                .duration(100).attr("r", radius/2);
+
+                d3.select("#" + d.id)
+                .style("stroke","rgb(175,175,175)").transition()
+
+                tip.transition()
+                .duration(100)
+                .style("opacity", 0)
+              })
+
+
+
 
           });
         });

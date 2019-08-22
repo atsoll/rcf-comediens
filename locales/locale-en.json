@@ -75,6 +75,14 @@
       "seven":"At the fervent request of his former colleagues, Préville comes out of retirement to return to the Comédie-Française",
       "eight":"Following a long period of illness, Madame Préville passes away",
       "nine":"Monsieur Préville passes away"
+    },
+    "axis": {
+      "history": {
+        "one": "Revolution things??"
+      },
+      "troupe": {
+        "one": "The Comédie-Française moves to the 'Salle des Machines' in the Tuileries Palace"
+      }
     }
   },
   "content": {
@@ -98,8 +106,60 @@
     },
     "bellecour": {
       "title": {
-        "main": "Marie Elisabeth Joly",
+        "main": "Jean-Claude-Gilles Colson, dit Bellecour",
         "sub": "The kindhearted comedian"
+      },
+      "sections": {
+        "one" : {
+          "date":"",
+          "caption":"Birth",
+          "text":""
+        },
+        "two" : {
+          "date":"",
+          "caption":"Admission to the Comédie-Française",
+          "text":""
+        },
+        "three" : {
+          "date":"",
+          "caption":"Attempted retirement",
+          "text":""
+        },
+        "four" : {
+          "date":"",
+          "caption":"Health troubles",
+          "text":""
+        },
+        "five" : {
+          "date":"",
+          "caption":"A calming presence",
+          "text":""
+        },
+        "six" : {
+          "date":"",
+          "caption":"A word on the matter of pensions..",
+          "text":""
+        },
+        "seven" : {
+          "date":"",
+          "caption":"The death of Lekain",
+          "text":""
+        },
+        "eight" : {
+          "date":"",
+          "caption":"A troupe at court?",
+          "text":""
+        },
+        "nine" : {
+          "date":"",
+          "caption":"Dissatisfaction",
+          "text":""
+        },
+        "ten" : {
+          "date":"",
+          "caption":"Death",
+          "text":""
+        }
       }
     },
     "contat": {
