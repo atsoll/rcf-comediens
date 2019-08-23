@@ -2,7 +2,6 @@ html {
   height: 100%;
   width:100%;
   margin: 0;
-  overflow-x: hidden;
 }
 
 body {
@@ -39,8 +38,6 @@ body {
 .flip-container {
   perspective: 1000px;
   margin-top: 5vh;
-  margin-bottom: 5vh;
-
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -102,10 +99,14 @@ body {
   display: inline;
 }
 
+
 #timeline {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 5vh;
   position: relative;
+}
+
+svg {
+
 }
 
 .header {

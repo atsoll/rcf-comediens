@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comediens/'
+var prefix = './'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -87,7 +87,7 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
       //Joly
       {series: 0, date:"1761-04-08", anchorScroll:"joly-one", hoverText:"timeline.joly.one", fudged: false}, {series: 0, date:"1768-10-30", anchorScroll:"joly-two", hoverText:"timeline.joly.two", fudged: false}, {series: 0, date:"1781-03-28", anchorScroll:"joly-three", hoverText:"timeline.joly.three", fudged: false}, {series: 0, date:"1783-06-30", anchorScroll:"joly-four", hoverText:"timeline.joly.four", fudged: false}, {series: 0, date:"1784-09-21", anchorScroll:"joly-five", hoverText:"timeline.joly.five", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-six", hoverText:"timeline.joly.six", fudged: false}, {series: 0, date:"1784-10-11", anchorScroll:"joly-seven", hoverText:"timeline.joly.seven", fudged: false}, {series: 0, date:"1793-12-01", anchorScroll:"joly-eight", hoverText:"timeline.joly.eight", fudged: true}, {series: 0, date:"1798-01-01", anchorScroll:"joly-nine", hoverText:"timeline.joly.nine", fudged: true},
       //Bellecour
-      {series: 1, date: "1725-01-16", anchorScroll: "bellecour-one", hoverText: "timeline.bellecour.one", fudged: false}, {series: 1, date: "1750-01-01", anchorScroll: "bellecour-two", hoverText: "timeline.bellecour.two", fudged: true}, {series: 1, date: "1769-02-19", anchorScroll: "bellecour-three", hoverText: "timeline.bellecour.three", fudged: false}, {series: 1, date: "1773-01-18", anchorScroll: "bellecour-four", hoverText: "timeline.bellecour.four", fudged: false}, {series: 1, date: "1775-01-01", anchorScroll: "bellecour-five", hoverText: "timeline.bellecour.five", fudged: true}, {series: 1, date: "1777-09-03", anchorScroll: "bellecour-six", hoverText: "timeline.bellecour.six", fudged: false}, {series: 1, date: "1778-02-09", anchorScroll: "bellecour-seven", hoverText: "timeline.bellecour.seven", fudged: false}, {series: 1, date: "1778-03-27", anchorScroll: "bellecour-eight", hoverText: "timeline.bellecour.eight", fudged: false}, {series: 1, date: "1770-06-01", anchorScroll: "bellecour-nine", hoverText: "timeline.bellecour.nine", fudged: true}, {series: 1, date: "1778-12-08", anchorScroll: "bellecour-ten", hoverText: "timeline.bellecour.ten", fudged: false},
+      {series: 1, date: "1725-01-16", anchorScroll: "bellecour-one", hoverText: "timeline.bellecour.one", fudged: false}, {series: 1, date: "1751-11-02", anchorScroll: "bellecour-two", hoverText: "timeline.bellecour.two", fudged: false}, {series: 1, date: "1769-02-19", anchorScroll: "bellecour-three", hoverText: "timeline.bellecour.three", fudged: false}, {series: 1, date: "1773-01-18", anchorScroll: "bellecour-four", hoverText: "timeline.bellecour.four", fudged: false}, {series: 1, date: "1775-01-01", anchorScroll: "bellecour-five", hoverText: "timeline.bellecour.five", fudged: true}, {series: 1, date: "1777-09-03", anchorScroll: "bellecour-six", hoverText: "timeline.bellecour.six", fudged: false}, {series: 1, date: "1778-02-09", anchorScroll: "bellecour-seven", hoverText: "timeline.bellecour.seven", fudged: false}, {series: 1, date: "1778-03-27", anchorScroll: "bellecour-eight", hoverText: "timeline.bellecour.eight", fudged: false}, {series: 1, date: "1778-06-01", anchorScroll: "bellecour-nine", hoverText: "timeline.bellecour.nine", fudged: true}, {series: 1, date: "1778-12-08", anchorScroll: "bellecour-ten", hoverText: "timeline.bellecour.ten", fudged: false},
       //Contat
       {series: 2, date: " 1760-06-17", anchorScroll:"contat-one", hoverText:"timeline.contat.one", fudged:false}, {series: 2, date: "1775-07-28", anchorScroll:"contat-two", hoverText:"timeline.contat.two", fudged: false }, {series: 2, date: "1776-04-07", anchorScroll:"contat-three", hoverText:"timeline.contat.three", fudged: false }, {series: 2, date: "1777-03-26", anchorScroll:"contat-four", hoverText:"timeline.contat.four", fudged: false }, {series: 2, date: "1780-04-18", anchorScroll:"contat-five", hoverText:"timeline.contat.five", fudged: false },  {series: 2, date: "1782-03-30", anchorScroll:"contat-six", hoverText:"timeline.contat.six", fudged:false}, {series: 2, date: "1783-04-23", anchorScroll:"contat-seven", hoverText:"timeline.contat.seven", fudged:false}, {series: 2, date: "1793-12-01", anchorScroll:"contat-eight", hoverText:"timeline.contat.eight", fudged:true}, {series: 2, date: "1793-02-13", anchorScroll:"contat-nine", hoverText:"timeline.contat.nine", fudged:false}, {series: 2, date: "1809-03-15", anchorScroll:"contat-ten", hoverText:"timeline.contat.ten", fudged: false }, {series: 2, date: "1813-04-19", anchorScroll:"contat-eleven", hoverText:"timeline.contat.eleven", fudged: false },
       //Molé
@@ -169,8 +169,30 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
 
       //vertical axis
       var vert_axis = [
-        {id: "hist-1",date: "1793-06-01", hoverText: "timeline.axis.history.one", fudged:true, type:"h"},
-        {id:"troupe-1", date: "1770-01-01", hoverText:"timeline.axis.troupe.one", fudged:true, type:"t"}
+        //historical
+        {id: "hist-1",date: "1719-01-01", hoverText: "timeline.axis.history.one", fudged:true, type:"h"},
+        {id: "hist-2",date: "1750-01-01", hoverText: "timeline.axis.history.two", fudged:true, type:"h"},
+        {id: "hist-3",date: "1757-01-01", hoverText: "timeline.axis.history.three", fudged:true, type:"h"},
+        {id: "hist-4",date: "1762-01-01", hoverText: "timeline.axis.history.four", fudged:true, type:"h"},
+        {id: "hist-5",date: "1766-01-01", hoverText: "timeline.axis.history.five", fudged:true, type:"h"},
+        {id: "hist-6",date: "1770-01-01", hoverText: "timeline.axis.history.six", fudged:true, type:"h"},
+        {id: "hist-7",date: "1774-01-01", hoverText: "timeline.axis.history.seven", fudged:true, type:"h"},
+        {id: "hist-8",date: "1782-01-01", hoverText: "timeline.axis.history.eight", fudged:true, type:"h"},
+        {id: "hist-9",date: "1789-01-01", hoverText: "timeline.axis.history.nine", fudged:true, type:"h"},
+        {id: "hist-10",date: "1790-01-01", hoverText: "timeline.axis.history.ten", fudged:true, type:"h"},
+        {id: "hist-11",date: "1791-01-01", hoverText: "timeline.axis.history.eleven", fudged:true, type:"h"},
+        {id: "hist-12",date: "1793-06-01", hoverText: "timeline.axis.history.twelve", fudged:true, type:"h"},
+
+        //theatre related
+        {id:"troupe-1", date: "1706-01-01", hoverText:"timeline.axis.troupe.one", fudged:true, type:"t"},
+        {id:"troupe-2", date: "1715-01-01", hoverText:"timeline.axis.troupe.two", fudged:true, type:"t"},
+        {id:"troupe-3", date: "1716-01-01", hoverText:"timeline.axis.troupe.three", fudged:true, type:"t"},
+        {id:"troupe-4", date: "1719-01-01", hoverText:"timeline.axis.troupe.four", fudged:true, type:"t"},
+        {id:"troupe-5", date: "1747-01-01", hoverText:"timeline.axis.troupe.five", fudged:true, type:"t"},
+        {id:"troupe-6", date: "1750-01-01", hoverText:"timeline.axis.troupe.six", fudged:true, type:"t"},
+        {id:"troupe-7", date: "1762-01-01", hoverText:"timeline.axis.troupe.seven", fudged:true, type:"t"},
+        {id:"troupe-8", date: "1777-01-01", hoverText:"timeline.axis.troupe.eight", fudged:true, type:"t"}
+
       ]
 
 
@@ -186,8 +208,8 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
             //get and set details
             let elem = element[0]
             let width = window.innerWidth - ((window.innerHeight/100)*60) ;
-            let height = window.innerHeight
-            let indiv_height = Math.floor((height*0.8)/6)
+            let height = window.innerHeight*0.8
+            let indiv_height = Math.floor(height/6)
 
             //append svg
             let svg = d3.select('#timeline').append('svg').attr("width", width).attr("height", height)
@@ -316,7 +338,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               .attr("y2", yVal(5) + 30)
               .attr('id', function(d){return d.id})
               .style("stroke", "rgb(175,175,175)")
-              .style("stroke-width", Math.floor(line_width/3))
+              .style("stroke-width", Math.floor(line_width/4))
 
 
               //add points for vertical axis (history) interactivity

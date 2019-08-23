@@ -78,10 +78,28 @@
     },
     "axis": {
       "history": {
-        "one": "Révolution??"
+        "one": "Nouveaux règlements pour la Comédie-Française établis par les premiers gentilshommes de la Chambre",
+        "two": "Suppression des banquettes sur la scène du Théâtre Français",
+        "three":"Nouveau réglement",
+        "four":"Émergence du comité d’administration",
+        "five":"Règlement complétant celui de 1757",
+        "six": "Déménagement de la troupe au Palais des Tuileries",
+        "seven":"Création du comité de lecture restreint",
+        "eight":"Installation des comédiens à l’Odéon",
+        "nine":"Scission au sein de la troupe. La Comédie-Française prend le nom du Théâtre de la Nation ",
+        "ten":"Suppression de la pension royale et abolition du monopole du répertoire",
+        "eleven":"Proclamation de la liberté des théâtres",
+        "twelve":"Les Comédiens de la troupe royale sont arrêtés et le Théâtre de la Nation est fermé"
       },
       "troupe": {
-        "one": "La Comédie-Française déménage à la Salle des Machines dans le Palais des Tuileries"
+        "one": "Réglementation sur la censure théâtrale",
+        "two":"Officialisation de l’Opéra-Comique",
+        "three":"Retour des Comédiens Italiens chassés de Paris en 1697",
+        "four":"Suppression de la Foire",
+        "five":"Madame de Pompadour commence à offrir au roi les spectacles du petit cabinet",
+        "six":"Naissance des petits théâtres sur le boulevard du Temple",
+        "seven":"Fusion de l’Opéra-comique et de la Comédie-Italienne et cessation du théâtre de collège jésuite",
+        "eight":"Fondation par Beaumarchais du comité d’auteurs pour la défense des droits d’auteurs"
       }
     }
   },
@@ -112,53 +130,53 @@
       },
       "sections": {
         "one" : {
-          "date":"",
+          "date":"1725-01-16",
           "caption":"Naissance",
-          "text":""
+          "text":"Né à Paris, Bellecour se destine  initialement à une carrière artistique comme son père Colson  Après avoir été l’élève de Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre Préville qui lui prodigue des conseils de jeu et que le duc de Richelieu et Mme Pompadour le font entrer à la Comédie-Française. (Lyonnet). "
         },
         "two" : {
-          "date":"",
+          "date":"1751-11-02",
           "caption":"Réception à la Comédie-Française",
           "text":""
         },
         "three" : {
-          "date":"",
+          "date":"1769-02-19",
           "caption":"Tentative de retraite",
           "text":""
         },
         "four" : {
-          "date":"",
+          "date":"1773-01-18",
           "caption":"Des troubles de santé",
           "text":""
         },
         "five" : {
-          "date":"",
+          "date":"1775",
           "caption":"Une présence calmante",
           "text":""
         },
         "six" : {
-          "date":"",
+          "date":"1777-09-03",
           "caption":"Sur la question des pensions..",
           "text":""
         },
         "seven" : {
-          "date":"",
+          "date":"1778-02-09",
           "caption":"La mort de Lekain",
           "text":""
         },
         "eight" : {
-          "date":"",
+          "date":"1778-03-27",
           "caption":"Une troupe à la cour?",
           "text":""
         },
         "nine" : {
-          "date":"",
+          "date":"1778",
           "caption":"Mécontentement",
           "text":""
         },
         "ten" : {
-          "date":"",
-          "caption":"Mort",
+          "date":"1778-12-08",
+          "caption":"Éloges",
           "text":""
         }
       }

@@ -78,10 +78,28 @@
     },
     "axis": {
       "history": {
-        "one": "Revolution things??"
+        "one": "New rules regarding Comédie-Française are established by the premiers gentilshommes de la Chambre",
+        "two": "On stage seating is removed from all theatres",
+        "three":"New regulation",
+        "four":"Formation of an adminstrative committee",
+        "five":"Regulations supplementing those of 1757",
+        "six": "Relocation of the troupe to the Tuileries Palace",
+        "seven":"Creation of the restrictive reading committee",
+        "eight":"Relocation of the troupe to the Odeon",
+        "nine":"A split emerges within the troupe. The Comédie-Française adopts the title 'Théâtre de la Nation'",
+        "ten":"The comédie loses their royal pensions and monoply of theatre at court",
+        "eleven":"proclamation of the freedom of theatres from the state",
+        "twelve":"The 'Théâtre de la Nation' is shut down, and the royal players arrested"
       },
       "troupe": {
-        "one": "The Comédie-Française moves to the 'Salle des Machines' in the Tuileries Palace"
+        "one": "Regulations regarding the censorship in theatre",
+        "two":"Legistimazation of 'l’Opéra-comique'",
+        "three":"Return of the Italian actors driven out of Paris in 1697",
+        "four":"Abolition of the fair",
+        "five":"Mme de Pompadour begins holding small performances for the king in his private chambers",
+        "six":"Emergence of smaller theatres along the boulevard du Temple",
+        "seven":"Fusion of 'l’Opéra-comique' and the 'Comédie-Italienne', and the end of theatre in Jesuit colleges",
+        "eight":"Fondation, by Beaumarchais, of a proto authors' union"
       }
     }
   },
@@ -111,53 +129,53 @@
       },
       "sections": {
         "one" : {
-          "date":"",
+          "date":"1725-01-16",
           "caption":"Birth",
           "text":""
         },
         "two" : {
-          "date":"",
+          "date":"1751-11-02",
           "caption":"Admission to the Comédie-Française",
           "text":""
         },
         "three" : {
-          "date":"",
+          "date":"1769-02-19",
           "caption":"Attempted retirement",
           "text":""
         },
         "four" : {
-          "date":"",
+          "date":"1773-01-18",
           "caption":"Health troubles",
           "text":""
         },
         "five" : {
-          "date":"",
+          "date":"1775",
           "caption":"A calming presence",
           "text":""
         },
         "six" : {
-          "date":"",
+          "date":"1777-09-03",
           "caption":"A word on the matter of pensions..",
           "text":""
         },
         "seven" : {
-          "date":"",
+          "date":"1778-02-09",
           "caption":"The death of Lekain",
           "text":""
         },
         "eight" : {
-          "date":"",
+          "date":"1778-03-27",
           "caption":"A troupe at court?",
           "text":""
         },
         "nine" : {
-          "date":"",
+          "date":"1778",
           "caption":"Dissatisfaction",
           "text":""
         },
         "ten" : {
-          "date":"",
-          "caption":"Death",
+          "date":"1778-12-08",
+          "caption":"Obituary",
           "text":""
         }
       }
