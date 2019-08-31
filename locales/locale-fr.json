@@ -205,5 +205,10 @@
         "sub": "Le père de la troupe"
       }
     }
+  },
+  "modals": {
+    "debuts": {
+      "prompt": "Les débuts et réceptions"
+    }
   }
 }

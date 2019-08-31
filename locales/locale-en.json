@@ -204,5 +204,10 @@
         "sub": "The father of the troupe"
       }
     }
+  },
+  "modals": {
+    "debuts": {
+      "prompt": "Debuts and reception"
+    }
   }
 }

@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comediens/'
+var prefix = './'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -107,12 +107,14 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
 
   $scope.openModal = function(url) {
     $scope.model.modalInstance = $uibModal.open({
-       templateUrl: url,
-       scope: $scope
+       templateUrl: prefix + url,
+       scope: $scope,
+       size: 'lg'
      });
   }
 
   $scope.closeModal = function() {
+    console.log("fired")
     $scope.model.modalInstance.close();
   }
 

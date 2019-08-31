@@ -105,10 +105,6 @@ body {
   position: relative;
 }
 
-svg {
-
-}
-
 .header {
   display: inline;
 }
@@ -205,4 +201,35 @@ svg {
 }
 .img-wrapper {
     margin-left: 10%;
+}
+
+.modal-container {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.modal-link{
+  font-size: 1.5em;
+  margin-bottom: -125px;
+}
+
+.modal-container:hover {
+  font-weight: bold;
+  cursor: pointer !important;
+}
+
+
+.modal-body {
+  padding: 50px 25px 25px 25px;
+}
+
+.modal-exit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: rgb(175,175,175);
+  font-weight: 100;
 }
