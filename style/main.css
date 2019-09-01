@@ -5,8 +5,14 @@ html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: 'Roboto';
+  font-size: 18px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab';
+}
+
 
 .lang {
   display: inline-block;
@@ -141,6 +147,7 @@ body {
 
 .header-text {
   vertical-align: middle;
+  font-family: 'Roboto Slab';
 }
 
 .header-text .title {
@@ -183,6 +190,7 @@ body {
   margin-left: 2%;
   font-size: 24px;
   vertical-align: top;
+  font-family: 'Roboto Slab';
 }
 
 .timepoint-heading .date {
@@ -196,28 +204,45 @@ body {
 }
 
 .timeline-event .content {
-  margin-left: 6%;
-  padding-bottom: 25px;
+  margin-left: 10%;
+  padding-bottom: 6vh;
+  padding-top: 6vh;
 }
 .img-wrapper {
-    margin-left: 10%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: inline;
+}
+
+.img-caption {
+  color: rgb(175, 175, 175);
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 1vh;
+}
+
+.transcription {
+  width: 45%;
+  display: inline;
 }
 
 .modal-container {
   display: block;
-  position: relative;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .modal-link{
-  font-size: 1.5em;
+  font-size: 20px;
   margin-bottom: -125px;
+  font-weight: lighter;
+  font-family: 'Roboto Slab'
 }
 
 .modal-container:hover {
-  font-weight: bold;
+  font-weight: bold !important;
   cursor: pointer !important;
+  color: #f0f !important;
 }
 
 
@@ -232,4 +257,20 @@ body {
   font-size: 25px;
   color: rgb(175,175,175);
   font-weight: 100;
+}
+
+.aside {
+  padding: 10px 10px 10px 10px;
+  width: 80%;
+  margin-left: 10%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.aside-content {
+  background-color: rgba(255,255,255, 0.7);
+  margin: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
 }

@@ -131,17 +131,17 @@
         "one" : {
           "date":"1725-01-16",
           "caption":"Birth",
-          "text":""
+          "text":"Born in Paris, Bellecour initially pursues the visual arts, destined to be a painter like his father Colson. After studying under Carle Van Loo, he instead decides on a career in acting and makes his theatrical debut with the troupe in Besançon. While there, he is said to have met and been mentored by Preville, which in turn led to his admission to the Comédie-Française at the apparent behest of the Duke of Richelieu and Madame de Pompadour."
         },
         "two" : {
           "date":"1751-11-02",
           "caption":"Admission to the Comédie-Française",
-          "text":""
+          "text":"Bellecour is officially inducted into the Comédie-Française the 20th of December, 1750 - the same year as his later famous colleague Le Kain, who had been admitted just a few months earlier, on the 14th of September. On the 2nd of November, 1752, he received formal permission to pursue a permanent appointment with the company. While he began his career as an actor bound to neither comedy nor tragedy, he later specialised in, and performed almost exclusively, the latter."
         },
         "three" : {
           "date":"1769-02-19",
           "caption":"Attempted retirement",
-          "text":""
+          "text":"Having requested to retire, Mr. Bellecour is ordered to remain an active member of the troupe. He is reluctantly granted three months of leave to cope with his health issues, but the Duke of Richelieu firmly insists that he return to performing immediately afterwards."
         },
         "four" : {
           "date":"1773-01-18",
@@ -208,6 +208,11 @@
   "modals": {
     "debuts": {
       "prompt": "Debuts and reception"
+    }
+  },
+  "asides": {
+    "health": {
+      "title": "An actor and their instrument"
     }
   }
 }

@@ -132,17 +132,17 @@
         "one" : {
           "date":"1725-01-16",
           "caption":"Naissance",
-          "text":"Né à Paris, Bellecour se destine  initialement à une carrière artistique comme son père Colson  Après avoir été l’élève de Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre Préville qui lui prodigue des conseils de jeu et que le duc de Richelieu et Mme Pompadour le font entrer à la Comédie-Française. (Lyonnet). "
+          "text":" Naissance à Paris, Bellecour se destine  initialement à une carrière artistique comme son père Colson  Après avoir été l’élève du peintre Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre Préville. Ce dernier lui aurait prodiguer des conseils de jeu et que le duc de Richelieu et Mme Pompadour le font entrer à la Comédie-Française."
         },
         "two" : {
           "date":"1751-11-02",
           "caption":"Réception à la Comédie-Française",
-          "text":""
+          "text":"Bellecour est reçu à la Comédie-Française le 20 décembre 1750, la même année que le célèbre Le Kain, reçu le 14 septembre. Il reçoit son ordre d’essai le 2 novembre 1752. Bien que débutant comme acteur comique ou tragique, il se spécialise dans la comédie."
         },
         "three" : {
           "date":"1769-02-19",
           "caption":"Tentative de retraite",
-          "text":""
+          "text":"Ayant demandé de prendre sa retraite, M. Bellecour est ordonné continuer à la Comédie-Française. On lui permet seulement une congé de trois mois afin de régler ses problèmes de santé, mais le Duc de Richelieu exige qu’il retourne immédiatement suite à ce séjour."
         },
         "four" : {
           "date":"1773-01-18",
@@ -156,7 +156,7 @@
         },
         "six" : {
           "date":"1777-09-03",
-          "caption":"Sur la question des pensions..",
+          "caption":"Sur la question des pensions...",
           "text":""
         },
         "seven" : {
@@ -209,6 +209,11 @@
   "modals": {
     "debuts": {
       "prompt": "Les débuts et réceptions"
+    }
+  },
+  "asides": {
+    "health": {
+      "title": "Le comédien et son corps"
     }
   }
 }
