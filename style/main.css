@@ -208,10 +208,23 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 6vh;
   padding-top: 6vh;
 }
+
+.img-content {
+  display: flex;
+  align-items: center;
+}
+
 .img-wrapper {
     margin-top: 4vh;
     margin-bottom: 4vh;
-    display: inline;
+    text-align: center;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  height: inherit !important;
+  padding: 5px 5px 5px 5px;
 }
 
 .img-caption {
@@ -222,27 +235,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .transcription {
-  width: 45%;
-  display: inline;
+  padding: 50px 5px 10px 25px;
+  position: relative;
+  color: rgb(120,120,120);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: lighter;
+  height: 100%;
 }
 
-.modal-container {
-  display: block;
-  text-align: center;
-  margin-top: 10vh;
+.transcription p {
+  width: 80%;
+  margin-left: 10%;
 }
+
+.fa-quote-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 100px;
+  opacity: 0.4;
+}
+
+.modal-access {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
 
 .modal-link{
   font-size: 20px;
-  margin-bottom: -125px;
   font-weight: lighter;
-  font-family: 'Roboto Slab'
+  font-family: 'Roboto Slab';
+  margin-top: -135px;
 }
 
-.modal-container:hover {
-  font-weight: bold !important;
-  cursor: pointer !important;
-  color: #f0f !important;
+
+.modal-link:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
 
 
