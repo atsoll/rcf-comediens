@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   text-align: center;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .pseudo {
@@ -254,26 +255,38 @@ h1, h2, h3, h4, h5, h6 {
   top: 10px;
   left: 10px;
   font-size: 100px;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .modal-access {
   text-align: center;
-  margin-bottom: 5vh;
+  width: 50%;
+  margin:auto;
+  border: 3px solid ;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  transition: all .25s ease-in;
+  background-image: linear-gradient(rgb(78,121,167) , rgb(78,121,167));
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .3s, color .3s;
+  text-transform:uppercase;
 }
 
 
 .modal-link{
   font-size: 20px;
+  padding: 25px;
   font-weight: lighter;
   font-family: 'Roboto Slab';
-  margin-top: -135px;
 }
 
 
-.modal-link:hover {
-  font-weight: bold;
+.modal-access:hover {
   cursor: pointer;
+  background-size: 100% 100%;
+  color: #fff !important;
 }
 
 
@@ -295,13 +308,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   margin-left: 10%;
   background-size: cover;
-  border-radius: 5px;
 }
 
 .aside-content {
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255,255,255, 0.75);
   margin: 30px;
   padding: 15px;
-  border-radius: 5px;
   font-size: 16px;
 }
