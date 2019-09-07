@@ -2028,7 +2028,7 @@ if (typeof Object.create !== 'function') {
         zoomWindowPosition: 1, //Possible values: 1-16, but we can also position with a selector string.
         zoomWindowWidth: 400,
         zoomEnabled: true, //false disables zoomwindow from showing
-        zIndex: 999
+        zIndex: 99999
     };
 
 })(window.jQuery, window, document);

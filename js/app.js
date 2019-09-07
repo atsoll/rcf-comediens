@@ -226,14 +226,15 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
               .append('div')
               .style("opacity", 0)
               .style("position", "absolute")
-              .style("background","rgba(100, 100, 100, 0.5)")
+              .style("background","rgba(100, 100, 100, 0.6)")
               .style("color", "white")
               .style("padding", "5px 10px 5px 10px")
               .style("-moz-border-radius", "8px 8px")
               .style("border-radius", "8px 8px")
               .style("z-index", 9999)
               .style("min-width", '15vw')
-              .style("max-width", '21vw');
+              .style("max-width", '21vw')
+              .style("font-size", '13px');
 
             //functions for x and y vals
             var xVal = function(date){

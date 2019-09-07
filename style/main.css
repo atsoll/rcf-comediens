@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   text-align: center;
   justify-content: center;
-  text-transform: uppercase;
 }
 
 .pseudo {
@@ -229,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .img-caption {
-  color: rgb(175, 175, 175);
+  color: rgb(100, 100, 100);
   font-style: italic;
   font-size: 14px;
   margin-top: 1vh;
@@ -257,6 +256,21 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100px;
   opacity: 0.2;
 }
+
+.aside {
+  padding: 10px 10px 10px 10px;
+  width: 80%;
+  margin-left: 10%;
+  background-size: cover;
+}
+
+.aside-content {
+  background-color: rgba(255,255,255, 0.75);
+  margin: 30px;
+  padding: 15px;
+  font-size: 16px;
+}
+
 
 .modal-access {
   text-align: center;
@@ -290,10 +304,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.modal-body {
-  padding: 50px 25px 25px 25px;
+.m-body p {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
-
 .modal-exit {
   position: absolute;
   top: 20px;
@@ -303,16 +317,104 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
 
-.aside {
-  padding: 10px 10px 10px 10px;
-  width: 80%;
-  margin-left: 10%;
-  background-size: cover;
+.modal-content {
+  height: 90vh;
+  overflow-y: scroll;
+  padding: 5vh 15px 10vh 15px;
 }
 
-.aside-content {
-  background-color: rgba(255,255,255, 0.75);
-  margin: 30px;
-  padding: 15px;
+.modal-open {
+  overflow-y: scroll;
+}
+
+
+.m-header {
+  display: inline;
+  margin: auto;
+  font-family: 'Roboto Slab';
+  padding-left: 5%;
+}
+
+.m-header img {
+  opacity: 0.5;
+  width: 20vh;
+  height: auto;
+  z-index: 998;
+  margin-right: -5%;
+}
+
+.m-header span {
+  font-size: 60px;
+  z-index: 999;
+  padding-top: 4vh;
+  position: absolute;
+}
+
+.m-content {
+  padding-top: 8vh;
+  padding-bottom: 3vh;
   font-size: 16px;
+}
+
+
+.extract {
+  font-style: italic;
+  font-size: 14px;
+  padding-left: 25px;
+  border-left: 3px solid red;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8vh;
+  margin-top: 6vh;
+}
+
+.extract .heading {
+  font-weight: bold !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  font-size: 16px !important
+}
+
+.extract .date {
+  color: rgb(90,90,90) !important;
+  font-weight: normal !important;
+  font-size: 16px !important
+}
+
+.definition .keyword {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.definition {
+  padding: 15px 15px 15px 15px;
+  background-color: rgba(50,50,50, 0.2)
+}
+
+.register-link {
+  float:right;
+  font-size: 12px;
+  margin-top: -1vh;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: -20px;
+  color: inherit;
+  margin-bottom: 2vh;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.register-link:hover {
+  color: red;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.register-link::after {
+  text-decoration: none;
+  color: inherit;
 }

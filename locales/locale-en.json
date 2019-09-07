@@ -1,4 +1,5 @@
 {
+  "source":"See the register",
   "timeline": {
     "joly": {
       "one": "Marie Elisabeth Joly is born in Versailles to parents Thomas Joly, a hardware merchant in Paris, and Elisabeth Vivien, a dancer with the Comédie Française",
@@ -127,6 +128,9 @@
         "main": "Jean-Claude-Gilles Colson, dit Bellecour",
         "sub": "The kindhearted comedian"
       },
+      "captions": {
+        "one": "Monsieur Bellecour's formal reception into the troupe"
+      },
       "sections": {
         "one" : {
           "date":"1725-01-16",
@@ -207,7 +211,35 @@
   },
   "modals": {
     "debuts": {
-      "prompt": "Debuts and reception"
+      "title": "Debuts and reception",
+      "definitions": {
+        "debut": {
+          "keyword":"Debut",
+          "content":"The formal debut process concerns only those actors wishing to eventually become full members of the troupe. A candidate must obtain permission to debut from the premiers gentilshommes."
+        }
+      },
+      "para": {
+        "one":"This authorisation, which does not amount to reception by the company, permits the candidate to appear for the first on the stage in a public performance as part of the Comédie-Française. This is referred to as ‘making their debut’. These debuts are systematically announced, and the public, eager to discover new talent and appreciative of the heightened stakes, flock to the performances in question.",
+        "two":"Public debut announcement",
+        "three":"December 23, 1772, debut of Mademoiselle Raucourt, a student of Brizard",
+        "four":"In rare cases, the debuts are not publicly announced but instead recorded in the daily casting registers.",
+        "five":"Attendees, most notably the groundlings, enthusiastically make their opinions known, applauding or booing the new candidates throughout the performance.",
+        "six":"Debut of Mademoiselle Durand",
+        "seven":"December 1, 1767",
+        "eight":"If the debut goes well, and it is believed that the actor could be an asset to the troupe, they are formally received into the company and given a starting salary.",
+        "nine":"An actor or actress’s debut has the potential to be not merely an administrative formality, but also a metaphorical battleground for proponents - internal or external to the company-  of a certain aesthetic tendency or political belief; we know that a given candidate is a supporter of a particular party, and that this plays into the reason for their debut. These ulterior motives draw to the debut performances a different tier of partisan spectators, there to support or discredit the candidate in an effort to further their cause.",
+        "ten":"The formal processes",
+        "eleven":"Permission to debut",
+        "twelve":"The formal permission to debut is the first step to becoming a full member of the troupe. In general, the associated documents are rarely restrictive or precise with regards to the kinds of roles the candidate is permitted to play. Common wording such as ‘which ever roles suit them’, ‘comedic or tragic roles’, or even ‘wherever they may be of use’ demonstrates how an actor’s debut period was a chance for them to explore their range. However, in certain cases it is specified that a candidate is to act as a double to one or several existing members of the troupe, or inherit the roles traditionally played by a retiring member. The latter is the case of Préville, who replaced Poisson. There appears to be little formal company legislation pertaining to the period of debut; the receipts and casting registers do however show that some actors, following an unsuccessful first debut, are able to return for a second attempt.",
+        "thirteen":"Reception into the troupe",
+        "fourteen": "The official probationary period appears chronologically later in the company archives. In the 1760’s, the associated documents specify several key elements, notably specific information pertaining to the specialisation of certain actors or actresses, precise beyond what was established during their period of debut. It is also during this secondary step that the actors received their pensions, therefore promoting them to the status of ‘pensionnaire’, which is a title denoting an association with the troupe, though not full membership, that was - as a general rule - held for a minimum of two years. The time it takes an actor to transition from ‘pensionnaire’ to full society member varies, but generally follows the aforementioned rule, lasting between one and two years. However, there are cases where this progression occurs over a much longer period, as with Bellemont, who despite his ubiquitous presence on stage, remains  a ‘pensionnaire’ for 11 years before being properly inducted into the troupe.",
+      },
+      "captions": {
+        "one":"Debut authorisation for Mademoiselle Joly",
+        "two":"Mademoiselle Contat is inducted into the troupe and receives a starting salary",
+        "three":"Monsieur Bellemont is received by the company"
+      }
+
     }
   },
   "asides": {

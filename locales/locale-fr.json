@@ -1,4 +1,5 @@
 {
+  "source":"Voyez le registre",
   "timeline": {
     "joly": {
       "one": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Elisabeth Vivien, une danseuse à la Comédie Française",
@@ -128,6 +129,9 @@
         "main": "Jean-Claude-Gilles Colson, dit Bellecour",
         "sub": "Le bonhomme bienveillant"
       },
+      "captions": {
+        "one": "L'ordre de réception de Monsieur Bellecour"
+      },
       "sections": {
         "one" : {
           "date":"1725-01-16",
@@ -208,7 +212,34 @@
   },
   "modals": {
     "debuts": {
-      "prompt": "Les débuts et réceptions"
+      "title": "Début et réception",
+      "definitions": {
+        "debut": {
+          "keyword":"Début",
+          "content":" Le début concerne les acteurs où les actrices désireux d’intégrer la troupe. Une autorisation de début doit être obtenue par le candidat auprès de l’un des premiers gentilshommes."
+        }
+      },
+      "para": {
+        "one":"Cette autorisation, qui ne vaut pas réception, permet au candidat d’aller se présenter pour la première fois devant le public de la Comédie-Française. On dit qu’il fait alors « son début ». Ces débuts sont systématiquement annoncés, et le public, friand de découvrir les nouveaux candidats, appréciant l’enjeu de l’exercice, se presse généralement aux représentations concernées.",
+        "two":"Annonce au public d’un début",
+        "three":"23 décembre 1772, début de Mademoiselle Raucourt, élève de Brizard",
+        "four":"Dans de rares cas, les débuts ne sont pas annoncés publiquement, mais le registre des feux ajoute généralement une note indiquant « début non annoncé ».",
+        "five":"L’assistance, et notamment les spectateurs présents au parterre, ne manquent pas de faire savoir leur avis sur les débutants, en applaudissant ou en huant les candidats à la réception.",
+        "six":"Début de Mademoiselle Durand",
+        "seven":"1 décembre 1767",
+        "eight":"Si un début est réussi, et que la troupe estime avoir besoin des talents du candidat, ce dernier reçoit alors un ordre de réception accompagné d’un premier appointement.",
+        "nine":"Les débuts d’acteurs ou d’actrices sont souvent le terrain de batailles internes ou externes entre les partisans de telle ou telle tendance esthétique ou politique. On sait que tel acteur candidat est partisan de tel parti, qu’il a été placé par intérêt. Viennent alors aux représentations concernées un public chauffer à blanc chargé de faire la claque et/ou de lancer des cabales.",
+        "ten":"Les ordres",
+        "eleven":"L'ordre de début",
+        "twelve":"L’ordre de début est la première autorisation officielle qu’obtient un ou une comédien.ne pour intégrer la troupe. En règle générale, cet ordre n’est pas très restrictif et précise rarement les types de rôles pour les acteurs et les actrices. Des expressions clefs comme « les rôles qui lui conviennent », « pour jouer le Comique ou Tragique » ou encore, les « rôles qui pourraient être utiles », témoignent du fait que cette période d’essai permet aux comédiens d’expérimenter leurs jeux. Dans certains cas cependant, l’ordre de début précise dans certains cas que l’acteur ou l’actrice sera le double d’un ou de plusieurs membres de la troupe ou encore qu’il ou elle prendra la succession, c’est-à-dire les rôles d’un.e comédien.ne qui part à la retraite. C’est le cas de Préville qui remplace Poisson. Il ne semble pas y avoir de législation fixe sur la période des débuts. Les registres des recettes et des feux témoignent cependant du fait que certains acteurs peuvent échouer leur premier début et tenter leur chance une seconde fois.",
+        "thirteen":"L'ordre de réception",
+        "fourteen":"La période d’essai officiel apparaît plus tardivement dans les archives de la troupe. Dans les années 1760, les ordres de réception contiennent plusieurs éléments, notamment la spécialisation des acteurs et actrices qui peut alors être précisé. C’est aussi au cours de cette seconde étape que les comédiens.nes reçoivent le montant de leur pension. L’ordre de réception permet donc aux comédiens.nes d’obtenir le statut de pensionnaire pour deux ans minimum en règle générale. Or le passage du pensionnariat au sociétariat varie d’un comédien à l’autre, mais en règle générale, la période d’essai dure entre un an et deux ans, ce qui correspond aux règlements. On constate cependant des cas de pensionnariat prolongé, tel que comédien Bellemont qui reste 11 ans à l’essai avec une présence très soutenue sur scène."
+      },
+      "captions": {
+        "one":"L'ordre de début de Mademoiselle Joly",
+        "two":"Mademoiselle Contat est reçue et reçoit un appointment",
+        "three":"L'ordre de réception de Monsieur Bellemont"
+      }
     }
   },
   "asides": {
