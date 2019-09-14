@@ -1,5 +1,6 @@
 {
   "source":"See the register",
+  "mercure": "See the Mercure",
   "timeline": {
     "joly": {
       "one": "Marie Elisabeth Joly is born in Versailles to parents Thomas Joly, a hardware merchant in Paris, and Elisabeth Vivien, a dancer with the Comédie Française",
@@ -129,7 +130,16 @@
         "sub": "The kindhearted comedian"
       },
       "captions": {
-        "one": "Monsieur Bellecour's formal reception into the troupe"
+        "one": "Monsieur Bellecour's formal reception into the troupe",
+        "two":"Denial of Bellecour's request to retire",
+        "three":"Article eleven of the 1757 regulations",
+        "four":"Letter dated January 18th, 1773",
+        "five":"Letter dated March 17th, 1773",
+        "six": "Letter recounting how he calmed Mr. Raimond",
+        "seven":"Letter regarding pensions",
+        "eight": "Bellecour is overcome with grief at the death of his dear friend Lekain",
+        "nine": "Bellecour reports on his findings",
+        "ten": "Monsieur Bellecour feels under-appreciated"
       },
       "sections": {
         "one" : {
@@ -145,42 +155,42 @@
         "three" : {
           "date":"1769-02-19",
           "caption":"Attempted retirement",
-          "text":"Having requested to retire, Mr. Bellecour is ordered to remain an active member of the troupe. He is reluctantly granted three months of leave to cope with his health issues, but the Duke of Richelieu firmly insists that he return to performing immediately afterwards."
+          "text":"After nearly twenty years of service to the Comédie-Francaise, Mr. Bellecour, deeply unwell, requests to retire, but is ordered by the Duke of Richelieu to remain an active member of the troupe, the latter proposing an alternate arrangement of three months leave granted to allow him to cope with his health issues. This right of the court to refuse his request is one of a collection of regulations published in 1757."
         },
         "four" : {
-          "date":"1773-01-18",
+          "date":"1773",
           "caption":"Health troubles",
-          "text":""
+          "text":"1773 is a year littered with letters detailing the actor’s failing health. These missives, originally written to his fellow troupe members, not only show how his administrative duties took as much of a daily toll as his on stage responsibilities, but also reflect the attention paid in the actors’ correspondence to the body, Bellecour being merely one of many examples of the importance given to matters of illness and other physical failings."
         },
         "five" : {
           "date":"1775",
           "caption":"A calming presence",
-          "text":""
+          "text":"In 1775, Bellecour writes to the Comédie to settle a disagreement with Mr. Raimond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Raimond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he again takes on in a letter from august 28th, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to “examine this affair with due care and equity”."
         },
         "six" : {
           "date":"1777-09-03",
-          "caption":"A word on the matter of pensions..",
-          "text":""
+          "caption":"On the matter of pensions..",
+          "text":"Having received a threatening letter, Bellecour shares it with an unknown recipient - a “protector” according to editorial notes- along with his opinion of the situation. He is unbothered by the threats, but mentions the fact that he receives a pension significantly lower than those of his colleagues. Lekain, who started with the troupe mere months before him, earns 1500 pounds more. Others of his letters show that Bellecour, in more general terms, saw matters of injustice to be of great importance, and that the troupe’s social and moral ideals were far from aligned with his own."
         },
         "seven" : {
           "date":"1778-02-09",
           "caption":"The death of Lekain",
-          "text":""
+          "text":"Bellecour writes to the Assembly shortly after Lekain’s death. He is overwhelmed by the death of his dear friend who he believed a cornerstone of the Comédie-Française. Bellecour concludes that his own career should also come to an end, and fragile in his grief, expresses his heartfelt love for the troupe."
         },
         "eight" : {
           "date":"1778-03-27",
           "caption":"A troupe at court?",
-          "text":""
+          "text":"Tasked with investigating the possibility of forming a dedicated theatre troupe for the royal court, Mr. Bellecour reports on his findings. He worries that a new troupe could cause the existing troupe of the Comédie-Française to become obsolete. The fact that he was entrusted with this important task is evidence of the respect held for Bellecour by the officials of the Comédie-Française."
         },
         "nine" : {
           "date":"1778",
-          "caption":"Dissatisfaction",
-          "text":""
+          "caption":"Disenchantment",
+          "text":"In his final year with the Comédie-Française, Bellecour, finally expresses his disappointment in the treatment he received over the course of his career. He spent 27 years of supporting and making sacrifices for his community, he does not feel at all appreciated."
         },
         "ten" : {
           "date":"1778-12-08",
           "caption":"Obituary",
-          "text":""
+          "text":"Following Bellecour’s death, an unflattering obituary is printed in the Mercure. Enraged by this gross misrepresentation of his friend and colleague, Préville writes to Mr. La Harpe - the editor in chief - to complain and to respond in kind to aspersions cast."
         }
       }
     },
@@ -211,7 +221,7 @@
   },
   "modals": {
     "debuts": {
-      "title": "Debuts and reception",
+      "title": "Debut and reception",
       "definitions": {
         "debut": {
           "keyword":"Debut",
@@ -232,7 +242,7 @@
         "eleven":"Permission to debut",
         "twelve":"The formal permission to debut is the first step to becoming a full member of the troupe. In general, the associated documents are rarely restrictive or precise with regards to the kinds of roles the candidate is permitted to play. Common wording such as ‘which ever roles suit them’, ‘comedic or tragic roles’, or even ‘wherever they may be of use’ demonstrates how an actor’s debut period was a chance for them to explore their range. However, in certain cases it is specified that a candidate is to act as a double to one or several existing members of the troupe, or inherit the roles traditionally played by a retiring member. The latter is the case of Préville, who replaced Poisson. There appears to be little formal company legislation pertaining to the period of debut; the receipts and casting registers do however show that some actors, following an unsuccessful first debut, are able to return for a second attempt.",
         "thirteen":"Reception into the troupe",
-        "fourteen": "The official probationary period appears chronologically later in the company archives. In the 1760’s, the associated documents specify several key elements, notably specific information pertaining to the specialisation of certain actors or actresses, precise beyond what was established during their period of debut. It is also during this secondary step that the actors received their pensions, therefore promoting them to the status of ‘pensionnaire’, which is a title denoting an association with the troupe, though not full membership, that was - as a general rule - held for a minimum of two years. The time it takes an actor to transition from ‘pensionnaire’ to full society member varies, but generally follows the aforementioned rule, lasting between one and two years. However, there are cases where this progression occurs over a much longer period, as with Bellemont, who despite his ubiquitous presence on stage, remains  a ‘pensionnaire’ for 11 years before being properly inducted into the troupe.",
+        "fourteen": "The official probationary period appears chronologically later in the company archives. In the 1760’s, the associated documents specify several key elements, notably specific information pertaining to the specialisation of certain actors or actresses, precise beyond what was established during their period of debut. It is also during this secondary step that the actors received their pensions, therefore promoting them to the status of ‘pensionnaire’, which is a title denoting an association with the troupe, though not full membership, that was - as a general rule - held for a minimum of two years. The time it takes an actor to transition from ‘pensionnaire’ to full society member varies, but generally follows the aforementioned rule, lasting between one and two years. However, there are cases where this progression occurs over a much longer period, as with Bellemont, who despite his ubiquitous presence on stage, remains  a ‘pensionnaire’ for 11 years before being properly inducted into the troupe."
       },
       "captions": {
         "one":"Debut authorisation for Mademoiselle Joly",
@@ -240,11 +250,17 @@
         "three":"Monsieur Bellemont is received by the company"
       }
 
+    },
+    "corps": {
+      "title": "An actor and their instrument"
+    },
+    "pensions": {
+      "title": "Pensions"
     }
   },
   "asides": {
-    "health": {
-      "title": "An actor and their instrument"
+    "contrast": {
+      "title": "The Bellecours: a study in opposites"
     }
   }
 }

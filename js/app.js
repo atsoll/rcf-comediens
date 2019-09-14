@@ -31,7 +31,7 @@ angular.module('d3', [])
 }]);
 
 
-var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'd3', 'duScroll', 'ezplus']);
+var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'd3', 'duScroll', 'ezplus', 'slickCarousel']);
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -96,7 +96,7 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
       {series: 4, date:"1771-01-01" , anchorScroll:"vpt-one", hoverText:"timeline.vpt.one", fudged: true}, {series: 4, date:"1777-11-29" , anchorScroll:"vpt-two", hoverText:"timeline.vpt.two", fudged: false}, { series: 4, date: "1785-01-01", anchorScroll: "vpt-three", hoverText:"timeline.vpt.three", fudged: true},{ series: 4, date: "1786-01-01", anchorScroll: "vpt-four", hoverText:"timeline.vpt.four", fudged: true}, { series: 4, date: "1789-12-02", anchorScroll: "vpt-five", hoverText:"timeline.vpt.five", fudged: false}, { series: 4, date: "1789-12-14", anchorScroll: "vpt-six", hoverText:"timeline.vpt.six", fudged: false}, { series: 4, date: "1791-05-02", anchorScroll: "vpt-seven", hoverText:"timeline.vpt.seven", fudged: false}, { series: 4, date: "1802-01-01", anchorScroll: "vpt-eight", hoverText:"timeline.vpt.eight", fudged: true},{ series: 4, date: "1811-01-01", anchorScroll: "vpt-nine", hoverText:"timeline.vpt.nine", fudged: true}, { series: 4, date: "1828-01-01", anchorScroll: "vpt-ten", hoverText:"timeline.vpt.ten", fudged: true}, { series: 4, date: "1860-04-11", anchorScroll: "vpt-eleven", hoverText:"timeline.vpt.eleven", fudged: false},
       //Préville
       {series: 5, date: "1721-01-01", anchorScroll:"preville-one", hoverText:"timeline.preville.one", fudged: true}, { series: 5, date: "1738-01-01", anchorScroll:"preville-two", hoverText:"timeline.preville.two", fudged: true}, { series: 5, date: "1753-10-25", anchorScroll:"preville-three", hoverText:"timeline.preville.three", fudged: false}, { series: 5, date: "1765-06-07", anchorScroll:"preville-four", hoverText:"timeline.preville.four", fudged: false}, { series: 5, date: "1780-02-22", anchorScroll:"preville-five", hoverText:"timeline.preville.five", fudged: false},   {series: 5, date: "1789-01-01", anchorScroll:"preville-six", hoverText:"timeline.preville.six", fudged: true},   {series: 5, date: "1791-11-07", anchorScroll:"preville-seven", hoverText:"timeline.preville.seven", fudged: false},  {series: 5, date: "1794-05-07", anchorScroll:"preville-eight", hoverText:"timeline.preville.eight", fudged: false},   {series: 5, date: "1799-12-18", anchorScroll:"preville-nine", hoverText:"timeline.preville.nine", fudged: false}
-    ]
+    ],
 
   }
 

@@ -1,5 +1,6 @@
 {
-  "source":"Voyez le registre",
+  "source":"Voir le registre",
+  "mercure":"Voir le Mercure ",
   "timeline": {
     "joly": {
       "one": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Elisabeth Vivien, une danseuse à la Comédie Française",
@@ -130,7 +131,16 @@
         "sub": "Le bonhomme bienveillant"
       },
       "captions": {
-        "one": "L'ordre de réception de Monsieur Bellecour"
+        "one": "L'ordre de réception de Monsieur Bellecour",
+        "two":"Refus de la demande de retraite de Bellecour",
+        "three":"L'article onze du règlement de 1757",
+        "four":"Lettre du 18 janvier 1773",
+        "five":"Lettre du 17 mars 1773",
+        "six":"Lettre qui témoigne comment il a calmé M. Raimond",
+        "seven":"Lettre au sujet des pensions",
+        "eight":"Bellecour est boulversé par la mort de son cher ami Lekain",
+        "nine": "Bellecour présente ses conclusions",
+        "ten":"Monsieur Bellecour se sent sous-estimé "
       },
       "sections": {
         "one" : {
@@ -146,42 +156,42 @@
         "three" : {
           "date":"1769-02-19",
           "caption":"Tentative de retraite",
-          "text":"Ayant demandé de prendre sa retraite, M. Bellecour est ordonné continuer à la Comédie-Française. On lui permet seulement une congé de trois mois afin de régler ses problèmes de santé, mais le Duc de Richelieu exige qu’il retourne immédiatement suite à ce séjour."
+          "text":"Après près de 20 ans au service de la Comédie-Française, Bellecour, malade, demande de prendre sa retraite, mais le Duc de Richelieu lui ordonne de poursuivre sa carrière en lui proposant cependant un aménagement : un congé de trois mois afin de régler ses problèmes de santé. Ce droit de refus de la part de la cour fait partie des articles du règlement de 1757."
         },
         "four" : {
-          "date":"1773-01-18",
+          "date":"1773",
           "caption":"Des troubles de santé",
-          "text":""
+          "text":"L’année 1773 est ponctuée de lettres qui témoignent de la santé défaillante du comédien. Ces missives destinées initialement à la troupe montrent non seulement à quel point les obligations de l’Assemblée autant que celles de la scène pèsent sur le quotidien de l’acteur, elles rendent compte de l’attention portée au corps dans la correspondance des acteurs, car Bellecour est un exemple parmi d’autres de l’importance accordée à la maladie et aux défaillances corporelles."
         },
         "five" : {
           "date":"1775",
           "caption":"Une présence calmante",
-          "text":""
+          "text":"En 1775, Bellecour écrit à la Comédie pour régler un malentendu avec M. Raimond ; ce dernier s’étant fâché contre les autres comédiens sur la question de l’argent, Bellecour conseille ses camarades « de le traiter avec amitié » maintenant qu’il l’a calmé. Cet événement caractérise Bellecour comme médiateur des conflits, ce qui est encore affirmé par une lettre à l’assemblé du 28 août 1776 au sujet d’un incident impliquant M. Dalainval, où il supplie ses camarades « d’examiner cette affaire avec soin et équité ». "
         },
         "six" : {
           "date":"1777-09-03",
           "caption":"Sur la question des pensions...",
-          "text":""
+          "text":"Ayant reçu une lettre menaçante, Bellecour l’envoie à un destinataire inconnu - « à un protecteur » selon des notes éditoriales-  en donnant son avis sur la situation. S’il ne se montre pas perturbé par les menaces, il relève cependant le fait qu’il reçoit beaucoup moins une pension inférieure à ses camarades.  Lekain, entré à la Comédie quelques mois avant lui reçoit 1500 livres de plus que lui. D’autres lettres de Bellecour témoignent du fait que l’acteur accorde de l’importance aux injustices en général et que la troupe du Français est loin de correspondre à ses idéaux moraux et sociaux."
         },
         "seven" : {
           "date":"1778-02-09",
           "caption":"La mort de Lekain",
-          "text":""
+          "text":"Bellecour écrit à l’Assemblée peu après la mort de Lekain. Il affirme être bouleversé par la mort de cet ami essentiel à la Comédie-Française selon lui. Bellecour conclut que sa propre carrière devrait aussi prendre fin et en ce moment de fragilité et de deuil, il exprime sa grande admiration pour la troupe."
         },
         "eight" : {
           "date":"1778-03-27",
           "caption":"Une troupe à la cour?",
-          "text":""
+          "text":"Chargé de mener une enquête sur la possibilité d’avoir une autre troupe à la cour, M. Bellecour présente ses conclusions. Il s’inquiète que cette nouvelle troupe pourrait rendre obsolète les Comédiens du Roy. Le fait qu’on lui a confié cette tâche importante confirme l’estime qu’inspire Bellecour au sein des fonctionnaires de la Comédie-Française."
         },
         "nine" : {
           "date":"1778",
-          "caption":"Mécontentement",
-          "text":""
+          "caption":"Désenchantement",
+          "text":"Dans sa dernière année à la Comédie-Française, Bellecour exprime enfin une désenchantement avec le traitement qu’il a reçu pendant sa carrière. Il a passé 27 ans en soutenant sa société et en se sacrifiant pour elle, mais il ne se sent pas du tout apprécié."
         },
         "ten" : {
           "date":"1778-12-08",
           "caption":"Éloges",
-          "text":""
+          "text":"Suite à la mort de Bellecour, un éloge peu flattant paraît dans Le Mercure. Enragé par cette représentation si erronée de son camarade et ami, Préville écrit à M. La Harpe - le rédacteur en chef  - pour se plaindre, et également pour répondre aux calomnies."
         }
       }
     },
@@ -240,11 +250,17 @@
         "two":"Mademoiselle Contat est reçue et reçoit un appointment",
         "three":"L'ordre de réception de Monsieur Bellemont"
       }
+    },
+    "corps": {
+      "title":"Le comédien et son corps"
+    },
+    "pensions": {
+      "title": "Les pensions"
     }
   },
   "asides": {
-    "health": {
-      "title": "Le comédien et son corps"
+    "contrast": {
+      "title": "Le couple Bellecour - personnalités contrastées"
     }
   }
 }
