@@ -18,12 +18,11 @@
       "two":"Monsieur Bellecour est reçu à la Comédie-Française",
       "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
       "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
-      "five": "Monsieur Bellcour calme son camarade Raymond, suite à un incident, et lui défend à l'assemblée",
-      "six":"Monsieur Bellecour répond à des critiques faites de lui",
-      "seven": "Monsieur Lekain,collègue et cher ami de Bellecour, est mort",
-      "eight": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
-      "nine": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
-      "ten": "Suite à la mort de Bellcour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
+      "five":"Monsieur Bellecour répond à des critiques faites de lui",
+      "six": "Monsieur Lekain,collègue et cher ami de Bellecour, est mort",
+      "seven": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
+      "eight": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
+      "nine": "Suite à la mort de Bellcour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
     },
     "contat": {
       "one":"Louise Contat est née à des parents de statut peu élevé",
@@ -132,22 +131,22 @@
       },
       "captions": {
         "one": "L'ordre de réception de Monsieur Bellecour",
-        "two":"Refus de la demande de retraite de Bellecour",
-        "three":"L'article onze du règlement de 1757",
-        "four":"Lettre du 18 janvier 1773",
-        "five":"Lettre du 17 mars 1773",
-        "six":"Lettre qui témoigne comment il a calmé M. Raimond",
-        "seven":"Lettre au sujet des pensions",
-        "eight":"Bellecour est boulversé par la mort de son cher ami Lekain",
-        "nine": "Bellecour présente ses conclusions",
-        "ten":"Monsieur Bellecour se sent sous-estimé",
-        "eleven":"Préville répond aux commentaires faits de Bellecour dans le Mercure"
+       "two":"Refus de la demande de retraite de Bellecour",
+       "three":"L'article onze du règlement de 1757",
+       "four":"Lettre du 18 janvier 1773",
+       "five":"Lettre du 17 mars 1773",
+       "six":"Lettre qui témoigne comment il a calmé M. Raimond",
+       "seven":"Lettre au sujet des pensions",
+       "eight":"Bellecour est boulversé par la mort de son cher ami Lekain",
+       "nine": "Bellecour présente ses conclusions",
+       "ten":"Monsieur Bellecour se sent sous-estimé",
+       "eleven":"Préville répond aux commentaires faits de Bellecour dans le Mercure"
       },
       "sections": {
         "one" : {
           "date":"1725-01-16",
           "caption":"Naissance",
-          "text":" Naissance à Paris, Bellecour se destine  initialement à une carrière artistique comme son père Colson  Après avoir été l’élève du peintre Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre Préville. Ce dernier lui aurait prodiguer des conseils de jeu et que le duc de Richelieu et Mme Pompadour le font entrer à la Comédie-Française."
+          "text":" Naissance à Paris, Bellecour se destine  initialement à une carrière artistique comme son père Colson. Après avoir été l’élève du peintre Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre Préville. Ce dernier lui aurait prodiguer des conseils de jeu et que le duc de Richelieu et Mme Pompadour le font entrer à la Comédie-Française."
         },
         "two" : {
           "date":"1751-11-02",
@@ -165,31 +164,26 @@
           "text":"L’année 1773 est ponctuée de lettres qui témoignent de la santé défaillante du comédien. Ces missives destinées initialement à la troupe montrent non seulement à quel point les obligations de l’Assemblée autant que celles de la scène pèsent sur le quotidien de l’acteur, elles rendent compte de l’attention portée au corps dans la correspondance des acteurs, car Bellecour est un exemple parmi d’autres de l’importance accordée à la maladie et aux défaillances corporelles."
         },
         "five" : {
-          "date":"1775",
-          "caption":"Une présence calmante",
-          "text":"En 1775, Bellecour écrit à la Comédie pour régler un malentendu avec M. Raimond ; ce dernier s’étant fâché contre les autres comédiens sur la question de l’argent, Bellecour conseille ses camarades « de le traiter avec amitié » maintenant qu’il l’a calmé. Cet événement caractérise Bellecour comme médiateur des conflits, ce qui est encore affirmé par une lettre à l’assemblé du 28 août 1776 au sujet d’un incident impliquant M. Dalainval, où il supplie ses camarades « d’examiner cette affaire avec soin et équité ». "
-        },
-        "six" : {
           "date":"1777-09-03",
           "caption":"Sur la question des pensions...",
           "text":"Ayant reçu une lettre menaçante, Bellecour l’envoie à un destinataire inconnu - « à un protecteur » selon des notes éditoriales-  en donnant son avis sur la situation. S’il ne se montre pas perturbé par les menaces, il relève cependant le fait qu’il reçoit beaucoup moins une pension inférieure à ses camarades.  Lekain, entré à la Comédie quelques mois avant lui reçoit 1500 livres de plus que lui. D’autres lettres de Bellecour témoignent du fait que l’acteur accorde de l’importance aux injustices en général et que la troupe du Français est loin de correspondre à ses idéaux moraux et sociaux."
         },
-        "seven" : {
+        "six" : {
           "date":"1778-02-09",
           "caption":"La mort de Lekain",
           "text":"Bellecour écrit à l’Assemblée peu après la mort de Lekain. Il affirme être bouleversé par la mort de cet ami essentiel à la Comédie-Française selon lui. Bellecour conclut que sa propre carrière devrait aussi prendre fin et en ce moment de fragilité et de deuil, il exprime sa grande admiration pour la troupe."
         },
-        "eight" : {
+        "seven" : {
           "date":"1778-03-27",
           "caption":"Une troupe à la cour?",
           "text":"Chargé de mener une enquête sur la possibilité d’avoir une autre troupe à la cour, M. Bellecour présente ses conclusions. Il s’inquiète que cette nouvelle troupe pourrait rendre obsolète les Comédiens du Roy. Le fait qu’on lui a confié cette tâche importante confirme l’estime qu’inspire Bellecour au sein des fonctionnaires de la Comédie-Française."
         },
-        "nine" : {
+        "eight" : {
           "date":"1778",
           "caption":"Désenchantement",
           "text":"Dans sa dernière année à la Comédie-Française, Bellecour exprime enfin une désenchantement avec le traitement qu’il a reçu pendant sa carrière. Il a passé 27 ans en soutenant sa société et en se sacrifiant pour elle, mais il ne se sent pas du tout apprécié."
         },
-        "ten" : {
+        "nine" : {
           "date":"1778-12-08",
           "caption":"Éloges",
           "text":"Suite à la mort de Bellecour, un éloge peu flattant paraît dans Le Mercure. Enragé par cette représentation si erronée de son camarade et ami, Préville écrit à M. La Harpe - le rédacteur en chef  - pour se plaindre, et également pour répondre aux calomnies."

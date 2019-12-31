@@ -1,13 +1,11 @@
 <div class= "actor-details col-md-12" -du-scroll-container>
   <div class="header col-md-10 col-md-offset-1">
-    <div class="portrait col-md-3">
-      <img style="border-color: {{model.curr.colour}}" class="stacked icon" ng-src ="{{model.curr.img_src}}">
-      <a href="{{model.curr.cf_link}}" target="_blank"><img class="stacked frame" src ="https://svgsilh.com/svg/1296759.svg"></img></a>
-    </div>
-    <div class="header-text col-md-7">
+    <div class="header-text col-md-9">
       <div class="title">{{'content.bellecour.title.main' | translate}}</div>
       <div class="subtitle">{{'content.bellecour.title.sub' | translate}}</div>
     </div>
+    <div class="portrait-container col-md-3" style="background: linear-gradient(rgba(78,121,167, 0.4), rgba(78,121,167, 0.4)) ,url({{model.curr.img_src}});"></div>
+    <a href="{{model.curr.cf_link}}" target="_blank"><img class="signature" src="/style/img/bellecour/signature.png"></img></a>
   </div>
   <div class="main-content col-md-10 col-md-offset-1">
     <div class= "content-item timepoint"  id="bellecour-one">
@@ -130,34 +128,6 @@
         <div class="content">
           <p>{{'content.bellecour.sections.five.text' | translate}}</p>
           <div class="img-content">
-            <div class="img-wrapper col-md-6">
-              <img ez-plus ezp-model="{large:'style/img/bellecour/calme.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-7'}" src='style/img/bellecour/calme.jpg' style="height: 45vh" >
-              <div class="img-caption">{{'content.bellecour.captions.six'| translate}}</div>
-            </div>
-            <div class="transcription col-md-6">
-              <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
-              <p>Je viens de voir Raimond ; j’ai calmé sa tête et il est déterminé à continuer de jouer comme si rien n’était advenu. Ainsi, mes camarades, je crois que de votre côté vous ferez bien de le traiter avec amitié. Je vous engage à demander pour lui une augmentation du côté de l'intérêt et les avantages que d’autres qui n’ont pas été aussi utiles ou avec moins de justice que lui. Je crois avoir bien fait.</p>
-            </div>
-          </div>
-        </div>
-        <div class="aside" style="background-image:linear-gradient( rgba(78,121,167,.4), rgba(78,121,167,.4) ), url('style/img/register_backgrounds/register_1.png');">
-          <div class="aside-content" style="border-color:rgb(78,121,167)">
-            <h3 style="color: {{model.curr.colour}}">{{'asides.contrast.title' | translate}}</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class= "content-item timepoint"  id="bellecour-six">
-      <div class="timeline-point" section="bellecour-six" style="border-color: {{model.curr.colour}}"></div>
-      <div class="timepoint-heading">
-        <span class="date">{{'content.bellecour.sections.six.date' | translate}}:</span>
-        <span class="caption"> {{'content.bellecour.sections.six.caption' | translate}}</span>
-      </div>
-      <div class="timeline-event" style="border-color: {{model.curr.colour}}">
-        <div class="content">
-          <p>{{'content.bellecour.sections.six.text' | translate}}</p>
-          <div class="img-content">
             <div class="transcription col-md-6">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
               <p>J’ai une pension de 1000 livres. Lekain a du Roi 2500, Préville 1500 livres et une pension pour son école ; Molé 2000 livres, Brizard 1000 livres comme moi, Mlle. Dumesnil a 3500 livres de Retraite du Roy ; ainsi vous voyez que Lekain qui est du même jour que moi à la comédie a du Roy 1500 livres de plus. Mes cadets ont le double; ou autant, mais j'espère que mes supérieurs joindrons à l’estime qu’ils ont pour des Services sans exemple et pour une conduite irréprochable assez de faveur pour me faire obtenir au moins ce qu’ont mes autres camarades. Si cela ne se peut pas, je n’en prendrai ni humeur ni chagrin et je dirai seulement comme je vous l’ai déjà dit tout est heur ou malheur…</p>
@@ -179,15 +149,15 @@
         </div>
       </div>
     </div>
-    <div class= "content-item timepoint"  id="bellecour-seven">
-      <div class="timeline-point" section="bellecour-seven" style="border-color: {{model.curr.colour}}"></div>
+    <div class= "content-item timepoint"  id="bellecour-six">
+      <div class="timeline-point" section="bellecour-six" style="border-color: {{model.curr.colour}}"></div>
       <div class="timepoint-heading">
-        <span class="date">{{'content.bellecour.sections.seven.date' | translate}}:</span>
-        <span class="caption"> {{'content.bellecour.sections.seven.caption' | translate}}</span>
+        <span class="date">{{'content.bellecour.sections.six.date' | translate}}:</span>
+        <span class="caption"> {{'content.bellecour.sections.six.caption' | translate}}</span>
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">
-          <p>{{'content.bellecour.sections.seven.text' | translate}}</p>
+          <p>{{'content.bellecour.sections.six.text' | translate}}</p>
           <div class="img-content" style="display:block !important">
             <div class="img-wrapper">
               <div class="carousel" style="width: 50%; margin-left: 24%">
@@ -211,15 +181,15 @@
         </div>
       </div>
     </div>
-    <div class= "content-item timepoint"  id="bellecour-eight">
-      <div class="timeline-point" section="bellecour-eight" style="border-color: {{model.curr.colour}}"></div>
+    <div class= "content-item timepoint"  id="bellecour-seven">
+      <div class="timeline-point" section="bellecour-seven" style="border-color: {{model.curr.colour}}"></div>
       <div class="timepoint-heading">
-        <span class="date">{{'content.bellecour.sections.eight.date' | translate}}:</span>
-        <span class="caption"> {{'content.bellecour.sections.eight.caption' | translate}}</span>
+        <span class="date">{{'content.bellecour.sections.seven.date' | translate}}:</span>
+        <span class="caption"> {{'content.bellecour.sections.seven.caption' | translate}}</span>
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">
-          <p>{{'content.bellecour.sections.eight.text' | translate}}</p>
+          <p>{{'content.bellecour.sections.seven.text' | translate}}</p>
           <div class="img-content">
             <div class="img-wrapper col-md-6">
               <div class="carousel">
@@ -249,15 +219,15 @@
         </div>
       </div>
     </div>
-    <div class= "content-item timepoint"  id="bellecour-nine">
-      <div class="timeline-point" section="bellecour-nine" style="border-color: {{model.curr.colour}}"></div>
+    <div class= "content-item timepoint"  id="bellecour-eight">
+      <div class="timeline-point" section="bellecour-eight" style="border-color: {{model.curr.colour}}"></div>
       <div class="timepoint-heading">
-        <span class="date">{{'content.bellecour.sections.nine.date' | translate}}:</span>
-        <span class="caption"> {{'content.bellecour.sections.nine.caption' | translate}}</span>
+        <span class="date">{{'content.bellecour.sections.eight.date' | translate}}:</span>
+        <span class="caption"> {{'content.bellecour.sections.eight.caption' | translate}}</span>
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">
-          <p>{{'content.bellecour.sections.nine.text' | translate}}</p>
+          <p>{{'content.bellecour.sections.eight.text' | translate}}</p>
           <div class="img-content" style="display: block !important">
             <div class="img-wrapper">
               <div class="carousel" style="width: 50%; margin-left: 24%">
@@ -281,18 +251,24 @@
               <p>Le titre de premier est un objet réel d’envie et de jalousie et je crois fermement qu’il est temps de le céder… ma philosophie attribue tout à la Roue de fortune qui tourne plus vite ou plus lentement pour l’un que pour l’autre. Tout est heur ou malheur et ce qui échappe à Pierre réussit à Jacques… Faites moi la justice d’être bien persuadé qu’en parcourant les divers incidents qui ont rempli mes vingt-sept ans de comédie.</p>
             </div>
           </div>
+          <div class="aside" style="background-image:linear-gradient( rgba(78,121,167,.4), rgba(78,121,167,.4) )/*, url('style/img/register_backgrounds/register_1.png');*/">
+            <div class="aside-content" style="border-color:rgb(78,121,167)">
+              <h3 style="color: {{model.curr.colour}}">{{'asides.contrast.title' | translate}}</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class= "content-item timepoint"  id="bellecour-ten">
-      <div class="timeline-point" section="bellecour-ten" style="border-color: {{model.curr.colour}}"></div>
+    <div class= "content-item timepoint"  id="bellecour-nine">
+      <div class="timeline-point" section="bellecour-nine" style="border-color: {{model.curr.colour}}"></div>
       <div class="timepoint-heading">
-        <span class="date">{{'content.bellecour.sections.ten.date' | translate}}:</span>
-        <span class="caption"> {{'content.bellecour.sections.ten.caption' | translate}}</span>
+        <span class="date">{{'content.bellecour.sections.nine.date' | translate}}:</span>
+        <span class="caption"> {{'content.bellecour.sections.nine.caption' | translate}}</span>
       </div>
       <div class="timeline-event" style="border-color: rgba(0,0,0,0)">
         <div class="content">
-          <p>{{'content.bellecour.sections.ten.text' | translate}}</p>
+          <p>{{'content.bellecour.sections.nine.text' | translate}}</p>
           <a class="register-link" href="https://books.google.fr/books?id=8ecWAAAAYAAJ&hl=fr&pg=PA52#v=onepage&q=Bellecour&f=false" target="_blank" style="color:rgb(78,121,167) !important ">{{'mercure' | translate}}<i class="fas fa-arrow-right"></i></a>
           <div class="img-content" style="display: block !important">
             <div class="img-wrapper">

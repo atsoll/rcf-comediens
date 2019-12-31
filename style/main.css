@@ -165,8 +165,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-content {
-  margin-top: 15vh;
-  margin-bottom: 25vh;
+  margin-top: 7vh;
+  margin-bottom: 15vh;
 }
 
 .timeline-event {
@@ -222,8 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .img-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
+  max-height: 75vh;
   height: inherit !important;
   padding: 5px 5px 5px 5px;
 }
@@ -260,10 +259,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .aside {
   padding: 10px 10px 10px 10px;
-  margin-left: 15%;
   background-size: cover;
   width: 80%;
-
+  margin-bottom: 3vh;
+  margin-top: 5vh;
+  margin-left: 7%;
 }
 
 .aside-content {
@@ -440,4 +440,23 @@ h1, h2, h3, h4, h5, h6 {
    padding-left: 25px;
    padding-right: 25px;
    margin-right: -20px;
+}
+
+.portrait-container {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  background-size: contain;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.signature {
+  margin-top: -10vh;
+  z-index: 9999;
+  max-width: 25vh;
+  margin-left: 76%;
 }
