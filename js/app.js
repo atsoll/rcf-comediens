@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix = '/rcf-comediens'
+var prefix = '/rcf-comediens/'
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -74,12 +74,12 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
   $scope.model = {
     lang: 'fr',
     entities: {
-      hommes: [{pseudo: "Bellecour", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/135push1718_Bellecour.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/bellecour", colour: "#4e79a7", link: "#!bellecour", signature:prefix + "/style/img/bellecour/signature.png"},
-               {pseudo: "Molé", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/144push1718_Mole.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/francois-rene-mole", colour: "#b07aa1", link: "#!mole", signature:prefix + "/style/img/mole/signature.png"},
-               {pseudo: "Préville", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/137push1718_Preville.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/preville", colour: "#edc948",  link: "#!preville", signature:prefix + "/style/img/preville/signature.png"}],
-      femmes: [{pseudo: "Joly", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/182push1718_MlleJoly.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/marie-elisabeth-joly", colour: "#f28e2b",  link: "#!joly", signature:prefix + "/style/img/joly/signature.png"},
-               {pseudo: "Contat", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/171push1718_MlleContat.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/louise-contat", colour: "#ff9da7",  link: "#!contat", signature:prefix + "/style/img/contat/signature.png"},
-               {pseudo: "Vanhove-Petit-Talma", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/187push1718_MmeTalma.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/caroline-talma", colour: "#59a14f",  link: "#!vanhove-petit-talma", signature:prefix + "/style/img/vanhove-petit-talma/signature.png"}]
+      hommes: [{pseudo: "Bellecour", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/135push1718_Bellecour.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/bellecour", colour: "#4e79a7", link: "#!bellecour", signature:prefix + "style/img/bellecour/signature.png"},
+               {pseudo: "Molé", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/144push1718_Mole.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/francois-rene-mole", colour: "#b07aa1", link: "#!mole", signature:prefix + "style/img/mole/signature.png"},
+               {pseudo: "Préville", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/137push1718_Preville.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/preville", colour: "#edc948",  link: "#!preville", signature:prefix + "style/img/preville/signature.png"}],
+      femmes: [{pseudo: "Joly", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/182push1718_MlleJoly.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/marie-elisabeth-joly", colour: "#f28e2b",  link: "#!joly", signature:prefix + "style/img/joly/signature.png"},
+               {pseudo: "Contat", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/171push1718_MlleContat.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/louise-contat", colour: "#ff9da7",  link: "#!contat", signature:prefix + "style/img/contat/signature.png"},
+               {pseudo: "Vanhove-Petit-Talma", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/187push1718_MmeTalma.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/caroline-talma", colour: "#59a14f",  link: "#!vanhove-petit-talma", signature:prefix + "style/img/vanhove-petit-talma/signature.png"}]
     },
     curr:null,
     //fudged variable used to flag dates that are only years
