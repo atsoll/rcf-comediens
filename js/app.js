@@ -1,5 +1,8 @@
 //global config to make gh pages/local dev easier
 var prefix = '/rcf-comediens/'
+//for scale
+var vh = window.innerHeight/100;
+
 
 //d3 integration taken from http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/d3-on-angular.html
 angular.module('d3', [])
@@ -32,6 +35,7 @@ angular.module('d3', [])
 
 
 var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'pascalprecht.translate', 'd3', 'duScroll', 'ezplus', 'slickCarousel']);
+app.value('duScrollDuration', 1500);
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -70,7 +74,13 @@ app.config(function ($translateProvider) {
 });
 
 
-app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
+app.controller('ctrl', function($scope, $window, $uibModal, $translate, $document) {
+
+  //for pretty transitions
+  this.$onInit = function () {
+    AOS.init();
+  }
+
   $scope.model = {
     lang: 'fr',
     entities: {
@@ -127,12 +137,12 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
   });
 
   //for point filling in as you scroll
-  //TODO: deal with bottom most points
   $(window).on('scroll', function() {
+    AOS.refreshHard()
     $('.timepoint').each(function() {
         var id = $(this).attr('id');
         //the premptive offset is a bit arbitrary
-        if($(this).offset().top - 115 <= $(window).scrollTop()) {
+        if($(this).offset().top - (30*vh) <= $(window).scrollTop()) {
               document.querySelectorAll("div.timeline-point[section='" + id + "']")[0].style.background = $scope.model.curr.colour;
         }
         else {
@@ -141,8 +151,11 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate) {
     });
   });
 
+
+
+
 });
-//TODO: trigger redraw on resize
+
 app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', '$document', '$window',function(d3Service, $translate, $timeout, $location, $document, $window) {
   return {
     restrict: 'E',
@@ -164,7 +177,7 @@ app.directive('timeLine', [ 'd3Service', '$translate', '$timeout', '$location', 
           $timeout( function(){
             var someElement = document.getElementById(anchor);
             $document.duScrollToElementAnimated(someElement);
-          }, 200 );
+          }, 300 );
         }
       }
 
