@@ -1,3 +1,5 @@
+//un commentaire
+
 //global config to make gh pages/local dev easier
 var prefix = '/rcf-comediens/'
 //for scale
