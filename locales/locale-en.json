@@ -113,12 +113,12 @@
       },
       "sections": {
         "one": {
-          "date":"1761-04-08",
+          "date":"1761.04.08",
           "caption":"Birth",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
         },
         "two": {
-          "date":"1768-10-30",
+          "date":"1768.10.30",
           "caption":"Childhood debut",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
         }
@@ -127,7 +127,7 @@
     "bellecour": {
       "title": {
         "main": "Jean-Claude-Gilles Colson, dit Bellecour",
-        "sub": "The kindhearted comedian"
+        "sub": "« Tout est heur ou malheur »"
       },
       "captions": {
         "one": "Monsieur Bellecour's formal reception into the troupe",
@@ -144,43 +144,43 @@
       },
       "sections": {
         "one" : {
-          "date":"1725-01-16",
+          "date":"1725.01.16",
           "caption":"Birth",
-          "text":"Born in Paris, Bellecour initially pursues the visual arts, destined to be a painter like his father Colson. After studying under Carle Van Loo, he instead decides on a career in acting and makes his theatrical debut with the troupe in Besançon. While there, he is said to have met and been mentored by Preville, which in turn led to his admission to the Comédie-Française at the apparent behest of the Duke of Richelieu and Madame de Pompadour."
+          "text":"Born in Paris, Bellecour initially pursues the visual arts, destined to be a painter like his father Colson. After studying under Carle Van Loo, he instead decides on a career in acting and makes his theatrical debut with the troupe in Besançon. While there, he is said to have met and been mentored by M. Préville, which in turn led to his admission to the Comédie-Française at the apparent behest of the Duke of Richelieu and Madame de Pompadour. (Lyonnet)"
         },
         "two" : {
-          "date":"1751-11-02",
+          "date":"1751.11.02",
           "caption":"Admission to the Comédie-Française",
-          "text":"Bellecour is officially inducted into the Comédie-Française the 20th of December, 1750 - the same year as his later famous colleague Le Kain, who had been admitted just a few months earlier, on the 14th of September. On the 2nd of November, 1752, he received formal permission to pursue a permanent appointment with the company. While he began his career as an actor bound to neither comedy nor tragedy, he later specialised in, and performed almost exclusively, the latter."
+          "text":"Bellecour is officially inducted into the Comédie-Française on December 20, 1750 - the same year as his later famous colleague Le Kain, who had been admitted just a few months earlier on September 14. On November 2, 1752, he received formal permission to pursue a permanent appointment with the company. While he began his career as an actor bound to neither tragedy nor comedy, he later specialised in, and performed almost exclusively, the latter."
         },
         "three" : {
-          "date":"1769-02-19",
+          "date":"1769.02.19",
           "caption":"Attempted retirement",
-          "text":"After nearly twenty years of service to the Comédie-Francaise, Mr. Bellecour, deeply unwell, requests to retire, but is ordered by the Duke of Richelieu to remain an active member of the troupe, the latter proposing an alternate arrangement of three months leave granted to allow him to cope with his health issues. This right of the court to refuse his request is one of a collection of regulations published in 1757."
+          "text":"After nearly twenty years of service to the Comédie-Francaise, Mr. Bellecour, deeply unwell, requests to retire, but is ordered by the Duke of Richelieu to remain an active member of the troupe, the latter proposing an alternate arrangement of three months of leave granted to allow him to cope with his health issues. The court's right to refuse his request is one of a collection of regulations published in 1757."
         },
         "four" : {
           "date":"1773",
           "caption":"Health troubles",
-          "text":"1773 is a year littered with letters detailing the actor’s failing health. These missives, originally written to his fellow troupe members, not only show how his administrative duties took as much of a daily toll as his on stage responsibilities, but also reflect the attention paid in the actors’ correspondence to the body, Bellecour being merely one of many examples of the importance given to matters of illness and other physical failings."
+          "text":"1773 is a year littered with letters detailing the actor’s failing health. These missives, originally written to his fellow troupe members, not only show how his administrative duties took as much of a daily toll as his on-stage responsibilities, but also reflect the attention paid to the body in actors’ correspondence, Bellecour being one of many examples of the importance given to matters of illness and other physical failings."
         },
         "five" : {
           "date":"1775",
-          "caption":"A calming presence",
-          "text":"In 1775, Bellecour writes to the Comédie to settle a disagreement with Mr. Raimond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Raimond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he again takes on in a letter from august 28th, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to “examine this affair with due care and equity”."
+          "caption":"Conflict mediator",
+          "text":"In 1775, Bellecour writes to the Comédie to settle a disagreement with Mr. Reymond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Reymond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he again takes on in a letter from August 28, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to “examine this affair with due care and equity”."
         },
         "six" : {
-          "date":"1777-09-03",
+          "date":"1777.09.03",
           "caption":"On the matter of pensions..",
           "text":"Having received a threatening letter, Bellecour shares it with an unknown recipient - a “protector” according to editorial notes- along with his opinion of the situation. He is unbothered by the threats, but mentions the fact that he receives a pension significantly lower than those of his colleagues. Lekain, who started with the troupe mere months before him, earns 1500 pounds more. Others of his letters show that Bellecour, in more general terms, saw matters of injustice to be of great importance, and that the troupe’s social and moral ideals were far from aligned with his own."
         },
         "seven" : {
-          "date":"1778-02-09",
-          "caption":"The death of Lekain",
+          "date":"1778.02.09",
+          "caption":"Death of Lekain",
           "text":"Bellecour writes to the Assembly shortly after Lekain’s death. He is overwhelmed by the death of his dear friend who he believed a cornerstone of the Comédie-Française. Bellecour concludes that his own career should also come to an end, and fragile in his grief, expresses his heartfelt love for the troupe."
         },
         "eight" : {
-          "date":"1778-03-27",
-          "caption":"A troupe at court?",
+          "date":"1778.03.27",
+          "caption":"A troupe at the royal court?",
           "text":"Tasked with investigating the possibility of forming a dedicated theatre troupe for the royal court, Mr. Bellecour reports on his findings. He worries that a new troupe could cause the existing troupe of the Comédie-Française to become obsolete. The fact that he was entrusted with this important task is evidence of the respect held for Bellecour by the officials of the Comédie-Française."
         },
         "nine" : {
@@ -189,7 +189,7 @@
           "text":"In his final year with the Comédie-Française, Bellecour, finally expresses his disappointment in the treatment he received over the course of his career. He spent 27 years of supporting and making sacrifices for his community, he does not feel at all appreciated."
         },
         "ten" : {
-          "date":"1778-12-08",
+          "date":"1778.12.08",
           "caption":"Obituary",
           "text":"Following Bellecour’s death, an unflattering obituary is printed in the Mercure. Enraged by this gross misrepresentation of his friend and colleague, Préville writes to Mr. La Harpe - the editor in chief - to complain and to respond in kind to aspersions cast."
         }
