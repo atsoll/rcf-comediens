@@ -3,7 +3,7 @@
   "mercure":"Voir le Mercure ",
   "timeline": {
     "joly": {
-      "one": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Elisabeth Vivien, une danseuse à la Comédie Française",
+      "one": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Élisabeth Vivien, une danseuse à la Comédie Française",
       "two": "La petite Joly paraît pour la première fois sur scène à la Comédie Française à l'âge de sept ans dans le rôle de Louison dans le Malade Imaginaire de Molière",
       "three":"La Comédie accorde à Mademoiselle Joly son ordre de début",
       "four": "Joly refuse de jouer et fut remplacée par Mademoiselle Olivier",
@@ -19,10 +19,10 @@
       "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
       "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
       "five":"Monsieur Bellecour répond à des critiques faites de lui",
-      "six": "Monsieur Lekain,collègue et cher ami de Bellecour, est mort",
+      "six": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
       "seven": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
       "eight": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
-      "nine": "Suite à la mort de Bellcour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
+      "nine": "Suite à la mort de Bellecour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
     },
     "contat": {
       "one":"Louise Contat est née à des parents de statut peu élevé",
@@ -60,7 +60,7 @@
       "four":"Vanhove se marie avec Petit, un violoniste à la Comédie-Française",
       "five": "Madame Petit est reçue à la troupe comme double immédiat de Mademoiselle Olivier",
       "six": "Petit se dispute avec Olivier et sa fille au sujet de la répartition des rôles",
-      "seven": "Au grand dam de Mademoiselle Fleury, Petit utilise son statut au sein de la troupe pour prendre le rôle d'Iphéginie",
+      "seven": "Au grand dam de Mademoiselle Fleury, Petit utilise son statut au sein de la troupe pour prendre le rôle d'Iphigénie",
       "eight": "Vanhove se marie avec son célèbre collègue François-Joseph Talma",
       "nine": "Madame Talma se retire de la Comédie-Française",
       "ten": "Mademoiselle Vanhove devient comtesse en épousant le comte de Chalot",
@@ -70,7 +70,7 @@
       "one":"Pierre-Louis Du Bus, dit Préville, est né",
       "two":"De 1738 en 1753, Préville parait dans les théâtres provinciaux",
       "three": "Monsieur Préville est reçu à la Comédie-Française",
-      "four": "La carrière de Préville fleuri, ses interprétations étant bien reçues",
+      "four": "La carrière de Préville fleurit, ses interprétations étant bien reçues",
       "five": "Ayant gagné un statut assez important, Préville aide à prendre les décisions administratives",
       "six": "Préville s'occupe des affaires de la troupe suite à un incident violent à Senlis",
       "seven":"À la demande ardente de ses collègues, Préville sort de la retraite pour retourner à la Comédie-Française",
@@ -137,7 +137,7 @@
        "five":"Lettre du 17 mars 1773",
        "six":"Lettre qui témoigne comment il a calmé M. Raimond",
        "seven":"Lettre au sujet des pensions",
-       "eight":"Bellecour est boulversé par la mort de son cher ami Lekain",
+       "eight":"Bellecour est bouleversé par la mort de son cher ami Lekain",
        "nine": "Bellecour présente ses conclusions",
        "ten":"Monsieur Bellecour se sent sous-estimé",
        "eleven":"Préville répond aux commentaires faits à propos de Bellecour dans le Mercure"
@@ -164,26 +164,31 @@
           "text":"L’année de 1773 est ponctuée de lettres qui témoignent de la santé défaillante de Bellecour. Ces missives destinées initialement à la troupe montrent non seulement à quel point les obligations de l’Assemblée autant que celles de la scène pèsent sur le quotidien de l’acteur, elles rendent compte de l’attention portée au corps dans la correspondance des acteurs, car Bellecour est un exemple parmi d’autres de l’importance accordée à la maladie et aux défaillances corporelles."
         },
         "five" : {
+          "date":"1775",
+          "caption":"Médiateur de conflits",
+          "text":"Plusieurs lettres témoignent de la personnalité bienveillante de Bellecour et de son rôle de médiateur au sein de la troupe. Cet incident au sujet du pensionnaire Reymond est un bon exemple de la personnalité du comédien qui agit comme médiateur de conflits. Soucieux de rappeler que la justice doit être le guide des décisions communes, Bellecour rend compte de l’importance de se soumettre collectivement à des valeurs d’équité lorsqu’il est question de prendre des décisions financières et administratives."
+        },
+        "six" : {
           "date":"1777.09.03",
           "caption":"Pensions",
           "text":"Ayant reçu une lettre menaçante, Bellecour l’envoie à un destinataire inconnu - « à un protecteur » selon des notes éditoriales - en donnant son avis sur la situation. S’il ne se montre pas perturbé par les menaces, il relève cependant le fait qu’il reçoit une pension inférieure à celle de ses camarades. Lekain, entré à la Comédie quelques mois avant lui reçoit 1500 livres de plus que lui. D’autres lettres de Bellecour témoignent du fait que l’acteur accorde de l’importance aux injustices en général et que la troupe des Comédiens Français est loin de correspondre à ses idéaux moraux et sociaux."
         },
-        "six" : {
+        "seven" : {
           "date":"1778.02.09",
           "caption":"Mort de Lekain",
           "text":"Bellecour écrit à l’Assemblée peu après la mort de Lekain. Il affirme être bouleversé par la mort de cet ami essentiel à la Comédie-Française selon lui. Bellecour conclut que sa propre carrière devrait aussi prendre fin et en ce moment de fragilité et de deuil, il exprime sa grande admiration pour la troupe."
         },
-        "seven" : {
+        "eight" : {
           "date":"1778.03.27",
           "caption":"Troupe à la cour ?",
           "text":"Chargé de mener une enquête sur la possibilité d’avoir une autre troupe à la cour, M. Bellecour présente ses conclusions. Il s’inquiète que cette nouvelle troupe pourrait rendre obsolète les Comédiens du Roy. Le fait qu’on lui a confié cette tâche importante confirme l’estime qu’inspire Bellecour au sein des fonctionnaires de la Comédie-Française."
         },
-        "eight" : {
+        "nine" : {
           "date":"1778",
           "caption":"Désenchantement",
           "text":"Dans sa dernière année à la Comédie-Française, Bellecour exprime enfin une désenchantement avec le traitement qu’il a reçu pendant sa carrière. Il a passé 27 ans en soutenant sa société et en se sacrifiant pour elle, mais il ne se sent pas du tout apprécié."
         },
-        "nine" : {
+        "ten" : {
           "date":"1778.12.08",
           "caption":"Éloges",
           "text":"Suite à la mort de Bellecour, un éloge peu flattant paraît dans Le Mercure. Enragé par cette représentation si erronée de son camarade et ami, Préville écrit à M. La Harpe - le rédacteur en chef - pour se plaindre, et également pour répondre aux calomnies."
@@ -221,7 +226,7 @@
       "definitions": {
         "debut": {
           "keyword":"Début",
-          "content":" Le début concerne les acteurs où les actrices désireux d’intégrer la troupe. Une autorisation de début doit être obtenue par le candidat auprès de l’un des premiers gentilshommes."
+          "content":" Le début concerne les acteurs ou les actrices désireux.ses d’intégrer la troupe. Une autorisation de début doit être obtenue par le candidat auprès de l’un des premiers gentilshommes."
         }
       },
       "para": {
@@ -236,9 +241,9 @@
         "nine":"Les débuts d’acteurs ou d’actrices sont souvent le terrain de batailles internes ou externes entre les partisans de telle ou telle tendance esthétique ou politique. On sait que tel acteur candidat est partisan de tel parti, qu’il a été placé par intérêt. Viennent alors aux représentations concernées un public chauffer à blanc chargé de faire la claque et/ou de lancer des cabales.",
         "ten":"Les ordres",
         "eleven":"L'ordre de début",
-        "twelve":"L’ordre de début est la première autorisation officielle qu’obtient un ou une comédien.ne pour intégrer la troupe. En règle générale, cet ordre n’est pas très restrictif et précise rarement les types de rôles pour les acteurs et les actrices. Des expressions clefs comme « les rôles qui lui conviennent », « pour jouer le Comique ou Tragique » ou encore, les « rôles qui pourraient être utiles », témoignent du fait que cette période d’essai permet aux comédiens d’expérimenter leurs jeux. Dans certains cas cependant, l’ordre de début précise dans certains cas que l’acteur ou l’actrice sera le double d’un ou de plusieurs membres de la troupe ou encore qu’il ou elle prendra la succession, c’est-à-dire les rôles d’un.e comédien.ne qui part à la retraite. C’est le cas de Préville qui remplace Poisson. Il ne semble pas y avoir de législation fixe sur la période des débuts. Les registres des recettes et des feux témoignent cependant du fait que certains acteurs peuvent échouer leur premier début et tenter leur chance une seconde fois.",
+        "twelve":"L’ordre de début est la première autorisation officielle qu’obtient un ou une comédien.ne pour intégrer la troupe. En règle générale, cet ordre n’est pas très restrictif et précise rarement les types de rôles pour les acteurs et les actrices. Des expressions clefs comme « les rôles qui lui conviennent », « pour jouer le Comique ou Tragique » ou encore, les « rôles qui pourraient être utiles », témoignent du fait que cette période d’essai permet aux comédiens.nes d’expérimenter leurs jeux. Dans certains cas cependant, l’ordre de début précise dans certains cas que l’acteur ou l’actrice sera le double d’un ou de plusieurs membres de la troupe ou encore qu’il ou elle prendra la succession, c’est-à-dire les rôles d’un.e comédien.ne qui part à la retraite. C’est le cas de Préville qui remplace Poisson. Il ne semble pas y avoir de législation fixe sur la période des débuts. Les registres des recettes et des feux témoignent cependant du fait que certains acteurs peuvent échouer leur premier début et tenter leur chance une seconde fois.",
         "thirteen":"L'ordre de réception",
-        "fourteen":"La période d’essai officiel apparaît plus tardivement dans les archives de la troupe. Dans les années 1760, les ordres de réception contiennent plusieurs éléments, notamment la spécialisation des acteurs et actrices qui peut alors être précisé. C’est aussi au cours de cette seconde étape que les comédiens.nes reçoivent le montant de leur pension. L’ordre de réception permet donc aux comédiens.nes d’obtenir le statut de pensionnaire pour deux ans minimum en règle générale. Or le passage du pensionnariat au sociétariat varie d’un comédien à l’autre, mais en règle générale, la période d’essai dure entre un an et deux ans, ce qui correspond aux règlements. On constate cependant des cas de pensionnariat prolongé, tel que comédien Bellemont qui reste 11 ans à l’essai avec une présence très soutenue sur scène."
+        "fourteen":"La période d’essai officiel apparaît plus tardivement dans les archives de la troupe. Dans les années 1760, les ordres de réception contiennent plusieurs éléments, notamment la spécialisation des acteurs et actrices qui peut alors être précisée. C’est aussi au cours de cette seconde étape que les comédiens.nes reçoivent le montant de leur pension. L’ordre de réception permet donc aux comédiens.nes d’obtenir le statut de pensionnaire pour deux ans minimum en règle générale. Or le passage du pensionnariat au sociétariat varie d’un comédien à l’autre, mais en règle générale, la période d’essai dure entre un an et deux ans, ce qui correspond aux règlements. On constate cependant des cas de pensionnariat prolongé, tel que le comédien Bellemont qui reste 11 ans à l’essai avec une présence très soutenue sur scène."
       },
       "captions": {
         "one":"L'ordre de début de Mademoiselle Joly",
