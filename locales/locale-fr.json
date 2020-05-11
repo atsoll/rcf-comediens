@@ -18,11 +18,12 @@
       "two":"Monsieur Bellecour est reçu à la Comédie-Française",
       "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
       "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
-      "five":"Monsieur Bellecour répond à des critiques faites de lui",
-      "six": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
-      "seven": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
-      "eight": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
-      "nine": "Suite à la mort de Bellecour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
+      "five":"Suite à un incident au sein de l'assemblée, Bellecour calme et défend son camarade M. Raimond.",
+      "six":"Monsieur Bellecour répond à des critiques faites de lui",
+      "seven": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
+      "eight": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
+      "nine": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
+      "ten": "Suite à la mort de Bellecour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
     },
     "contat": {
       "one":"Louise Contat est née à des parents de statut peu élevé",
@@ -140,7 +141,8 @@
        "eight":"Bellecour est bouleversé par la mort de son cher ami Lekain",
        "nine": "Bellecour présente ses conclusions",
        "ten":"Monsieur Bellecour se sent sous-estimé",
-       "eleven":"Préville répond aux commentaires faits à propos de Bellecour dans le Mercure"
+       "eleven":"Préville répond aux commentaires faits à propos de Bellecour dans le Mercure",
+       "twelve": "Bellecour adopte le rôle de médiateur lors d'un conflit entre M. Raimond et les membres de l'assemblée"
       },
       "sections": {
         "one" : {
@@ -166,7 +168,7 @@
         "five" : {
           "date":"1775",
           "caption":"Médiateur de conflits",
-          "text":"Plusieurs lettres témoignent de la personnalité bienveillante de Bellecour et de son rôle de médiateur au sein de la troupe. Cet incident au sujet du pensionnaire Reymond est un bon exemple de la personnalité du comédien qui agit comme médiateur de conflits. Soucieux de rappeler que la justice doit être le guide des décisions communes, Bellecour rend compte de l’importance de se soumettre collectivement à des valeurs d’équité lorsqu’il est question de prendre des décisions financières et administratives."
+          "text":"Plusieurs lettres témoignent de la personnalité bienveillante de Bellecour et de son rôle de médiateur au sein de la troupe. Cet incident au sujet du pensionnaire Raimond est un bon exemple de la personnalité du comédien qui agit comme médiateur de conflits. Soucieux de rappeler que la justice doit être le guide des décisions communes, Bellecour rend compte de l’importance de se soumettre collectivement à des valeurs d’équité lorsqu’il est question de prendre des décisions financières et administratives."
         },
         "six" : {
           "date":"1777.09.03",

@@ -10,20 +10,20 @@
       "five": "Amid controversy, Mademoiselle Joly is admitted the society of the Comédie Française",
       "six": "Joly receives a raise following a complaint of added responsibilites and no compensation",
       "seven": "Mademoiselle Joly is banned from participating in the troupe's administrative meetings",
-      "eight": "During the french revolution, Joly is imprisoned along with several other members of the company",
+      "eight": "During the French Revolution, Joly is imprisoned along with several other members of the company",
       "nine": "Mademoiselle Joly passes away"
     },
     "bellecour": {
       "one": "Jean-Claude-Gilles Colson, later known as Bellecour, is born",
       "two":"Monsieur Bellecour is formally admitted to the Comédie Française",
       "three": "Bellecour's request to retire is denied",
-      "four": "Due to his failing health, Bellecour frequently fails to attend administrative meetings",
-      "five": "Following an incident, Bellecour calms and defends his colleague Monsieur Raymond",
+      "four": "Due to his failing health, Bellecour frequently misses administrative meetings",
+      "five": "Bellcour mediates a dispute between the company and his colleague, Monsieur Raimond",
       "six": "Monsieur Bellecour responds to a highly critical letter",
       "seven": "Monsieur Lekain, Bellecour's colleague and dear friend, dies",
-      "eight": "Bellecour is tasked with the responsibility of investigating the possibility of the formation of second troupe to serve solely the royal court",
+      "eight": "Bellecour is tasked with the responsibility of investigating the possibility of the formation of second troupe to serve solely the Royal court",
       "nine":"Monsieur Bellecour reflects on his experiences at the Comédie-Française",
-      "ten": "Following the death of Monsieur Bellcour, Monsieur Préville writes to Monsieur La Harpe of the Mercure de France to protest the mean spritited eulogy that they had printed"
+      "ten": "Following Bellecour's death, Monsieur Préville writes to Monsieur La Harpe, editor of the Mercure de France, to protest the mean spritited eulogy that they had printed"
     },
     "contat": {
       "one":"Louise Contat is born into a low class family",
@@ -31,9 +31,9 @@
       "three": "Contat is formally recognized as a member of the troupe and receives a quarter share",
       "four": "Contat is given a raise, bringing her to a half share",
       "five": "Contat is given a raise, bringing her to three quarters of a share",
-      "six": "The adminstration debates the issue of maternity payment, with regards to Mademoiselle Contat",
+      "six": "Madeoiselle Contat sparks an adminstrative debate over maternity payment",
       "seven": "Contat receives a further raise, bringing her to a full share",
-      "eight":"During the french revolution, Contat is imprisoned along with several other members of the company",
+      "eight":"During the French Revolution, Contat is imprisoned along with several other members of the company",
       "nine": "Mademoiselle Contat reflects frankly on her experiences with love",
       "ten": "Following Contat's retirement, a performance of Othello is held in her benefit",
       "eleven": "Mademoiselle Contat passes away"
@@ -42,14 +42,14 @@
       "one": "François-René Molé is born",
       "two": "Molé's father passes away",
       "three":"Molé debutes at the Comédie-Française, but is refused and returns to the provincial theatres",
-      "four": "Molé becomes a member of the Comédie-Française society",
-      "five": "With Lekain out sick, Molé creates the role of Hamlet",
-      "six": "Monsieur Molé creates the role of Romeo in 'Romeo and Juliette'",
+      "four": "Molé is officially inducted into the Comédie-Française",
+      "five": "With Lekain out sick, Molé originates the role of Hamlet",
+      "six": "Monsieur Molé originates the role of Romeo in 'Romeo and Juliette'",
       "seven": "Molé and his wife are both severely ill",
       "eight": "Molé misses an adminstrative meeting, giving the excuse that he has to relearn a role which he has completely forgotten",
       "nine":"Molé takes Mademoiselle Candeille as a student",
       "ten":"The other members of the troupe write to Molé to remind him that, despite his status within the company, he is still required to follow the rules set by the society",
-      "eleven":"Following the revolution, Molé returns to the theatre.",
+      "eleven":"Molé returns to the theatre following the Revolution",
       "twelve": "Monsieur Molé and his family take a vacation",
       "thirteen": "Already gone for too long, the troupe implore Molé to come back from his prolonged stay in the country",
       "fourteen": "Monsieur Molé passes away"
@@ -57,21 +57,21 @@
     "vpt": {
       "one": "Caroline Vanhove is born",
       "two":"At the age of 6, Vanhove makes her first appearence at the Comédie-Française in the role of Joas is Racine's Athalie",
-      "three": "Vanhove's reappearence as an adult is critally well received, her perfomances at court being particularly praised",
+      "three": "Vanhove's reappearence as an adult is critically well received, her perfomances at court being particularly praised",
       "four": "Vanhove marries Petit, who is a violonist at the Comédie-Française",
       "five": "Madame Petit is formally admitted to the troupe as a double for Mademoiselle Olivier",
-      "six": "An argument occurs between Olivier and her Daughter and Madame Petit over the distribution of rôles",
+      "six": "An argument occurs between Madame Olivier, her daughter, and Madame Petit over the distribution of rôles",
       "seven": "Much to the anger of Mademoiselle Fleury, Petit pulls rank in order to play the rôle of Iphéginie",
       "eight": "Vanhove marries infamous fellow actor François-Joseph Talma",
       "nine": "Madame Talma retires from the Comédie-Française",
-      "ten": "Mademoiselle Vanhove becomes a countesse through her marrige to the Count of Chalot",
+      "ten": "Mademoiselle Vanhove becomes a countesse through her marriage to the Count of Chalot",
       "eleven": "Caroline passes away"
     },
     "preville": {
       "one":"Pierre-Louis Du Bus, later known as Préville, is born",
       "two": "From 1738 to 1753, Préville plies his trade in provincial theatres",
       "three":"Monsieur Préville is formally admitted to the Comédie-Française",
-      "four": "Career on the rise, Préville's performances are critically well received",
+      "four": "His career on the rise, Préville's performances are critically well received",
       "five":"Having gained significant status, Préville weighs in on the troupe's adminstrative decisions",
       "six": "Préville copes with tha aftermath of a violent incident in Senlis",
       "seven":"At the fervent request of his former colleagues, Préville comes out of retirement to return to the Comédie-Française",
@@ -80,7 +80,7 @@
     },
     "axis": {
       "history": {
-        "one": "New rules regarding Comédie-Française are established by the premiers gentilshommes de la Chambre",
+        "one": "New rules regarding Comédie-Française are established by the Premiers Gentilshommes de la Chambre",
         "two": "On stage seating is removed from all theatres",
         "three":"New regulation",
         "four":"Formation of an adminstrative committee",
@@ -101,7 +101,7 @@
         "five":"Mme de Pompadour begins holding small performances for the king in his private chambers",
         "six":"Emergence of smaller theatres along the boulevard du Temple",
         "seven":"Fusion of 'l’Opéra-comique' and the 'Comédie-Italienne', and the end of theatre in Jesuit colleges",
-        "eight":"Fondation, by Beaumarchais, of a proto authors' union"
+        "eight":"Foundation, by Beaumarchais, of a proto authors' union"
       }
     }
   },
@@ -140,7 +140,8 @@
         "eight": "Bellecour is overcome with grief at the death of his dear friend Lekain",
         "nine": "Bellecour reports on his findings",
         "ten": "Monsieur Bellecour feels under-appreciated",
-        "eleven":"Préville reacts to the Bellecour's obituary, as printed in the Mercure"
+        "eleven":"Préville reacts to the Bellecour's obituary, as printed in the Mercure",
+        "twelve": "When a conflict arises between M Raimond and the members of the administration, Bellecour serves as mediator"
       },
       "sections": {
         "one" : {
@@ -166,7 +167,7 @@
         "five" : {
           "date":"1775",
           "caption":"Conflict mediator",
-          "text":"In 1775, Bellecour writes to the Comédie to settle a disagreement with Mr. Reymond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Reymond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he again takes on in a letter from August 28, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to “examine this affair with due care and equity”."
+          "text":"In 1775, Bellecour writes to the administrative committee to weigh in on the matter of their conflict with Mr. Raimond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Raimond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he reprises in a letter from August 28, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to 'examine this affair with due care and equity'."
         },
         "six" : {
           "date":"1777.09.03",
