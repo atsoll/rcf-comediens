@@ -3,80 +3,91 @@
   "mercure":"Voir le Mercure ",
   "timeline": {
     "joly": {
-      "one": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Élisabeth Vivien, une danseuse à la Comédie Française",
-      "two": "La petite Joly paraît pour la première fois sur scène à la Comédie Française à l'âge de sept ans dans le rôle de Louison dans le Malade Imaginaire de Molière",
-      "three":"La Comédie accorde à Mademoiselle Joly son ordre de début",
-      "four": "Joly refuse de jouer et fut remplacée par Mademoiselle Olivier",
-      "five": "Par une décision polémique, Mademoiselle Joly est reçue par la troupe comme sociétaire",
-      "six":"Joly reçoit une augmentation suite à une plainte de responsabilités hors de son emploi",
-      "seven": "Mademoiselle Joly est suspendue de l'assemblée",
-      "eight":"Joly est un des membres de la troupe emprisonnée lors de la révolution",
-      "nine": "Mademoiselle Joly est morte"
+      "naissance": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Élisabeth Vivien, une danseuse à la Comédie Française",
+      "enfant": "La petite Joly paraît pour la première fois sur scène à la Comédie Française à l'âge de sept ans dans le rôle de Louison dans le Malade Imaginaire de Molière",
+      "roles": "",
+      "debut":"La Comédie accorde à Mademoiselle Joly son ordre de début",
+      "reception": "Par une décision polémique, Mademoiselle Joly est reçue par la troupe en tant que sociétaire",
+      "essai":"",
+      "refus": "Joly refuse de jouer et fut remplacée par Mademoiselle Olivier",
+      "augmentation":"Joly reçoit une augmentation suite à une plainte de responsabilités hors de son emploi",
+      "suspension": "Mademoiselle Joly est suspendue de l'assemblée",
+      "replique": "",
+      "prison":"Joly est un des membres de la troupe emprisonnée lors de la révolution",
+      "mort": "Mademoiselle Joly est morte",
+      "filles-1": "",
+      "filles-2": "",
+      "filles-3": "",
+      "filles-4": "",
+      "gratis": ""
     },
     "bellecour": {
-      "one": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
-      "two":"Monsieur Bellecour est reçu à la Comédie-Française",
-      "three":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
-      "four": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
-      "five":"Suite à un incident au sein de l'assemblée, Bellecour calme et défend son camarade M. Raimond.",
-      "six":"Monsieur Bellecour répond à des critiques faites de lui",
-      "seven": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
-      "eight": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
-      "nine": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
-      "ten": "Suite à la mort de Bellecour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
+      "naissance": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
+      "reception":"Monsieur Bellecour est reçu à la Comédie-Française",
+      "roles":"",
+      "retraite":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
+      "sante": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
+      "repertoire":"",
+      "mediateur":"Suite à un incident au sein de l'assemblée, Bellecour calme et défend son camarade M. Raimond.",
+      "pensions":"Monsieur Bellecour répond à des critiques faites de lui",
+      "lekain": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
+      "cour": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
+      "malheur": "Monsieur Bellecour revient sur ses expériences à la Comédie-Française",
+      "mort": "Suite à la mort de Bellecour, Monsieur Préville écrit à Monsieur La Harpe du Mercure de France pour se plaindre de leur nécrologie son collègue"
     },
     "contat": {
-      "one":"Louise Contat est née à des parents de statut peu élevé",
-      "two":"La Comédie accord à Mademoiselle Contat son ordre de début",
-      "three": "Contat est reçue à la troupe et est accordée un quart de part",
-      "four": "Contat reçoit une augmentation, ce qui fait qu'elle a sa demi part",
-      "five": "Contat reçoit une augmentation, ce qui fait qu'elle a trois quarts de part",
-      "six": "L'assemblée débat sur la question d'un paiement de grossesse, en ce qui concerne Mademoiselle Contat",
-      "seven": "Contat reçoit encore une autre augmentation, ce qui lui donne sa part entière",
-      "eight":"Contat est un des membres de la troupe emprisonnée lors de la révolution",
-      "nine": "Mademoiselle Contat reflet franchement au sujet de ses expériences de l'amour",
-      "ten": "Suite à la retraite de Contat, une représentation d'Othello est donnée dans son bénéfice",
-      "eleven":"Mademoiselle Contat est morte"
+      "naissance":"Louise Contat est née à des parents de statut peu élevé",
+      "debut":"La Comédie accord à Mademoiselle Contat son ordre de début",
+      "quart": "Contat est reçue à la troupe et est accordée un quart de part",
+      "demi": "Contat reçoit une augmentation, ce qui fait qu'elle a sa demi part",
+      "trois-quarts": "Contat reçoit une augmentation, ce qui fait qu'elle a trois quarts de part",
+      "grossesse": "L'assemblée débat sur la question d'un paiement de grossesse, en ce qui concerne Mademoiselle Contat",
+      "entiere": "Contat reçoit encore une autre augmentation, ce qui lui donne sa part entière",
+      "prison":"Contat est un des membres de la troupe emprisonnée lors de la révolution",
+      "amour": "Mademoiselle Contat reflet franchement au sujet de ses expériences de l'amour",
+      "retraite":"",
+      "benefice": "Suite à la retraite de Contat, une représentation d'Othello est donnée dans son bénéfice",
+      "mort":"Mademoiselle Contat est morte"
     },
     "mole": {
-      "one":"François-René Molé est né",
-      "two":"Le père de Molé est mort",
-      "three":"Molé débute à la Comédie-Française, mais est jugé insuffisant et repart en province",
-      "four": "Molé devient sociétaire",
-      "five": "En raison de la maladie de Lekain, Molé crée le rôle de Hamlet",
-      "six": "Monsieur Molé crée de rôle de Roméo dans «Roméo et Juliette»",
-      "seven": "Molé et sa femme sont tous les deux gravement malades",
-      "eight": "Molé est absent de l'assemblée, en donnant comme excuse qu'il a complètement oublié son rôle et doit le réapprendre",
-      "nine":"Molé prend comme élève Mademoiselle Candeille",
-      "ten":"Les autres comédiens écrivent à Molé pour lui rappeler que, même étant doyen, il est obligé de suivre les règles de la société",
-      "eleven":"Suite à la révolution, Molé retourne au théâtre",
-      "twelve": "Monsieur Molé et sa famille partent en voyage",
-      "thirteen":"Étant déjà parti pendant trop longtemps, les autres comédiens implorent Monsieur Molé de revenir de la province",
-      "fourteen": "Monsieur Molé est mort"
+      "naissance":"François-René Molé est né",
+      "pere":"Le père de Molé est mort",
+      "debut":"Molé débute à la Comédie-Française, mais est jugé insuffisant et repart en province",
+      "societariat": "Molé devient sociétaire",
+      "hamlet": "En raison de la maladie de Lekain, Molé crée le rôle de Hamlet",
+      "romeo": "Monsieur Molé crée de rôle de Roméo dans «Roméo et Juliette»",
+      "malade": "Molé et sa femme sont tous les deux gravement malades",
+      "absence": "Molé est absent de l'assemblée, en donnant comme excuse qu'il a complètement oublié son rôle et doit le réapprendre",
+      "eleve":"Molé prend comme élève Mademoiselle Candeille",
+      "regles":"Les autres comédiens écrivent à Molé pour lui rappeler que, même étant doyen, il est obligé de suivre les règles de la société",
+      "retour":"Suite à la révolution, Molé retourne au théâtre",
+      "passeport": "Monsieur Molé et sa famille partent en voyage",
+      "vacances":"Étant déjà parti pendant trop longtemps, les autres comédiens implorent Monsieur Molé de revenir de la province",
+      "mort": "Monsieur Molé est mort"
     },
     "vpt": {
-      "one":"Caroline Vanhove est née",
-      "two": "À l'âge de six ans, Vanhove parait pour la première fois sur scène à la Comédie Française dans le rôle de Joas dans l'Athalie de Racine",
-      "three":"L'apparence de Vanhove en tant qu'adulte est bien reçue à la cour et par la presse",
-      "four":"Vanhove se marie avec Petit, un violoniste à la Comédie-Française",
-      "five": "Madame Petit est reçue à la troupe comme double immédiat de Mademoiselle Olivier",
-      "six": "Petit se dispute avec Olivier et sa fille au sujet de la répartition des rôles",
-      "seven": "Au grand dam de Mademoiselle Fleury, Petit utilise son statut au sein de la troupe pour prendre le rôle d'Iphigénie",
-      "eight": "Vanhove se marie avec son célèbre collègue François-Joseph Talma",
-      "nine": "Madame Talma se retire de la Comédie-Française",
-      "ten": "Mademoiselle Vanhove devient comtesse en épousant le comte de Chalot",
-      "eleven": "Caroline est morte"
+      "naissance":"Caroline Vanhove est née",
+      "enfant": "À l'âge de six ans, Vanhove parait pour la première fois sur scène à la Comédie Française dans le rôle de Joas dans l'Athalie de Racine",
+      "debut":"L'apparence de Vanhove en tant qu'adulte est bien reçue à la cour et par la presse",
+      "petit":"Vanhove se marie avec Petit, un violoniste à la Comédie-Française",
+      "reception": "Madame Petit est reçue à la troupe comme double immédiat de Mademoiselle Olivier",
+      "olivier": "Petit se dispute avec Olivier et sa fille au sujet de la répartition des rôles",
+      "fleury": "Au grand dam de Mademoiselle Fleury, Petit utilise son statut au sein de la troupe pour prendre le rôle d'Iphigénie",
+      "talma": "Vanhove se marie avec son célèbre collègue François-Joseph Talma",
+      "retraite": "Madame Talma se retire de la Comédie-Française",
+      "comte": "Mademoiselle Vanhove devient comtesse en épousant le comte de Chalot",
+      "mort": "Caroline est morte"
     },
     "preville": {
-      "one":"Pierre-Louis Du Bus, dit Préville, est né",
-      "two":"De 1738 en 1753, Préville parait dans les théâtres provinciaux",
-      "three": "Monsieur Préville est reçu à la Comédie-Française",
-      "four": "La carrière de Préville fleurit, ses interprétations étant bien reçues",
-      "five": "Ayant gagné un statut assez important, Préville aide à prendre les décisions administratives",
-      "six": "Préville s'occupe des affaires de la troupe suite à un incident violent à Senlis",
-      "seven":"À la demande ardente de ses collègues, Préville sort de la retraite pour retourner à la Comédie-Française",
-      "eight":"Après une longue maladie, Madame Préville est morte",
-      "nine":"Monsieur Préville est mort"
+      "naissance":"Pierre-Louis Du Bus, dit Préville, est né",
+      "formation":"De 1738 en 1753, Préville parait dans les théâtres provinciaux",
+      "reception": "Monsieur Préville est reçu à la Comédie-Française",
+      "talents": "La carrière de Préville fleurit, ses interprétations étant bien reçues",
+      "foire": "Ayant gagné un statut assez important, Préville aide à prendre les décisions administratives",
+      "senlis": "Préville s'occupe des affaires de la troupe suite à un incident violent à Senlis",
+      "retour":"À la demande ardente de ses collègues, Préville sort de la retraite pour retourner à la Comédie-Française",
+      "madame":"Après une longue maladie, Madame Préville est morte",
+      "mort":"Monsieur Préville est mort"
     },
     "axis": {
       "history": {
@@ -112,17 +123,7 @@
         "sub": "De petite prodigue en comédienne controversée"
       },
       "sections": {
-        "one": {
-          "date":"1761.04.08",
-          "caption":"Naissance",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
-        },
 
-        "two": {
-          "date":"1768.10.30",
-          "caption":"Début enfant",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
-        }
       }
     },
     "bellecour": {
@@ -145,52 +146,62 @@
        "twelve": "Bellecour adopte le rôle de médiateur lors d'un conflit entre M. Raimond et les membres de l'assemblée"
       },
       "sections": {
-        "one" : {
+        "naissance" : {
           "date":"1725.01.16",
           "caption":"Naissance",
           "text":" Né à Paris, Bellecour se destine initialement à une carrière artistique comme son père Colson. Après avoir été l’élève du peintre Carle Van Loo, il décide de se lancer dans une carrière théâtrale et fait ses débuts comme acteur à Besançon. C’est au cours de cette période qu’il rencontre M. Préville ; ce dernier lui aurait prodiguer des conseils de jeu. Le duc de Richelieu et Mme Pompadour auraient faciliter son entrée à la Comédie-Française. (Lyonnet)"
         },
-        "two" : {
+        "reception" : {
           "date":"1751.11.02",
           "caption":"Réception à la Comédie-Française",
           "text":"Bellecour est reçu à la Comédie-Française le 20 décembre 1750, la même année que le célèbre Le Kain, reçu le 14 septembre. Il reçoit son ordre d’essai le 2 novembre 1752. Bien que débutant comme acteur comique ou tragique, il se spécialise dans la comédie."
         },
-        "three" : {
+        "roles" : {
+          "date":"",
+          "caption": "",
+          "text": ""
+        },
+        "retraite" : {
           "date":"1769.02.19",
           "caption":"Tentative de retraite",
           "text":"Après près de 20 ans au service de la Comédie-Française, Bellecour, malade, demande de prendre sa retraite, mais le Duc de Richelieu lui ordonne de poursuivre sa carrière en lui proposant cependant un congé de trois mois afin de régler ses problèmes de santé. Ce droit de refus de la part de la cour fait partie des articles du règlement de 1757."
         },
-        "four" : {
+        "sante" : {
           "date":"1773",
           "caption":"Troubles de santé",
           "text":"L’année de 1773 est ponctuée de lettres qui témoignent de la santé défaillante de Bellecour. Ces missives destinées initialement à la troupe montrent non seulement à quel point les obligations de l’Assemblée autant que celles de la scène pèsent sur le quotidien de l’acteur, elles rendent compte de l’attention portée au corps dans la correspondance des acteurs, car Bellecour est un exemple parmi d’autres de l’importance accordée à la maladie et aux défaillances corporelles."
         },
-        "five" : {
+        "repertoire" : {
+          "date":"",
+          "caption": "",
+          "text": ""
+        },
+        "mediateur" : {
           "date":"1775",
           "caption":"Médiateur de conflits",
           "text":"Plusieurs lettres témoignent de la personnalité bienveillante de Bellecour et de son rôle de médiateur au sein de la troupe. Cet incident au sujet du pensionnaire Raimond est un bon exemple de la personnalité du comédien qui agit comme médiateur de conflits. Soucieux de rappeler que la justice doit être le guide des décisions communes, Bellecour rend compte de l’importance de se soumettre collectivement à des valeurs d’équité lorsqu’il est question de prendre des décisions financières et administratives."
         },
-        "six" : {
+        "pensions" : {
           "date":"1777.09.03",
           "caption":"Pensions",
           "text":"Ayant reçu une lettre menaçante, Bellecour l’envoie à un destinataire inconnu - « à un protecteur » selon des notes éditoriales - en donnant son avis sur la situation. S’il ne se montre pas perturbé par les menaces, il relève cependant le fait qu’il reçoit une pension inférieure à celle de ses camarades. Lekain, entré à la Comédie quelques mois avant lui reçoit 1500 livres de plus que lui. D’autres lettres de Bellecour témoignent du fait que l’acteur accorde de l’importance aux injustices en général et que la troupe des Comédiens Français est loin de correspondre à ses idéaux moraux et sociaux."
         },
-        "seven" : {
+        "lekain" : {
           "date":"1778.02.09",
           "caption":"Mort de Lekain",
           "text":"Bellecour écrit à l’Assemblée peu après la mort de Lekain. Il affirme être bouleversé par la mort de cet ami essentiel à la Comédie-Française selon lui. Bellecour conclut que sa propre carrière devrait aussi prendre fin et en ce moment de fragilité et de deuil, il exprime sa grande admiration pour la troupe."
         },
-        "eight" : {
+        "cour" : {
           "date":"1778.03.27",
           "caption":"Troupe à la cour ?",
           "text":"Chargé de mener une enquête sur la possibilité d’avoir une autre troupe à la cour, M. Bellecour présente ses conclusions. Il s’inquiète que cette nouvelle troupe pourrait rendre obsolète les Comédiens du Roy. Le fait qu’on lui a confié cette tâche importante confirme l’estime qu’inspire Bellecour au sein des fonctionnaires de la Comédie-Française."
         },
-        "nine" : {
+        "malheur" : {
           "date":"1778",
           "caption":"Désenchantement",
           "text":"Dans sa dernière année à la Comédie-Française, Bellecour exprime enfin une désenchantement avec le traitement qu’il a reçu pendant sa carrière. Il a passé 27 ans en soutenant sa société et en se sacrifiant pour elle, mais il ne se sent pas du tout apprécié."
         },
-        "ten" : {
+        "mort" : {
           "date":"1778.12.08",
           "caption":"Éloges",
           "text":"Suite à la mort de Bellecour, un éloge peu flattant paraît dans Le Mercure. Enragé par cette représentation si erronée de son camarade et ami, Préville écrit à M. La Harpe - le rédacteur en chef - pour se plaindre, et également pour répondre aux calomnies."
