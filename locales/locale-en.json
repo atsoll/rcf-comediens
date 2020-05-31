@@ -123,15 +123,65 @@
         "sub": "From pint-sized prodigy to controversial character"
       },
       "sections": {
-        "one": {
+        "naissance": {
           "date":"1761.04.08",
           "caption":"Birth",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
+          "text": "Marie Élisabeth Joly is born in Versailles to Thomas Joly, a hardware merchant in Paris and dancer with the Comédie-Française, and to Élisabeth Vivien Joly, a dancer with the Comédie-Française."
         },
-        "two": {
+        "enfant": {
           "date":"1768.10.30",
           "caption":"Childhood debut",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi. Pharetra diam sit amet nisl. Donec enim diam vulputate ut pharetra. Viverra justo nec ultrices dui sapien eget mi. Tincidunt eget nullam non nisi est sit. Aliquam faucibus purus in massa. Sit amet volutpat consequat mauris nunc congue. Odio eu feugiat pretium nibh. Amet risus nullam eget felis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Purus ut faucibus pulvinar elementum integer. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elementum curabitur vitae nunc sed. Id aliquet lectus proin nibh nisl."
+          "text": "At the age of 7, Joly makes her first appearance onstage at the Comédie-Française, playing Louison in Molière’s Le Malade imaginaire. The casting record identifies her as “daughter of the dancer”."
+        },
+        "roles" : {
+          "date":"1769-1770",
+          "caption":"Childhood roles",
+          "text":"This document summarizes the roles played by Joly between July 1769 and March 1770, as well as the payment due to her for these performances."
+        },
+        "debut" : {
+          "date":"1781.03.28",
+          "caption":"Adult debut",
+          "text":"At nearly 20 years old, Joly receives her adult debut order to allow the Comédie to “judge her talents”."
+        },
+        "reception" : {
+          "date":"1781.03.30",
+          "caption":"Opinions on her reception",
+          "text":"Following her debut, the Comédie’s assembly discusses Joly’s formal admittance to the troupe. Mrs. Bellecour maintains that a two-year probation period is standard and still necessary in this case. Mr. Préville, however, agrees with the Maréchal de Duras that Joly should be admitted to the troupe right away. This opinion prevailed, with ten members in agreement and only six in opposition."
+        },
+        "essai" : {
+          "date":"1781.05.21",
+          "caption":"Reception",
+          "text":"Following the debate surrounding her admission to the troupe, Mlle Joly is received by the Comédie Française with a salary of 2000 pounds each year."
+        },
+        "refus" : {
+          "date":"1783.06",
+          "caption":"Refusal to perform",
+          "text":"The Duke of Duras advises the assembly of the Comédie on Joly’s refusal to perform; while she has proven her goodwill in the past, he considers her refusal to perform ridiculous and worthy of punishment, considering the Comédie may have had to close had Ms. Ollivier not been ready to perform in her place. However, he concludes that her behaviour will be overlooked on this occasion, considering the goodwill she has demonstrated in the past."
+        },
+        "augmentation" : {
+          "date":"1783.06.30",
+          "caption":"Request for a raise",
+          "text":"Joly requests a pay raise to cover her necessary expenses. She alludes to the everyday expenses that result from her acting career, and reminds the troupe of her dedication and hard work, even for roles that are not within her standard repertoire, as these require her to purchase additional costumes. The committee agrees with her request, and forwards her letter to the Duke of Duras with their support."
+        },
+        "suspension" : {
+          "date":"1784.09.21",
+          "caption":"Suspension from the assembly",
+          "text":"On the basis of numerous complaints made about Joly, Mrs. Bellecour proposes that Joly be suspended from all assemblies but those for repertoire. Mr. Dugazon agrees, with the addition of restricting her ability to grant entry to the audience. All others are in agreement with Mrs. Bellecour, and the committee concludes that she will be suspended from assemblies for six months."
+        },
+        "replique" : {
+          "date":"1784.10.11",
+          "caption":"Declaration of innocence",
+          "text":"In response to her suspension, Joly maintains her innocence, insisting that the complaints made about her are false."
+        },
+        "prison" : {
+          "date":"1793.10.07",
+          "caption":"Imprisonment during the Revolution",
+          "text":"Imprisoned with the other Comédiens du Roi in 1793, writes to an unknown recipient from the Saint Pélagie prison about the injustice of her imprisonment."
+        },
+        "mort" : {
+          "date":"1798.05.05",
+          "caption":"Death",
+          "text":"Joly passes away in Paris at the age of 37, and is buried at Sousmont-Saint-Quentin."
         }
       }
     },

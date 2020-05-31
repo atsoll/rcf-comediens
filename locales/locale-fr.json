@@ -123,7 +123,66 @@
         "sub": "De petite prodigue en comédienne controversée"
       },
       "sections": {
-
+        "naissance": {
+          "date":"1761.04.08",
+          "caption":"Naissance",
+          "text":"Marie Élisabeth Joly est née à Versailles, fille de Thomas Joly, marchand quincaillier à Paris et danseur à la Comédie-Française, et d’Élisabeth Vivien Joly, danseuse à la Comédie-Française."
+        },
+        "enfant" : {
+          "date":"1768.10.30",
+          "caption":"Début d'enfance",
+          "text":"La petite Joly paraît pour la première fois sur scène à la Comédie-Française à l’âge de sept ans dans le rôle de Louison du Malade imaginaire. Le feu l’identifie comme « fille du danseur »."
+        },
+        "roles" : {
+          "date":"1769-1770",
+          "caption":"Rôles d'enfance",
+          "text":"« L’État des feux dus à Mademoiselle Joly » résume les pièces dans lesquelles elle joue entre juillet 1769 et mars 1770, ainsi que la rémunération qui lui est due."
+        },
+        "debut" : {
+          "date":"1781.03.28",
+          "caption":"Début adulte",
+          "text":"À l’âge de presque 20 ans, Mlle Joly reçoit son ordre de début adulte pour que la Comédie puisse « juger de ses talents ». Son premier rôle adulte sera Dorine de Tartuffe, le 1er mai 1781."
+        },
+        "reception" : {
+          "date":"1781.03.30",
+          "caption":"Avis sur sa réception",
+          "text":"Lors de son début, l’assemblée discute de sa réception ; Mme. Bellecour soutient que les deux années d’essai sont toujours nécessaire avant la réception. M. Préville soutient l’avis du Maréchal de Duras, que Mlle. Joly devrait être reçue immédiatement. L’opinion de M. Préville a dominé, avec 10 voix de son avis et 6 de l’avis de Mme. Bellecour."
+        },
+        "essai" : {
+          "date":"1781.05.21",
+          "caption":"Réception à l'essai",
+          "text":"Suivant la délibération sur sa réception, Mlle Joly est reçue à la Comédie Française moins de deux mois plus tard, aux appointements de 2000 livres par an."
+        },
+        "refus" : {
+          "date":"1783.06",
+          "caption":"Refus de jouer",
+          "text":"Le Maréchal de Duras donne son avis sur le refus de Mlle Joly de jouer ; bien qu’elle ait montré sa bienveillance pendant son années à la Comédie, il considère que son refus de jouer est ridicule et mérite d’être puni, étant donné que la Comédie aurait dû fermer si Mlle. Olivier n’était pas prête à la remplacer. Cependant, il conclut que le comportement de Joly pourra être oublié cette fois-ci à cause des preuves de bonne volonté qu’elle a montré au passé."
+        },
+        "augmentation" : {
+          "date":"1783.06.30",
+          "caption":"Demande d'augmentation",
+          "text":"Joly demande une augmentation pour couvrir ses dépenses nécessaires. Elle fait référence aux dépenses quotidiennes auxquelles donne lieu sa carrière de comédienne, et rappelle à la troupe sa dédication, même pour des rôles hors de son emploi qui l’oblige à acheter d’autres costumes. Le comité est d’accord avec sa demande, et transmet sa lettre au Duc de Duras pour montrer leur soutien."
+        },
+        "suspension" :{
+          "date":"1784.09.21",
+          "caption":"Suspension de l'assemblée",
+          "text":"Suivant de nombreuses plaintes portées contre Joly, Mme. Bellecour propose de suspendre Mlle. Joly des assemblées, à l’exception des assemblées de répertoire. M. Dugazon est d’accord, mais il propose qu’elle soit aussi privée des entrées au parterre. Les autres sont tous de l’avis de Mme. Bellecour."
+        },
+        "replique" : {
+          "date":"1784.10.11",
+          "caption":"Déclaration d’innocence",
+          "text":"En réponse à sa suspension, Joly soutient son innocence : elle insiste que les plaintes portées contre elle sont fausses."
+        },
+        "prison" : {
+          "date":"1793.10.07",
+          "caption":"Emprisonnement pendant la Révolution",
+          "text":"Mlle. Joly, emprisonnée avec les Comédiens du Roi en 1793, écrit de la prison de Ste. Pélagie à un destinateur inconnu, exprimant l’injustice de sa position."
+        },
+        "mort" : {
+          "date":"1798.05.05",
+          "caption":"Mort",
+          "text":"Joly meurt à l’âge de 37 ans à Paris, et est enterrée à Sousmont-Saint-Quentin."
+        }
       }
     },
     "bellecour": {
