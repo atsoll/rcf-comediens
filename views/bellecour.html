@@ -1,4 +1,4 @@
-<div class= "actor-details col-md-12" -du-scroll-container  data-aos="fade-in"  data-aos-duration="2000">
+<div class= "actor-details col-md-12" -du-scroll-container  data-aos="fade-in"  data-aos-duration="2000" id="bellecour-header">
   <div class="header col-md-10 col-md-offset-1">
     <div class="header-text col-md-9">
       <div class="title">{{'content.bellecour.title.main' | translate}}</div>
@@ -30,7 +30,7 @@
           <div class="img-content">
             <div class="img-wrapper col-md-6">
               <img ez-plus ezp-model="{large:'style/img/bellecour/reception.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-1'}" src='style/img/bellecour/reception.jpg' style="height: 45vh">
-              <div class="img-caption">{{'content.bellecour.captions.one'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.reception'| translate}}</div>
             </div>
             <div class="transcription col-md-6 ">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -54,6 +54,30 @@
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content" >
           <p>{{'content.bellecour.sections.roles.text' | translate}}</p>
+          <div class="img-content" style="display:block !important">
+            <div class="img-wrapper">
+              <div class="carousel" style="width: 50%; margin-left: 24%">
+                 <slick class="slider carous" settings="slickConfig">
+                   <div><img ez-plus ezp-model="{large:'style/img/bellecour/roles_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-36'}" src='style/img/bellecour/roles_1.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/roles_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-37'}" src='style/img/bellecour/roles_2.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/roles_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-38'}" src='style/img/bellecour/roles_3.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/roles_4.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-39'}" src='style/img/bellecour/roles_4.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/roles_5.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-40'}" src='style/img/bellecour/roles_5.jpg'></div>
+                 </slick>
+              </div>
+              <div class="img-caption">{{'content.bellecour.captions.roles'| translate}}</div>
+            </div>
+          </div>
+          <div class="img-content">
+            <div class="img-wrapper col-md-6">
+              <img ez-plus ezp-model="{large:'style/img/bellecour/philoctete.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-41', zoomWindowPosition: 11}" src='style/img/bellecour/philoctete.jpg' style="height: 45vh" >
+              <div class="img-caption">{{'content.bellecour.captions.philoctete'| translate}}</div>
+            </div>
+            <div class="img-wrapper col-md-6">
+              <img ez-plus ezp-model="{large:'style/img/bellecour/valere.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-42', zoomWindowPosition: 11}" src='style/img/bellecour/valere.jpg' style="height: 45vh" >
+              <div class="img-caption">{{'content.bellecour.captions.valere'| translate}}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -69,7 +93,7 @@
           <div class="img-content">
             <div class="img-wrapper col-md-6">
               <img ez-plus ezp-model="{large:'style/img/bellecour/retraite.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-2'}" src='style/img/bellecour/retraite.jpg' style="height: 45vh" >
-              <div class="img-caption">{{'content.bellecour.captions.two'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.retraite'| translate}}</div>
             </div>
             <div class="transcription col-md-6">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -83,7 +107,7 @@
             </div>
             <div class="img-wrapper col-md-6">
               <img src='style/img/bellecour/reglement_retraite.png'>
-              <div class="img-caption">{{'content.bellecour.captions.three'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.onze'| translate}}</div>
             </div>
           </div>
         </div>
@@ -101,12 +125,12 @@
           <div class="img-content">
             <div class="col-md-6 img-wrapper">
               <div class="carousel">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/malade_1_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-4'}" src='style/img/bellecour/malade_1_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/malade_1_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-5'}" src='style/img/bellecour/malade_1_2.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.four'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.malade_1'| translate}}</div>
             </div>
             <div class="transcription col-md-6">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -122,7 +146,7 @@
             </div>
             <div class="img-wrapper col-md-6">
               <img ez-plus ezp-model="{large:'style/img/bellecour/malade_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-6', zoomWindowPosition: 11}" src='style/img/bellecour/malade_2.jpg' style="height: 45vh" >
-              <div class="img-caption">{{'content.bellecour.captions.five'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.malade_2'| translate}}</div>
             </div>
           </div>
           <div class="modal-access"  style=" border-color: {{model.curr.colour}}; color: {{model.curr.colour}}"  ng-click="openModal('views/modals/corps.html')">
@@ -140,6 +164,20 @@
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content" >
           <p>{{'content.bellecour.sections.repertoire.text' | translate}}</p>
+          <div class="img-content" style="display:block !important">
+            <div class="img-wrapper">
+              <div class="carousel" style="width: 50%; margin-left: 24%">
+                 <slick class="slider carous" settings="slickConfig">
+                   <div><img ez-plus ezp-model="{large:'style/img/bellecour/repertoire_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-43'}" src='style/img/bellecour/repertoire_1.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/repertoire_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-44'}" src='style/img/bellecour/repertoire_2.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/repertoire_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-45'}" src='style/img/bellecour/repertoire_3.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/repertoire_4.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-46'}" src='style/img/bellecour/repertoire_4.jpg'></div>
+                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/repertoire_5.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-47'}" src='style/img/bellecour/repertoire_5.jpg'></div>
+                 </slick>
+              </div>
+              <div class="img-caption">{{'content.bellecour.captions.repertoire'| translate}}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -155,7 +193,7 @@
           <div class="img-content">
             <div class="img-wrapper col-md-6">
               <img ez-plus ezp-model="{large:'style/img/bellecour/raimond.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-1'}" src='style/img/bellecour/raimond.jpg' style="height: 45vh">
-              <div class="img-caption">{{'content.bellecour.captions.twelve'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.mediateur'| translate}}</div>
             </div>
             <div class="transcription col-md-6 ">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -181,13 +219,13 @@
             </div>
             <div class="img-wrapper col-md-6">
               <div class="carousel">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/pensions_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-8', zoomWindowPosition: 11}" src='style/img/bellecour/pensions_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/pensions_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-9', zoomWindowPosition: 11}" src='style/img/bellecour/pensions_2.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/pensions_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-10', zoomWindowPosition: 11}" src='style/img/bellecour/pensions_3.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.seven'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.pensions'| translate}}</div>
             </div>
           </div>
           <div class="modal-access"  style=" border-color: {{model.curr.colour}}; color: {{model.curr.colour}}"  ng-click="openModal('views/modals/pensions.html')">
@@ -208,13 +246,13 @@
           <div class="img-content" style="display:block !important">
             <div class="img-wrapper">
               <div class="carousel" style="width: 50%; margin-left: 24%">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/lekain_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-11'}" src='style/img/bellecour/lekain_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/lekain_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-12'}" src='style/img/bellecour/lekain_2.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/lekain_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-13'}" src='style/img/bellecour/lekain_3.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.eight'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.lekain'| translate}}</div>
             </div>
             <div class="transcription">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -240,7 +278,7 @@
           <div class="img-content">
             <div class="img-wrapper col-md-6">
               <div class="carousel">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/cour_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-14'}" src='style/img/bellecour/cour_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/cour_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-15'}" src='style/img/bellecour/cour_2.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/cour_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-16'}" src='style/img/bellecour/cour_3.jpg'></div>
@@ -255,7 +293,7 @@
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/cour_12.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-25'}" src='style/img/bellecour/cour_12.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.nine'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.cour'| translate}}</div>
             </div>
             <div class="transcription col-md-6">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -278,7 +316,7 @@
           <div class="img-content" style="display: block !important">
             <div class="img-wrapper">
               <div class="carousel" style="width: 50%; margin-left: 24%">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/triste_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-26'}" src='style/img/bellecour/triste_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/triste_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-27'}" src='style/img/bellecour/triste_2.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/triste_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-28'}" src='style/img/bellecour/triste_3.jpg'></div>
@@ -288,7 +326,7 @@
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/triste_7.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-32'}" src='style/img/bellecour/triste_7.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.ten'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.malheur'| translate}}</div>
             </div>
             <div class="transcription">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -320,13 +358,13 @@
           <div class="img-content" style="display: block !important">
             <div class="img-wrapper">
               <div class="carousel" style="width: 50%; margin-left: 24%">
-                 <slick class="slider carous">
+                 <slick class="slider carous" settings="slickConfig">
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/eloge_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-33'}" src='style/img/bellecour/eloge_1.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/eloge_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-34'}" src='style/img/bellecour/eloge_2.jpg'></div>
                    <div><img ez-plus ezp-model="{large:'style/img/bellecour/eloge_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'b-35'}" src='style/img/bellecour/eloge_3.jpg'></div>
                  </slick>
               </div>
-              <div class="img-caption">{{'content.bellecour.captions.eleven'| translate}}</div>
+              <div class="img-caption">{{'content.bellecour.captions.mercure'| translate}}</div>
             </div>
             <div class="transcription">
               <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
@@ -339,5 +377,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="scroll-to-top" ng-click="scrollTo('bellecour-header')">
+    <i class="fa fa-arrow-up" style="color:{{model.curr.colour}}"></i>
+    <p>{{'top'|translate}}</p>
   </div>
 </div>

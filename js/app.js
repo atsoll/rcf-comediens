@@ -89,7 +89,7 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate, $documen
                {pseudo: "Préville", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/137push1718_Preville.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/preville", colour: "#edc948",  link: "#!preville", signature:prefix + "style/img/preville/signature.png"}],
       femmes: [{pseudo: "Joly", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/182push1718_MlleJoly.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/marie-elisabeth-joly", colour: "#f28e2b",  link: "#!joly", signature:prefix + "style/img/joly/signature.png"},
                {pseudo: "Contat", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/171push1718_MlleContat.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/louise-contat", colour: "#ff9da7",  link: "#!contat", signature:prefix + "style/img/contat/signature.png"},
-               {pseudo: "Vanhove-Petit-Talma", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/187push1718_MmeTalma.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/caroline-talma", colour: "#59a14f",  link: "#!vanhove-petit-talma", signature:prefix + "style/img/vanhove-petit-talma/signature.png"}]
+               {pseudo: "Vanhove-Petit-Talma", img_src:"https://www.comedie-francaise.fr/www/comedie/cache/media/square_w400_h500/187push1718_MmeTalma.jpg", cf_link:"https://www.comedie-francaise.fr/fr/artiste/caroline-talma", colour: "#59a14f",  link: "#!vanhove-petit-talma", signature:prefix + "style/img/vpt/signature.png"}]
     },
     curr:null,
     //fudged variable used to flag dates that are only years
@@ -110,6 +110,12 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate, $documen
 
   }
 
+  $scope.slickConfig = {
+    dots:true,
+    inifinite: true,
+    slidesToShow:1
+  }
+
   $scope.changeLang = function(l) {
     $scope.model.lang = l;
     $translate.use(l);
@@ -125,6 +131,11 @@ app.controller('ctrl', function($scope, $window, $uibModal, $translate, $documen
 
   $scope.closeModal = function() {
     $scope.model.modalInstance.close();
+  }
+
+  $scope.scrollTo = function(id) {
+    var someElement = document.getElementById(id);
+    $document.duScrollToElementAnimated(someElement);
   }
 
   $scope.$on('$locationChangeSuccess', function(event, toState){

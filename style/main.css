@@ -121,10 +121,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
 }
 
-.stacked {
-  position: absolute;
-}
-
 .icon {
   z-index: -1;
   width: 130px;
@@ -133,17 +129,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 24px;
   margin-top: 30px;
   border: 10px solid;
-}
-
-.frame {
-  z-index: 0;
-  width: 180px;
-  height: 250px;
-  margin-top: -3vh;
-}
-
-.frame:hover {
-  transform: scale(1.01);
 }
 
 .header-text {
@@ -427,19 +412,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 40px !important;
 }
 
-.slick-next.slick-arrow::before {
-  margin-left: -20px;
-}
+
 
 .slick-slide {
    max-height:75vh;
 }
 
 .slick-slide img {
-   max-height:75vh;
+   max-height:70vh;
    padding-left: 25px;
    padding-right: 25px;
-   margin-right: -20px;
+   margin:auto;
 }
 
 .portrait-container {
@@ -463,4 +446,26 @@ h1, h2, h3, h4, h5, h6 {
 
 body.modal-open {
 padding-right: 0!important;
+}
+
+.scroll-to-top {
+  text-align: center;
+  margin-top: 3vh;
+  padding-bottom: 5vh;
+  font-size: 30px;
+  width: 20%;
+  margin:auto;
+  opacity: 0.5;
+  color: rgb(120,120,120)
+}
+
+.scroll-to-top:hover {
+ opacity:1;
+ cursor:pointer;
+}
+
+.scroll-to-top > p {
+  text-transform: uppercase;
+  font-size: 18px !important;
+  font-weight: lighter;
 }

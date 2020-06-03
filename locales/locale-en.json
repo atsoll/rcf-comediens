@@ -1,6 +1,7 @@
 {
   "source":"See the register",
   "mercure": "See the Mercure",
+  "top":"back to top",
   "timeline": {
     "joly": {
       "naissance": "Marie Elisabeth Joly is born in Versailles to parents Thomas Joly, a hardware merchant in Paris, and Elisabeth Vivien, a dancer with the Comédie Française",
@@ -191,18 +192,22 @@
         "sub": "« Tout est heur ou malheur »"
       },
       "captions": {
-        "one": "Monsieur Bellecour's formal reception into the troupe",
-        "two":"Denial of Bellecour's request to retire",
-        "three":"Article eleven of the 1757 regulations",
-        "four":"Letter dated January 18, 1773",
-        "five":"Letter dated March 17, 1773",
-        "six": "Letter recounting how he calmed Mr. Raimond",
-        "seven":"Letter regarding pensions",
-        "eight": "Bellecour is overcome with grief at the death of his dear friend Lekain",
-        "nine": "Bellecour reports on his findings",
-        "ten": "Monsieur Bellecour feels under-appreciated",
-        "eleven":"Préville reacts to the Bellecour's obituary, as printed in the Mercure",
-        "twelve": "When a conflict arises between M Raimond and the members of the administration, Bellecour serves as mediator"
+        "reception": "Monsieur Bellecour's formal reception into the troupe",
+        "retraite":"Denial of Bellecour's request to retire",
+        "onze":"Article eleven of the 1757 regulations",
+        "malade_1":"Letter dated January 18, 1773",
+        "malade_2":"Letter dated March 17, 1773",
+        "raimond": "Letter recounting how he calmed Mr. Raimond",
+        "pensions":"Letter regarding pensions",
+        "lekain": "Bellecour is overcome with grief at the death of his dear friend Lekain",
+        "cour": "Bellecour reports on his findings",
+        "malheur": "Monsieur Bellecour feels under-appreciated",
+        "mercure":"Préville reacts to the Bellecour's obituary, as printed in the Mercure",
+        "mediateur": "When a conflict arises between M Raimond and the members of the administration, Bellecour serves as mediator",
+        "roles":"The roles which Bellecour played",
+        "philoctete":"Bellecour as Philoctète (Œdipe)",
+        "valere":"Bellecour as Valère (Le Joueur)",
+        "repertoire":"Bellecour weighs in on what plays should be included in the troupe's repertoire"
       },
       "sections": {
         "naissance" : {

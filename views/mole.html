@@ -1,4 +1,4 @@
-<div class= "actor-details col-md-12" -du-scroll-container data-aos="fade-in"  data-aos-duration="2000">
+<div class= "actor-details col-md-12" -du-scroll-container data-aos="fade-in"  data-aos-duration="2000" id="mole-header">
   <div class="header col-md-10 col-md-offset-1">
     <div class="header-text col-md-9">
       <div class="title">{{'content.mole.title.main' | translate}}</div>
@@ -134,7 +134,7 @@
         <span class="date">{{'content.mole.sections.vacances.date' | translate}}</span>
         <span class="caption"> {{'content.mole.sections.vacances.caption' | translate}}</span>
       </div>
-      <div class="timeline-event" style="border-color: rgba(0,0,0,0)">
+      <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.vacances
           .text' | translate}}</div>
       </div>
@@ -149,5 +149,9 @@
         <div class="content">{{'content.mole.sections.mort.text' | translate}}</div>
       </div>
     </div>
+  </div>
+  <div class="scroll-to-top" ng-click="scrollTo('mole-header')">
+    <i class="fa fa-arrow-up" style="color:{{model.curr.colour}}"></i>
+    <p>{{'top'|translate}}</p>
   </div>
 </div>

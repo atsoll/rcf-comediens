@@ -1,4 +1,4 @@
-<div class= "actor-details col-md-12" -du-scroll-container data-aos="fade-in"  data-aos-duration="2000">
+<div class= "actor-details col-md-12" -du-scroll-container data-aos="fade-in"  data-aos-duration="2000" id="contat-header">
   <div class="header col-md-10 col-md-offset-1">
     <div class="header-text col-md-9">
       <div class="title">{{'content.contat.title.main' | translate}}</div>
@@ -128,5 +128,9 @@
         <div class="content">{{'content.contat.sections.mort.text' | translate}}</div>
       </div>
     </div>
+  </div>
+  <div class="scroll-to-top" ng-click="scrollTo('contat-header')">
+    <i class="fa fa-arrow-up" style="color:{{model.curr.colour}}"></i>
+    <p>{{'top'|translate}}</p>
   </div>
 </div>

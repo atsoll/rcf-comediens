@@ -1,6 +1,7 @@
 {
   "source":"Voir le registre",
   "mercure":"Voir le Mercure ",
+  "top":"retour en haut",
   "timeline": {
     "joly": {
       "naissance": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Élisabeth Vivien, une danseuse à la Comédie Française",
@@ -191,18 +192,21 @@
         "sub": "« Tout est heur ou malheur »"
       },
       "captions": {
-        "one": "L'ordre de réception de Monsieur Bellecour",
-       "two":"Refus de la demande de retraite de Bellecour",
-       "three":"L'article onze du règlement de 1757",
-       "four":"Lettre du 18 janvier 1773",
-       "five":"Lettre du 17 mars 1773",
-       "six":"Lettre qui témoigne comment il a calmé M. Raimond",
-       "seven":"Lettre au sujet des pensions",
-       "eight":"Bellecour est bouleversé par la mort de son cher ami Lekain",
-       "nine": "Bellecour présente ses conclusions",
-       "ten":"Monsieur Bellecour se sent sous-estimé",
-       "eleven":"Préville répond aux commentaires faits à propos de Bellecour dans le Mercure",
-       "twelve": "Bellecour adopte le rôle de médiateur lors d'un conflit entre M. Raimond et les membres de l'assemblée"
+       "reception": "L'ordre de réception de Monsieur Bellecour",
+       "retraite":"Refus de la demande de retraite de Bellecour",
+       "onze":"L'article onze du règlement de 1757",
+       "malade_1":"Lettre du 18 janvier 1773",
+       "malade_2":"Lettre du 17 mars 1773",
+       "pensions":"Lettre au sujet des pensions",
+       "lekain":"Bellecour est bouleversé par la mort de son cher ami Lekain",
+       "cour": "Bellecour présente ses conclusions",
+       "malheur":"Monsieur Bellecour se sent sous-estimé",
+       "mercure":"Préville répond aux commentaires faits à propos de Bellecour dans le Mercure",
+       "mediateur": "Bellecour adopte le rôle de médiateur lors d'un conflit entre M. Raimond et les membres de l'assemblée",
+       "roles":"Les rôles que jouait Bellecour",
+       "philoctete":"Bellecour en Philoctète (Œdipe)",
+       "valere":"Bellecour en Valère (Le Joueur)",
+       "repertoire":"Bellecour donne son avis sur les pièces que devrait jouer la troupe"
       },
       "sections": {
         "naissance" : {
