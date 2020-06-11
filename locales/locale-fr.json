@@ -247,27 +247,27 @@
         "pensions" : {
           "date":"1777.09.03",
           "caption":"Pensions",
-          "text":"Ayant reçu une lettre menaçante, Bellecour l’envoie à un destinataire inconnu - « à un protecteur » selon des notes éditoriales - en donnant son avis sur la situation. S’il ne se montre pas perturbé par les menaces, il relève cependant le fait qu’il reçoit une pension inférieure à celle de ses camarades. Lekain, entré à la Comédie quelques mois avant lui reçoit 1500 livres de plus que lui. D’autres lettres de Bellecour témoignent du fait que l’acteur accorde de l’importance aux injustices en général et que la troupe des Comédiens Français est loin de correspondre à ses idéaux moraux et sociaux."
+          "text":"Ayant reçu une lettre de menaces dont nous ignorons la cause, Bellecour s’adresse à un « à un protecteur » pour donner son avis sur la situation financière des membres de la troupe. ll relève le fait que sa pension est inférieure à d’autres sociétaires. Il prend l’exemple de son « alter ego » Lekain, entré à la Comédie quelques mois avant lui et recevant 1500 livres de plus annuellement. D’autres lettres de Bellecour confirment qu’il est sensible aux injustices en général et que la troupe des Comédiens Français est loin de correspondre à ses idéaux moraux et sociaux."
         },
         "lekain" : {
           "date":"1778.02.09",
           "caption":"Mort de Lekain",
-          "text":"Bellecour écrit à l’Assemblée peu après la mort de Lekain. Il affirme être bouleversé par la mort de cet ami essentiel à la Comédie-Française selon lui. Bellecour conclut que sa propre carrière devrait aussi prendre fin et en ce moment de fragilité et de deuil, il exprime sa grande admiration pour la troupe."
+          "text":"Peu après la mort de Lekain, Bellecour écrit à l’Assemblée pour faire part de sa peine. Il témoigne de son bouleversement et rappelle à la troupe combien ce comédien représente une perte majeure pour le théâtre. Il affirme même vouloir mettre fin à sa propre carrière tout en rappelant son allégeance à la troupe. Ressort de cette lettre le deuil, la sensibilité et la vulnérabilité du comédien."
         },
         "cour" : {
           "date":"1778.03.27",
           "caption":"Troupe à la cour ?",
-          "text":"Chargé de mener une enquête sur la possibilité d’avoir une autre troupe à la cour, M. Bellecour présente ses conclusions. Il s’inquiète que cette nouvelle troupe pourrait rendre obsolète les Comédiens du Roy. Le fait qu’on lui a confié cette tâche importante confirme l’estime qu’inspire Bellecour au sein des fonctionnaires de la Comédie-Française."
+          "text":"En 1778, Bellecour est chargé de réfléchir à la création d’une troupe dédiée essentiellement au service de la cour. Cette lettre présente les conclusions de son enquête qui sont plutôt défavorables. Il s’inquiète notamment de la rivalité possible entre cette nouvelle troupe et les actuels comédiens du Roy. En lui confiant cette tâche importante, les membres de l’Assemblée témoignent de la confiance qu’inspire Bellecour en tant qu’administrateur."
         },
         "malheur" : {
           "date":"1778",
           "caption":"Désenchantement",
-          "text":"Dans sa dernière année à la Comédie-Française, Bellecour exprime enfin une désenchantement avec le traitement qu’il a reçu pendant sa carrière. Il a passé 27 ans en soutenant sa société et en se sacrifiant pour elle, mais il ne se sent pas du tout apprécié."
+          "text":"La dernière année de Bellecour à la Comédie-Française est marquée par le désenchantement du comédien. L’heure est au bilan : après 27 ans passés de sacrifice et de modestie, il critique la morale de la troupe gagnée par des rivalités et des jalousies. Une fois encore, le comédien  donne l’image d’une personne hautement morale."
         },
         "mort" : {
           "date":"1778.12.08",
           "caption":"Éloges",
-          "text":"Suite à la mort de Bellecour, un éloge peu flattant paraît dans Le Mercure. Enragé par cette représentation si erronée de son camarade et ami, Préville écrit à M. La Harpe - le rédacteur en chef - pour se plaindre, et également pour répondre aux calomnies."
+          "text":"À la mort de Bellecour, un éloge peu flatteur paraît dans le Mercure de France.  Enragé par cette représentation fautive et désireux de rendre justice à son camarade et ami, Préville écrit à M. La Harpe, alors rédacteur en chef, pour se plaindre. Cet échange témoigne autant de la place importante qu’occupe la presse périodique dans la construction de l’image publique des comédiens que des liens d’amitié qui nouent les acteurs entre-eux."
         }
       }
     },
@@ -336,7 +336,8 @@
   },
   "asides": {
     "contrast": {
-      "title": "Le couple Bellecour - personnalités contrastées"
+      "title": "Le couple Bellecour - personnalités contrastées",
+      "content":"Tous deux sociétaires à la Comédie-Française pendant presque trois décennies, M. et Mme Bellecour apparaissent dans les dossiers manuscrits de la Comédie-Française comme un couple aux personnalités très contrastées. M. Bellecour est reconnu pour sa bienveillance et son rôle de médiateur et bien qu’il dénonce certains choix de ses camarades dans les dernières années de sa vie et devient plus amer, il demeure l’une des voix raisonnable de la troupe. À l’opposé, Mme Bellecour apparaît belliqueuse et conflictuelle. Dans une lettre qu’elle adresse à l’Assemblée le 5 octobre 1780 au sujet d’une dispute avec Mlle La Chassaigne, Mme Bellecour reconnaît elle-même l’impétuosité de son caractère."
     }
   }
 }
