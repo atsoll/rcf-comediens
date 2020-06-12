@@ -204,6 +204,8 @@
         "malheur": "Monsieur Bellecour feels under-appreciated",
         "mercure":"Préville reacts to the Bellecour's obituary, as printed in the Mercure",
         "mediateur": "When a conflict arises between M Raimond and the members of the administration, Bellecour serves as mediator",
+        "couple-bellecour":"Mme Bellecour and Mr Bellecour",
+        "mme-bellecour":"Letter from Mme Bellecour to the assembly",
         "roles":"The roles which Bellecour played",
         "philoctete":"Bellecour as Philoctète (Œdipe)",
         "valere":"Bellecour as Valère (Le Joueur)",
@@ -223,7 +225,7 @@
         "roles" : {
           "date":"1756",
           "caption": "Bellecour's roles",
-          "text": "This document summarizes the roles Mr. Bellecour plays; the list is undated, but mentions that he has been performing for 5 years, so it dates from approximately 1756–1757. This list demonstrates the high number of roles for which each actor is responsible, and it speaks to the process of specialisation which led Bellecour to take on exclusively comedic roles later in his career."
+          "text": "This document summarizes the roles Mr. Bellecour plays; the list is undated, but mentions that he has been performing for 5 years, so it dates from approximately 1756–1757. This list demonstrates the high number of roles for which this actor was responsible, and it speaks to the process of specialisation which led Bellecour to take on exclusively comedic roles later in his career. For the period of 1765-1791, Bellecour played 174 different roles, including the debut performances of 15 new plays."
         },
         "retraite" : {
           "date":"1769.02.19",
@@ -243,7 +245,7 @@
         "mediateur" : {
           "date":"1775",
           "caption":"Conflict mediator",
-          "text":"In 1775, Bellecour writes to the administrative committee to weigh in on the matter of their conflict with Mr. Raimond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Raimond with kindness, now that he has calmed down. This event portrays Bellecour as a peacemaker, a role which he reprises in a letter from August 28, 1776 regarding an incident involving Mr. Dalainval, in which he implores his colleagues to 'examine this affair with due care and equity'."
+          "text":"Several letters demonstrate Bellecour’s role as a mediator within the troupe. Bellecour writes to the Comédie to settle a disagreement with Mr. Reymond, who was angry about an issue of finances. Bellecour advises his colleagues to treat Reymond with kindness, now that he has calmed down. He once again invokes the importance of justice and equality when the troupe makes these collective decisions in a letter from August 28, 1776 regarding an incident involving Mr. Dalainval; Bellecour implores his colleagues to “examine this affair with due care and equity”."
         },
         "pensions" : {
           "date":"1777.09.03",
@@ -263,12 +265,12 @@
         "malheur" : {
           "date":"1778",
           "caption":"Disenchantment",
-          "text":"In his final year with the Comédie-Française, Bellecour, finally expresses his disappointment in the treatment he received over the course of his career. He spent 27 years of supporting and making sacrifices for his community, he does not feel at all appreciated."
+          "text":"In his final year with the Comédie-Française, Bellecour, finally expresses his disappointment in the treatment he received over the course of his career. He spent 27 years supporting and making sacrifices for his community; he does not feel at all appreciated, and once again criticizes the petty rivalries and jealousies between his colleagues."
         },
         "mort" : {
           "date":"1778.12.08",
           "caption":"Obituary",
-          "text":"Following Bellecour’s death, an unflattering obituary is printed in the Mercure. Enraged by this gross misrepresentation of his friend and colleague, Préville writes to Mr. La Harpe - the editor in chief - to complain and to respond in kind to aspersions cast."
+          "text":"Following Bellecour’s death, an unflattering obituary is printed in the Mercure de France. Enraged by this gross misrepresentation of his friend and colleague, Préville writes to Mr. La Harpe - the editor in chief - to complain and respond in kind to aspersions cast. This exchange shows the importance of the press in constructing an actor’s public image, but also the genuine friendship between members of the troupe."
         }
       }
     },
