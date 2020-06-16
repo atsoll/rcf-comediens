@@ -123,6 +123,20 @@
         "main": "Marie Elisabeth Joly",
         "sub": "De petite prodigue en comédienne controversée"
       },
+      "captions": {
+        "naissance":"L'acte de naissance de Marie Élisabeth Joly",
+        "enfant":"Registre des feux avec le début d'enfance de Joly",
+        "roles":"Liste des rôles d'enfance de Joly",
+        "debut":"Ordre de début adulte de Joly",
+        "reception":"Document avec les avis de la troupe quant à sa réception",
+        "essai":"Ordre de réception de Joly",
+        "refus":"Lettre du Duc de Duras en réponse au refus de jouer de Joly",
+        "augmentation":"Lettre de Joly pour demander une augmentation",
+        "suspension":"Document des avis de la troupe pour la suspension de Joly suivant plusieurs plaintes",
+        "replique":"Lettre de Joly qui maintient son innocence",
+        "prison":"Lettre de Joly lorsqu'elle est en prison",
+        "mort":"Tombeau de Joly à Sousmont-Saint-Quentin"
+      },
       "sections": {
         "naissance": {
           "date":"1761.04.08",

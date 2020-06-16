@@ -16,6 +16,12 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.naissance.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img ez-plus ezp-model="{large:'style/img/joly/naissance.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-1'}" src='style/img/joly/naissance.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.naissance'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-enfant">
@@ -26,6 +32,12 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.enfant.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img ez-plus ezp-model="{large:'style/img/joly/enfant.png'}" ezp-options="{scrollZoom: true, easing:true, container:'j-2'}" src='style/img/joly/enfant.png' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.enfant'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-roles">
@@ -36,6 +48,19 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.roles.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/roles_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-3'}" src='style/img/joly/roles_1.jpg'></div>
+                  <div><img ez-plus ezp-model="{large:'style/img/joly/roles_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-4'}" src='style/img/joly/roles_2.jpg'></div>
+                  <div><img ez-plus ezp-model="{large:'style/img/joly/roles_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-5'}" src='style/img/joly/roles_3.jpg'></div>
+                  <div><img ez-plus ezp-model="{large:'style/img/joly/roles_4.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-6'}" src='style/img/joly/roles_4.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.joly.captions.roles'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-debut">
@@ -46,6 +71,19 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.debut.text' | translate}}</div>
+        <div class="img-content">
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/joly/debut.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-7'}" src='style/img/joly/debut.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.debut'| translate}}</div>
+          </div>
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>Nous Maréchal Duc de Duras Pair de France Premier Gentilhomme de la Chambre du Roy</p>
+            <p>Ordonnons aux Comédiens François ordinaires du Roi de laisser débuter sur leur théâtre la Delle Joly afin que vous puissiez juger de ses talens.</p>
+            <p>Paris ce 28 Mars 1781</p>
+            <p>Signé le Mal. Duc de Duras</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-reception">
@@ -56,6 +94,17 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.reception.text' | translate}}</div>
+        <div class="img-content">
+          <div class="transcription col-md-6">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>La question concernant la réception de Mlle. Joly ayant été agitée, Me. Bellecour a été d’avis que la Loi exigeait deux années d’essai avant la réception, et que la recevoir à présent c’était trop tôt ; il y a eu six voix de son avis. M. Préville a été d’avis de s’en rapporter entièrement à Mgr. le Maréchal de Duras ; il y a eu dix voix de son avis.</p>
+            <p>Fait à l’Assemblée du 30 mars 1782.</p>
+          </div>
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/joly/reception.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-8'}" src='style/img/joly/reception.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.reception'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-essai">
@@ -66,6 +115,18 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.essai.text' | translate}}</div>
+        <div class="img-content">
+          <div class="img-wrapper col-md-8">
+            <img ez-plus ezp-model="{large:'style/img/joly/essai.png'}" ezp-options="{scrollZoom: true, easing:true, container:'j-9'}" src='style/img/joly/essai.png' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.essai'| translate}}</div>
+          </div>
+          <div class="transcription col-md-4 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>Nous Mal. Duc de Duras &c.</p>
+            <p>Suivant l’Article VI des Début des nouveaux Règlemens du 18 Mai 1781, avons reçu à l’Essai la Demoiselle Joly, aux appointemens de deux mille livres avec les feux ; à charge par elle de remplir tous rôles dont la liste lui sera donnée par le Comité, et ceux en outre où elle sera jugée nécessaire.</p>
+            <p>Paris ce 21 Mai 1781. (Signé) le Maréchal Duc de Duras.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-refus">
@@ -76,6 +137,16 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.refus.text' | translate}}</div>
+        <div class="img-content">
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>J’ai reçu la demande du Comité pour Mlle. Joly : elle avait donné des preuves de bonne volonté dont je lui savais gré et dont sa Société devait être reconnaissante ; mais la sottise qu’elle vient de faire en refusant de jouer et mettant la Comédie dans le cas de fermer, si Mlle. Olivier ne s’était pas trouvée prête, mériterait une punition. Je veux bien fermer les yeux pour cette fois, à cause de la bonne volonté qu’elle a montrée dans d’autres occasions. Le Comité doit savoir que l’on ne fait de Distribution qu’à Pâques : il y a eu une seule exception en faveur des bons et anciens services de Bellemont ; mais cela ne doit pas se répéter.</p>
+          </div>
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/joly/refus.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-10'}" src='style/img/joly/refus.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.refus'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-augmentation">
@@ -86,6 +157,25 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.augmentation.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/augmentation_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-11'}" src='style/img/joly/augmentation_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/augmentation_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-12'}" src='style/img/joly/augmentation_2.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/augmentation_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-13'}" src='style/img/joly/augmentation_3.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.joly.captions.augmentation'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>C’est avec la plus grande confiance que je m’adresse au comité pour obtenir par sa recommandation auprès de Monseigneur le Maréchal de Duras, le complètement de ma demi part, par une augmentation d’un demi quart. Je ne vous retracerai point les dépenses que notre état exige journellement vous les connaissez . Je ne vous rappellerai pas non plus mon zèle pour le Service du public, et de ma Société ; combien de rôles hors de mon emploi appris et joués d’un moment à l’autre ; par conséquent une dépense forcée, pour les habits. Messieurs, enfin je connais votre Justice ; celle que vous avez rendue à notre camarade Olivier, en sollicitant la même grâce pour elle ; c’est sur cela que je fonde mes espérances, et j’ose dire l’assurance de ma réussite. Je n’ai pas besoin d’autre protecteurs que mon travail et le compte que vous en voudrez bien rendre, pour m’attirer la bienveillance et la Justice de Monseigneur le maréchal. C’est déjà de vous que je tiens ce que je possède dans la Société, et rien ne peut ajouter au bonheur de voir mon état augmenter, que celui de le tenir de vous.</p>
+            <p>Je suis, Messieurs et chers camarades,</p>
+            <p>Votre très humble et très obéissante servante, Joly.</p>
+            <p>La Comédie Française assemblée supplie Monsieur d'Essentelles de vouloir bien solliciter en son nom Monseigneur le Maréchal Duc de Duras d'avoir la bonté de faire droit et justice à Mademoiselle Joly, sur sa demande d'aujourd'hui lundi 30 juin 1783.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-suspension">
@@ -96,6 +186,16 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.suspension.text' | translate}}</div>
+        <div class="img-content">
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/joly/suspension.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-14'}" src='style/img/joly/suspension.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.joly.captions.suspension'| translate}}</div>
+          </div>
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>Le comité assemblé relativement à diverses plaintes portées contre Mlle. Joli a décidé unanimement qu’il supplierai Mgr. le Maréchal de Duras d’ordonner qu’elle sera privée pendant six mois d’assister aux assemblées d’affaires.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-replique">
@@ -106,6 +206,22 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.replique.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/replique_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-15'}" src='style/img/joly/replique_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/replique_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-16'}" src='style/img/joly/replique_2.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.joly.captions.replique'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>Je porte trop d’intérêt de d’amitié à ma Société pour pouvoir supporter avec froideur la perte de votre confiance. J’éprouve trop de chagrin depuis que j’en suis privée pour pouvoir résister plus longtemps au désir que j’ai de la recouvrer. Permettez que je fasse encore un effort pour faire cesser une position qui me fait tant de peine. Je vous réitère et vous proteste de nouveau que je suis parfaitement innocente de l'indiscrétion que l’on m’a imputée ; je ne me croirais pas digne de cette amitié et de cette confiance que je réclame, si pour les recouvrer j’imaginais d’avouer une faute que je n’ai pas commise, et je ne pourrais à ce prix me trouver satisfaite. Je vous prie donc, mes chers camarades, d’être intimement persuadés de mon innocence ; et en conséquence, de vouloir bien mettre fin à la fâcheuse délibération qui m’a causé et cause encore tant de chagrin.</p>
+            <p>En me rendant votre amitié et votre confiance, vous rétablirez en moi un courage et une tranquillité que je ne connais plus, et qui cependant, vous le savez, nous sont si nécessaires pour bien exercer notre état. J’attends tout de vos bontés et suis avec l’attachement le plus sincère et le dévouement le plus inviolable, mes chers camarades, votre très humble et très obéissante servante, Joly</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-prison">
@@ -116,6 +232,32 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.prison.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/prison_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-17'}" src='style/img/joly/prison_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/prison_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-18'}" src='style/img/joly/prison_2.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/joly/prison_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'j-19'}" src='style/img/joly/prison_3.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.joly.captions.prison'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p>Jugeant de vous sur votre réputation, je suis sûr que vous entendrez le cri de l’infortune, et de l’innocence. Ce n’est pas une prière que je prétends vous faire, ce n’est pas une grâce, c’est justice que je demande...</p>
+            <p>Je ne suis qu’une femme, mais je suis bonne Citoyenne. Je suis mère de quatre enfants en bas âge que j’élève en francs républicains. - depuis trois années que je suis sans Aucun domestique, je leur apprends à s’en passer. Je me suis mise à la hauteur des circonstances et de la Révolution. J’aime ma patrie comme un enfant docile et bon aime sa mère. J’ai fait pour elle tout ce que mon sexe m’a permis et dicté. J’ai cru ne pouvoir mieux la servir qu’en remplissant bien les devoirs d’une bonne mère de famille. J’ai toujours vécue fort retirée, et livrée toute entière aux soins de mon état et de ma maison. Je n’ai jamais été favorisée des ci-devant Grands. Je n’eus jamais aucune relation avec eux. Il n’est pas d’obstacles que je n’aie essuyé de leur part et surtout de celle de ce Maréchal de Duras qui dirigeait notre Société. Jamais, peut être, aucun de mes Camarades ne fut autant que moi victime du despotisme, tout cela est notoire.</p>
+            <p>Enfin après douze années de travaux et de peines, j’arrive et je fais naufrage, je perds tout, état, fortune, et ma liberté. Je suis séparée de tout ce qui m’est cher, mes enfants sont privés de leur mère. Justice Divine, qu’ai-je donc fait pour mériter mes malheurs ? Serai-je donc toujours persécutée?</p>
+            <p>Je n’ai pour toute fortune que mon talent ; sans mon talent et mon travail mes enfants sont réduits à la mendicité...</p>
+            <p>Magistrat du peuple, homme juste soutière de malheureux, prenez des informations surtout ce que je vous avance assurez vous de la vérité, et soyez mon appui.</p>
+            <p>J’ai vécue tellement retirée que je ne connais personne qui puisse exposer mon innocence aux pouvoirs constitués dont ma liberté dépend, je ne connais de vous que votre réputation, mais elle m’encourage à vous choisir pour faire une bonne action, cette tâche est digne de vous. Faites rendre une mère éplorée à ses enfants. Faites moi rendre mes enfants, faites moi rendre ma liberté, je ne méritais jamais de la perdre. Je suis bonne patriote et vraie Républicaine,</p>
+            <p>Joly.</p>
+            <p>Artiste et Sociétaire</p>
+            <p>Théâtre de la nation.</p>
+            <p>En prison à Ste. Pélagie depuis 5 semaines. - Ce 7 octobre 1793</p>
+            <p>l’an 7e de la république française.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-mort">
@@ -126,6 +268,12 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.joly.sections.mort.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/joly/mort.jpg'>
+            <div class="img-caption">{{'content.joly.captions.mort'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="joly-filles-1">

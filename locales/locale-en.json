@@ -123,6 +123,20 @@
         "main": "Marie Elisabeth Joly",
         "sub": "From pint-sized prodigy to controversial character"
       },
+      "captions": {
+        "naissance":"Marie Élisabeth Joly's birth certificate",
+        "enfant":"Casting register showing Joly's childhood debut",
+        "roles":"List of Joly's childhood roles",
+        "debut":"Order for Joly's adult debut",
+        "reception":"Document with opinions on Joly' formal admission to the troupe",
+        "essai": "Order for Joly's reception",
+        "refus":"Letter from the Duke of Duras addressing Joly's refusal to perform",
+        "augmentation": "Letter from Joly requesting a raise",
+        "suspension": "Document with opinions on Joly's suspension following numerous complaints",
+        "replique": "Letter from Joly maintaining her innocence",
+        "prison":"Letter from Joly while in prison",
+        "mort": "Joly's tomb at Sousmont-Saint-Quentin"
+      },
       "sections": {
         "naissance": {
           "date":"1761.04.08",
