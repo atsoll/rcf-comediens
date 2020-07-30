@@ -146,12 +146,12 @@
         "enfant" : {
           "date":"1768.10.30",
           "caption":"Début d'enfance",
-          "text":"La petite Joly paraît pour la première fois sur scène à la Comédie-Française à l’âge de sept ans dans le rôle de Louison du Malade imaginaire. Le feu l’identifie comme « fille du danseur »."
+          "text":"La petite Joly apparaît pour la première fois sur scène à la Comédie-Française à l’âge de sept ans dans le rôle de Louison du Malade imaginaire. Le registre des feux l’identifie comme « fille du danseur »."
         },
         "roles" : {
           "date":"1769-1770",
           "caption":"Rôles d'enfance",
-          "text":"« L’État des feux dus à Mademoiselle Joly » résume les pièces dans lesquelles elle joue entre juillet 1769 et mars 1770, ainsi que la rémunération qui lui est due."
+          "text":"« L’État des feux dus à Mademoiselle Joly » résume les pièces dans lesquelles elle joue entre juillet 1769 et mars 1770, ainsi que la rémunération qui lui est due. Ayant seulement neuf ans, elle joue dans 18 pièces différentes au cours de cette période de neuf mois — 16 comédies, une tragédie, et une pastorale — pour un total de 63 représentations."
         },
         "debut" : {
           "date":"1781.03.28",
@@ -161,7 +161,7 @@
         "reception" : {
           "date":"1781.03.30",
           "caption":"Avis sur sa réception",
-          "text":"Lors de son début, l’assemblée discute de sa réception ; Mme. Bellecour soutient que les deux années d’essai sont toujours nécessaire avant la réception. M. Préville soutient l’avis du Maréchal de Duras, que Mlle. Joly devrait être reçue immédiatement. L’opinion de M. Préville a dominé, avec 10 voix de son avis et 6 de l’avis de Mme. Bellecour."
+          "text":"Lors de son début, l’assemblée discute de sa réception :  Mme. Bellecour soutient que les deux années d’essai sont obligatoires avant d’être reçu et ne tient donc pas compte du fait que la jeune comédienne fait « partie » de la troupe depuis plus 10 ans. M. Préville soutient l’avis contraire qui est aussi du Maréchal de Duras, gentilhomme de la chambre. Tous deux pensent que Mlle. Joly devrait être reçue immédiatement. L’avis de M. Préville l’emporte, avec 10 voix contre 6. Entre les lignes de cet extrait semble se dessiner des points de tensions et de rivalité autour de cette jeune habituée de la troupe."
         },
         "essai" : {
           "date":"1781.05.21",
@@ -171,22 +171,22 @@
         "refus" : {
           "date":"1783.06",
           "caption":"Refus de jouer",
-          "text":"Le Maréchal de Duras donne son avis sur le refus de Mlle Joly de jouer ; bien qu’elle ait montré sa bienveillance pendant son années à la Comédie, il considère que son refus de jouer est ridicule et mérite d’être puni, étant donné que la Comédie aurait dû fermer si Mlle. Olivier n’était pas prête à la remplacer. Cependant, il conclut que le comportement de Joly pourra être oublié cette fois-ci à cause des preuves de bonne volonté qu’elle a montré au passé."
+          "text":"Le Maréchal de Duras donne son avis sur un refus de jouer de la part de Mlle Joly de jouer dont on ignore les raisons ; bien qu’elle ait montré sa bienveillance pendant son années à la Comédie, il considère que son refus de jouer est ridicule et mérite d’être puni, étant donné que cette décision aurait pu entraîner une fermeture exceptionnelle du théâtre, si son double, Mlle Olivier, n’avait pas été en mesure de la remplacer.  Il conclut que le comportement de Joly pourra être oublié cette fois-ci à cause des preuves de bonne volonté qu’elle a montré au passé. Ce passage montre à quel point l’équilibre de l’entreprise reste fragile malgré la présence des doubles. Il met aussi en perspective la présence forte de la tutelle de l’état et son pouvoir d’intervenir."
         },
         "augmentation" : {
           "date":"1783.06.30",
           "caption":"Demande d'augmentation",
-          "text":"Joly demande une augmentation pour couvrir ses dépenses nécessaires. Elle fait référence aux dépenses quotidiennes auxquelles donne lieu sa carrière de comédienne, et rappelle à la troupe sa dédication, même pour des rôles hors de son emploi qui l’oblige à acheter d’autres costumes. Le comité est d’accord avec sa demande, et transmet sa lettre au Duc de Duras pour montrer leur soutien."
+          "text":"Joly demande une augmentation pour couvrir ses dépenses nécessaires. Elle fait référence aux dépenses quotidiennes propres à la carrière de comédienne. Elle rappelle à la troupe sa fidélité et signale que les rôles hors de son emploi l’oblige à de plus importantes dépenses de costumes. Le comité approuve sa demande, et transmet sa lettre au Duc de Duras pour montrer leur soutien."
         },
         "suspension" :{
           "date":"1784.09.21",
           "caption":"Suspension de l'assemblée",
-          "text":"Suivant de nombreuses plaintes portées contre Joly, Mme. Bellecour propose de suspendre Mlle. Joly des assemblées, à l’exception des assemblées de répertoire. M. Dugazon est d’accord, mais il propose qu’elle soit aussi privée des entrées au parterre. Les autres sont tous de l’avis de Mme. Bellecour."
+          "text":"Suivant de nombreuses plaintes portées contre Joly, Mme. Bellecour propose de suspendre Mlle. Joly des assemblées, à l’exception des assemblées de répertoire. M. Dugazon est d’accord et il propose même qu’elle soit aussi privée des entrées au parterre. Les autres se rangent à l’avis de Mme. Bellecour. On ignore les raisons pour lesquelles Joly se voit ainsi marginalisée, mais sa réponse semble indiquer qu’elle n’aurait pas respecter la nature confidentielle des assemblées."
         },
         "replique" : {
           "date":"1784.10.11",
           "caption":"Déclaration d’innocence",
-          "text":"En réponse à sa suspension, Joly soutient son innocence : elle insiste que les plaintes portées contre elle sont fausses."
+          "text":"En réponse à sa suspension, Joly soutient son innocence et insiste que les plaintes portées contre elle sont fausses."
         },
         "prison" : {
           "date":"1793.10.07",
@@ -196,7 +196,7 @@
         "mort" : {
           "date":"1798.05.05",
           "caption":"Mort",
-          "text":"Joly meurt à l’âge de 37 ans à Paris, et est enterrée à Sousmont-Saint-Quentin."
+          "text":"Joly meurt à l’âge de 37 ans à Paris, et est enterrée à Sousmont-Saint-Quentin, une ville à l’ouest de Paris où la rue Marie Elisabeth Joly et le Mont Joly portent son nom."
         }
       }
     },
