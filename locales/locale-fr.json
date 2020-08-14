@@ -6,17 +6,17 @@
     "joly": {
       "naissance": "Marie Elisabeth Joly est née à Versailles à Thomas Joly, un marchand quincaillier à Paris, et Élisabeth Vivien, une danseuse à la Comédie Française",
       "enfant": "La petite Joly paraît pour la première fois sur scène à la Comédie Française à l'âge de sept ans dans le rôle de Louison dans le Malade Imaginaire de Molière",
-      "roles": "",
-      "debut":"La Comédie accorde à Mademoiselle Joly son ordre de début",
-      "reception": "Par une décision polémique, Mademoiselle Joly est reçue par la troupe en tant que sociétaire",
-      "essai":"",
-      "refus": "Joly refuse de jouer et fut remplacée par Mademoiselle Olivier",
-      "augmentation":"Joly reçoit une augmentation suite à une plainte de responsabilités hors de son emploi",
+      "roles": "Joly joue de nombreuses rôles, à l'âge de seulement 9 ans",
+      "debut":"La Comédie accorde à Mademoiselle Joly son ordre de début adulte",
+      "reception": "La troupe discute de la question de recevoir Joly dans la troupe",
+      "essai":"Suivant un débat animé, Mademoiselle Joly est reçue par la troupe à l'essai",
+      "refus": "Un soir, Joly refuse de jouer et est remplacée par son double, Mademoiselle Olivier",
+      "augmentation":"Joly reçoit une augmentation suite à sa plainte d'avoir des responsabilités hors de son emploi",
       "suspension": "Mademoiselle Joly est suspendue de l'assemblée",
-      "replique": "",
+      "replique": "Joly soutient son innocence en regard des plaintes portées contre elle",
       "prison":"Joly est un des membres de la troupe emprisonnée lors de la révolution",
       "mort": "Mademoiselle Joly est morte",
-      "filles-1": "",
+      "filles-1": "Les filles de Joly écrivent à la comédie dans les années qui suivent sa mort",
       "filles-2": "",
       "filles-3": "",
       "filles-4": "",
@@ -25,11 +25,11 @@
     "bellecour": {
       "naissance": "Jean-Claude-Gilles Colson, dit Bellecour, est né",
       "reception":"Monsieur Bellecour est reçu à la Comédie-Française",
-      "roles":"",
+      "roles":"Un document montre le grand nombre de rôles que joue Bellecour dans une saison",
       "retraite":"Bellecour tente de se retirer mais on lui ordonne de continuer son service",
       "sante": "En raison de sa santé défaillante, Bellecour rate souvent l'assemblée",
-      "repertoire":"",
-      "mediateur":"Suite à un incident au sein de l'assemblée, Bellecour calme et défend son camarade M. Raimond.",
+      "repertoire":"Bellecour relève certains défis de la mise en scène et de la programmation journalière",
+      "mediateur":"Suite à un incident au sein de l'assemblée, Bellecour calme et défend son camarade M. Raimond",
       "pensions":"Monsieur Bellecour répond à des critiques faites de lui",
       "lekain": "Monsieur Lekain, collègue et cher ami de Bellecour, est mort",
       "cour": "Bellecour est chargé d'enquêter sur la possibilité de la création d'une troupe pour suivre la cour",
@@ -54,14 +54,17 @@
       "naissance":"François-René Molé est né",
       "pere":"Le père de Molé est mort",
       "debut":"Molé débute à la Comédie-Française, mais est jugé insuffisant et repart en province",
-      "societariat": "Molé devient sociétaire",
-      "hamlet": "En raison de la maladie de Lekain, Molé crée le rôle de Hamlet",
-      "romeo": "Monsieur Molé crée de rôle de Roméo dans «Roméo et Juliette»",
+      "societariat": "Molé revient à Paris et devient sociétaire",
+      "mariage": "Molé se marie avec Mademoiselle Dépinay à l'église Saint-Sulpice",
+      "hamlet": "En raison du refus de Lekain, Molé crée le rôle de Hamlet",
       "malade": "Molé et sa femme sont tous les deux gravement malades",
       "absence": "Molé est absent de l'assemblée, en donnant comme excuse qu'il a complètement oublié son rôle et doit le réapprendre",
+      "specialisation": "Molé se spécialise dans les rôles premiers comiques après la mort de Bellecour",
       "eleve":"Molé prend comme élève Mademoiselle Candeille",
+      "tensions": "",
       "regles":"Les autres comédiens écrivent à Molé pour lui rappeler que, même étant doyen, il est obligé de suivre les règles de la société",
-      "retour":"Suite à la révolution, Molé retourne au théâtre",
+      "retour":"La troupe demande Molé de retourner au théâtre suivant son congé",
+      "pensions": "Molé aborde des tensions qui entourent les pensions royales dans la période révolutionnaire",
       "passeport": "Monsieur Molé et sa famille partent en voyage",
       "vacances":"Étant déjà parti pendant trop longtemps, les autres comédiens implorent Monsieur Molé de revenir de la province",
       "mort": "Monsieur Molé est mort"
@@ -149,7 +152,7 @@
           "text":"La petite Joly apparaît pour la première fois sur scène à la Comédie-Française à l’âge de sept ans dans le rôle de Louison du Malade imaginaire. Le registre des feux l’identifie comme « fille du danseur »."
         },
         "roles" : {
-          "date":"1769-1770",
+          "date":"1769–1770",
           "caption":"Rôles d'enfance",
           "text":"« L’État des feux dus à Mademoiselle Joly » résume les pièces dans lesquelles elle joue entre juillet 1769 et mars 1770, ainsi que la rémunération qui lui est due. Ayant seulement neuf ans, elle joue dans 18 pièces différentes au cours de cette période de neuf mois — 16 comédies, une tragédie, et une pastorale — pour un total de 63 représentations."
         },
@@ -171,7 +174,7 @@
         "refus" : {
           "date":"1783.06",
           "caption":"Refus de jouer",
-          "text":"Le Maréchal de Duras donne son avis sur un refus de jouer de la part de Mlle Joly de jouer dont on ignore les raisons ; bien qu’elle ait montré sa bienveillance pendant son années à la Comédie, il considère que son refus de jouer est ridicule et mérite d’être puni, étant donné que cette décision aurait pu entraîner une fermeture exceptionnelle du théâtre, si son double, Mlle Olivier, n’avait pas été en mesure de la remplacer.  Il conclut que le comportement de Joly pourra être oublié cette fois-ci à cause des preuves de bonne volonté qu’elle a montré au passé. Ce passage montre à quel point l’équilibre de l’entreprise reste fragile malgré la présence des doubles. Il met aussi en perspective la présence forte de la tutelle de l’état et son pouvoir d’intervenir."
+          "text":"Le Maréchal de Duras donne son avis sur un refus de jouer de la part de Mlle Joly de jouer dont on ignore les raisons précises ; il n’est pas clair dans cette lettre quelle soirée elle a manqué. Bien qu’elle ait montré sa bienveillance pendant son années à la Comédie, il considère que son refus de jouer est ridicule et mérite d’être puni, étant donné que cette décision aurait pu entraîner une fermeture exceptionnelle du théâtre, si son double, Mlle Olivier, n’avait pas été en mesure de la remplacer.  Il conclut que le comportement de Joly pourra être oublié cette fois-ci à cause des preuves de bonne volonté qu’elle a montré au passé. Ce passage montre à quel point l’équilibre de l’entreprise reste fragile malgré la présence des doubles. Il met aussi en perspective la présence forte de la tutelle de l’état et son pouvoir d’intervenir."
         },
         "augmentation" : {
           "date":"1783.06.30",
@@ -197,6 +200,11 @@
           "date":"1798.05.05",
           "caption":"Mort",
           "text":"Joly meurt à l’âge de 37 ans à Paris, et est enterrée à Sousmont-Saint-Quentin, une ville à l’ouest de Paris où la rue Marie Elisabeth Joly et le Mont Joly portent son nom."
+        },
+        "filles-1" : {
+          "date":"1815–1828",
+          "caption":"Filles de Joly",
+          "text":"Plusieurs années après la mort de leur mère, les filles de Mlle. Joly, Louise Joly et Mme Jourdan (née Joly), écrivent à la Comédie avec plusieurs demandes. Louise semble chercher sa propre réception à la troupe en évoquant l’amitié des Comédiens Français pour sa mère décédée, et Mme Jourdan sollicite l’entrée gratuite au théâtre, qui lui est accordée après quelques années. Bien que les premières lettres de Louise Joly semblent être discréditées en 1825 par une lettre de la vraie Louise Joly qui soutient qu’elle n’aurait jamais osé demander un début d’une telle manière, ces documents témoignent d’une certaine responsabilité, réelle ou imaginée, qu’a la Comédie-Française quant à l’intérêt des familles de leurs anciens camarades."
         }
       }
     },
@@ -238,7 +246,7 @@
         "roles" : {
           "date":"1756",
           "caption": "Rôles de Bellecour",
-          "text": "Ce document résume les rôles joués par Bellecour sur une période de 5 ans. D’après cette liste de rôles, le document a dû être produit en 1756–1757, mais il reste sans date. S’illustre ici l’énorme répertoire d’un type de comédien dont la célébrité repose sur une présence continue et massive. Pour la période 1765-1791, le comédien a joué 187 rôles différents et participé à 36 nouvelles créations. Cette liste témoigne aussi du processus de spécialisation qui mène Bellecour à ne jouer que des rôles comiques dès les années 1760."
+          "text": "Ce document résume les rôles joués par Bellecour sur une période de 5 ans. D’après cette liste de rôles, le document a dû être produit en 1756–1757, mais il reste sans date. S’illustre ici l’énorme répertoire d’un type de comédien dont la célébrité repose sur une présence continue et massive. Pour la période 1765–1791, le comédien a joué 187 rôles différents et participé à 36 nouvelles créations. Cette liste témoigne aussi du processus de spécialisation qui mène Bellecour à ne jouer que des rôles comiques dès les années 1760."
         },
         "retraite" : {
           "date":"1769.02.19",
@@ -302,7 +310,86 @@
     "mole": {
       "title": {
         "main": "François-René Molé",
-        "sub": "Le Don Juan des coulisses"
+        "sub": "« Garder sa tête et livrer sa coeur »"
+      },
+      "captions": {
+      },
+      "sections": {
+        "naissance" : {
+          "date":"1734.11.24",
+          "caption":"Naissance",
+          "text":"François-René Molé est né le 24 novembre 1734 à Paris à une famille assez pauvre. Son père est graveur, mais maladif. (Mémoires de Molé)"
+        },
+        "pere" : {
+          "date":"1749.11.02",
+          "caption":"Mort de son père",
+          "text":"Atteint d’une maladie de poitrine, le père de Molé meurt tôt, et sa mère manque les moyens de subvenir aux besoins de ses trois enfants. Pendant son adolescence, Molé parvient à un poste dans le bureau de l’intendant des finances, M. Blondel de Gagny. Il n’aime pas ce travail, et s’intéresse déjà au théâtre. (Mémoires de Molé)"
+        },
+        "debut" : {
+          "date":"1754.11.07",
+          "caption": "Début initial",
+          "text": "En 1754, Molé se soumet aux jugements de la Comédie Française pour la première fois, à l’âge de vingt ans. Malgré un certain talent, il n’est pas jugé suffisant pour une réception à la troupe. Il part donc en province pour y développer ses compétences avant de retourner à Paris. (Lyonnet)"
+        },
+        "societariat" : {
+          "date":"1761.03.30",
+          "caption":"Réception à la troupe",
+          "text":"De retour de la province, Molé fait un deuxième début plus réussi en 1760. L’année suivante, Molé devient sociétaire de la Comédie Française en 1761. (Lyonnet)"
+        },
+        "mariage" : {
+          "date":"1769.01.10",
+          "caption":"Mariage",
+          "text":"Molé se marie avec Mlle Dépinay le 10 janvier 1769 à l’église Saint-Sulpice. Tous les deux sociétaires, leur mariage est indiquée dans le registre des feux de cette journée."
+        },
+        "hamlet" : {
+          "date":"1769.09.30",
+          "caption": "Création de Hamlet",
+          "text": "En 1769, Molé joue le rôle de Hamlet dans sa création, car Lekain, qui était censé le jouer, a refusé de le faire pour des raisons incertaines. C’est le 18eme rôle qu’a créé Molé, et il sera, pendant la suite de son carrière, le comédien qui aura assisté à le plus de créations de pièces; il joue 132 rôles de créations dans la période des registres des feux, presque le double de tous.tes les autres comédiens.nes. Quelques années plus tard en 1772, Molé crée le rôle de Roméo dans Roméo et Juliette. Ce rôle, ainsi que celui de Hamlet, marque son ascension aux premiers rôles tragiques."
+        },
+        "malade" : {
+          "date":"1773.01.25",
+          "caption":"Maladie",
+          "text":"En 1773, Molé est malade pendant plusieurs mois. Plusieurs lettres aux semainiers expliquent ses absences et son affliction. Cette lettre du 25 janvier explique sa capacité de jouer certains rôles ; mais d’autres lui demandent trop d’effort."
+        },
+        "absence" : {
+          "date":"1774.02.13",
+          "caption":"Absence de l'assemblée",
+          "text":"Un jour en 1774, Molé écrit au semainier de la Comédie pour excuser son absence de l’assemblée. Il doit plutôt apprendre le rôle qu’il avait oublié. Cette occasion, ainsi que ses maladies prolongées, semblent marquer beaucoup d’absences de sa part, mais Molé joue plus de représentations que presque tous les autres comédiens.ennes : avec 4290 représentations pendant plus de 40 ans de service, seulement trois autres comédiens.ennes ont joué plus."
+        },
+        "specialisation" : {
+          "date":"1778",
+          "caption":"Spécialisation comique",
+          "text":"Suivant la mort de M. Bellecour en 1778, Molé le remplace dans son emploi comique. Dès cette année-là, il joue de moins en moins de tragédies et, à partir de 1785, on retrouve Molé presque exclusivement dans des rôles comiques."
+        },
+        "eleve" : {
+          "date":"1785.12.01",
+          "caption":"Lettre à propos d'une élève",
+          "text":"Molé écrit à M. Des Entelles, intendant de la troupe, déçu qu’il n’a pas appuyé sa demande que son élève, Mlle Candeille, soit reçue à la Comédie. Trois autres comédiens ont reçu un ordre de réception, mais non Mlle Candeille, et Molé exprime que cette déception le pousse presque à quitter la Comédie. Il affirme aussi qu’il ne ferait pas une demande qui n’est pas dans l’intérêt général de la Comédie et qu’il serait seulement content si Mlle Candeille soit reçue avec le droit d’ancienneté sur Mlle Vanhove, une des nouvelles reçues. Mlle Candeille sera reçu quelques semaines plus tard, le 29 janvier 1786. Cette lettre témoigne d’une filiation de professeur et élève entre certains comédiens ainsi que les tensions que peuvent entraîner ce statut de préférence pour certains jeunes comédiens.ennes."
+        },
+        "tensions" : {
+          "date":"1791.02.15",
+          "caption":"Tensions avec l'Assemblée nationale",
+          "text":""
+        },
+        "regles" : {
+          "date":"1791.12.08",
+          "caption":"Avertissement d'une amende",
+          "text":"En 1791, Molé reçoit une lettre des Comédiens lors de son absence de l’assemblée. Dans cette lettre, on s’adresse à lui comme doyen de la troupe ; l’écrivain est donc un peu circonspect et ne veut pas blâmer Molé de son absence, mais lui rappelle les lois et les amendes relatifs à l’absence des assemblées de lecture sans lui en condamner."
+        },
+        "retour" : {
+          "date":"1793.03.25",
+          "caption":"De retour du congé",
+          "text":"Lorsque Molé est en congé de la Comédie en 1793, la troupe lui supplie d’y retourner dans l’intérêt du public et de ses camarades."
+        },
+        "pension" : {
+          "date":"1793.07.15",
+          "caption":"Pensions dans la période révolutionnaire",
+          "text":"En 1793, Molé affronte des tensions relatives à sa pension, maintenant qu’il n’est plus administré par la monarchie. Cette lettre frustrée de Molé témoigne de certains défis auxquels faisaient face les comédiens.ennes dans cette période de révolution et de transition."
+        },
+        "mort" : {
+          "date":"1802.12.11",
+          "caption":"Mort",
+          "text": "Molé meurt le 11 décembre 1802. La troupe vient de donner une représentation à son bénéfice quelques jours plus tôt. Il jouait sur la scène de la Comédie-Française jusqu’aux mois avant sa mort, prenant les mêmes rôles qu’il a créés dans les quarante années précédentes de sa carrière."
+        }
       }
     },
     "preville": {

@@ -6,17 +6,17 @@
     "joly": {
       "naissance": "Marie Elisabeth Joly is born in Versailles to parents Thomas Joly, a hardware merchant in Paris, and Elisabeth Vivien, a dancer with the Comédie Française",
       "enfant": "At the age of 7, Joly makes her first foray onto the stage of the Comédie Francaise in the role of Louison in Molière's Imaginary Invalid",
-      "roles":"",
+      "roles":"Joly plays a number of roles, at only 9 years old",
       "debut":"The Comédie Française permits an adult Joly to debut in an official capacity",
-      "reception": "Amid controversy, Mademoiselle Joly is admitted the society of the Comédie Française",
-      "essai": "",
+      "reception": "The troupe debates Joly's admission to the troupe",
+      "essai": "Amid controversy, Joly is admitted to the society of the Comédie Française",
       "refus": "Joly refuses to participate in the day's performance and is replaced by Mademoiselle Olivier",
-      "augmentation": "Joly receives a raise following a complaint of added responsibilites and no compensation",
-      "suspension": "Mademoiselle Joly is banned from participating in the troupe's administrative meetings",
-      "replique": "",
+      "augmentation": "Joly receives a raise following a complaint of added responsibilites beyond the terms of her employment",
+      "suspension": "Joly is banned from participating in the troupe's administrative meetings",
+      "replique": "Joly maintains her innocence in response to complaints against her behaviour",
       "prison": "During the French Revolution, Joly is imprisoned along with several other members of the company",
       "mort": "Mademoiselle Joly passes away",
-      "filles-1": "",
+      "filles-1": "Joly's daughters correspond with the Comédie in the years following her death",
       "filles-2": "",
       "filles-3": "",
       "filles-4": "",
@@ -25,10 +25,10 @@
     "bellecour": {
       "naissance": "Jean-Claude-Gilles Colson, later known as Bellecour, is born",
       "reception":"Monsieur Bellecour is formally admitted to the Comédie Française",
-      "roles":"",
+      "roles":"A document shows the large number of roles performed by Bellecour in a season",
       "retraite": "Bellecour's request to retire is denied",
       "sante": "Due to his failing health, Bellecour frequently misses administrative meetings",
-      "repertoire": "",
+      "repertoire": "Bellecour reflects on certain challenges posed by the staging of plays",
       "mediateur": "Bellcour mediates a dispute between the company and his colleague, Monsieur Raimond",
       "pensions": "Monsieur Bellecour responds to a highly critical letter",
       "lekain": "Monsieur Lekain, Bellecour's colleague and dear friend, dies",
@@ -55,13 +55,16 @@
       "pere": "Molé's father passes away",
       "debut":"Molé debutes at the Comédie-Française, but is refused and returns to the provincial theatres",
       "societariat": "Molé is officially inducted into the Comédie-Française",
-      "hamlet": "With Lekain out sick, Molé originates the role of Hamlet",
-      "romeo": "Monsieur Molé originates the role of Romeo in 'Romeo and Juliette'",
+      "mariage": "Molé marries Mademoiselle Dépinay at the church of Saint-Sulpice",
+      "hamlet": "With Lekain refusing to perform it, Molé debuts the role of Hamlet",
       "malade": "Molé and his wife are both severely ill",
       "absence": "Molé misses an adminstrative meeting, giving the excuse that he has to relearn a role which he has completely forgotten",
+      "specialisation": "Molé specializes in primary comedic roles after Bellecour's death",
       "eleve":"Molé takes Mademoiselle Candeille as a student",
+      "tensions": "",
       "regles":"The other members of the troupe write to Molé to remind him that, despite his status within the company, he is still required to follow the rules set by the society",
-      "retour":"Molé returns to the theatre following the Revolution",
+      "retour":"Molé is asked to return to the theatre after being on leave",
+      "pension": "Molé addresses the issue of royal pensions during the revolutionary period",
       "passeport": "Monsieur Molé and his family take a vacation",
       "vacances": "Already gone for too long, the troupe implore Molé to come back from his prolonged stay in the country",
       "mort": "Monsieur Molé passes away"
@@ -149,7 +152,7 @@
           "text": "At the age of 7, Joly makes her first appearance onstage at the Comédie-Française, playing Louison in Molière’s Le Malade imaginaire. The casting record identifies her as “daughter of the dancer”."
         },
         "roles" : {
-          "date":"1769-1770",
+          "date":"1769–1770",
           "caption":"Childhood roles",
           "text":"This document summarizes the roles played by Joly between July 1769 and March 1770, as well as the payment due to her for these performances. During this period, Joly, only nine years old, performs in 18 different plays, including 16 comedies, one tragedy, and one pastoral, for a total of 63 performances."
         },
@@ -171,7 +174,7 @@
         "refus" : {
           "date":"1783.06",
           "caption":"Refusal to perform",
-          "text":"The Duke of Duras writes to the assembly of the Comédie about Joly’s refusal to perform one evening, for which her reasons are unknown. While she has proven her goodwill toward the troupe in the past, he considers her refusal to perform ridiculous and worthy of punishment, considering the Comédie may have had to close had Ms. Ollivier not been ready to perform in her place. However, he concludes that her behaviour will be overlooked on this occasion, considering the goodwill she has demonstrated in the past. This incident demonstrates the fragile balance of the troupe despite having understudies for the main actors, as well as the strong influence of the governing bodies that intervene in the Comédie’s affairs."
+          "text":"The Duke of Duras writes to the assembly of the Comédie about Joly’s refusal to perform one evening, for which her reasons are unknown; the letter does not clearly state which evening she missed. While she has proven her goodwill toward the troupe in the past, he considers her refusal to perform ridiculous and worthy of punishment, considering the Comédie may have had to close had Ms. Ollivier not been ready to perform in her place. However, he concludes that her behaviour will be overlooked on this occasion, considering the goodwill she has demonstrated in the past. This incident demonstrates the fragile balance of the troupe despite having understudies for the main actors, as well as the strong influence of the governing bodies that intervene in the Comédie’s affairs."
         },
         "augmentation" : {
           "date":"1783.06.30",
@@ -197,6 +200,11 @@
           "date":"1798.05.05",
           "caption":"Death",
           "text":"Joly passes away in Paris at the age of 37, and is buried at Sousmont-Saint-Quentin, a town west of Paris, where Marie Elisabeth Joly street and Mount Joly are named in her honour."
+        },
+        "filles-1" : {
+          "date":"1815–1828",
+          "caption":"Joly's daughters",
+          "text":"Several years after the death of their mother, the daughters of Mlle. Joly, Louise Joly and Mme Jourdan (née Joly) write to the Comédie Française with certain requests. Louise seems to seek her own admission to the troupe on the basis of the other actors’ fondness for her deceased mother, while Mme Jourdan writes to request free entry to the theatre, which the troupe grants her after several years. Although the early letters from Louise are seemingly discredited in 1825 by a letter from the real Louise Joly who claims she would not dare request a debut by mentioning her mother, these documents demonstrate nonetheless a certain responsibility, real or imagined, of the Comédie Française towards the families of their former members."
         }
       }
     },
@@ -303,8 +311,86 @@
     "mole": {
       "title": {
         "main": "François-René Molé",
-        "sub": "The Don Juan of the wings"
-      }
+        "sub": "« Garder sa tête et livrer sa coeur »"
+      },
+      "captions": {
+      },
+      "sections": {
+        "naissance" : {
+          "date":"1734.11.24",
+          "caption":"Birth",
+          "text":"François-René Molé was born in Paris on November 24, 1734 to a poor family. His father worked as an engraver, but was in poor health. (Mémoires de Molé)"
+        },
+        "pere" : {
+          "date":"1749.11.02",
+          "caption":"Death of his father",
+          "text":"Suffering from a lung disease, Molé’s father dies early in his life, and his mother does not have the means to support her three children. As a teenager, Molé finds employment in finance with M. Blondel de Gagny. He does not enjoy this work, and is already interested in theatre and performance. (Mémoires de Molé)"
+        },
+        "debut" : {
+          "date":"1754.11.07",
+          "caption": "First debut",
+          "text": "Molé faces the judgement of the Comédie Française for the first time in 1754, at the age of twenty. Despite having some talent, he is judged to be unprepared for reception to the troupe. Thus, he leaves to the provinces to develop his performance skills before returning to Paris. (Lyonnet)"
+        },
+        "societariat" : {
+          "date":"1761.03.30",
+          "caption":"Reception to the troupe",
+          "text":"Back in Paris, Molé has a more successful second debut in 1760. The following year, he is received as a sociétaire of the Comédie Française troupe. (Lyonnet)"
+        },
+        "mariage" : {
+          "date":"1769.01.10",
+          "caption":"Marriage",
+          "text":"Molé maries Mlle. Dépinay on January 10, 1769 at the church of Saint-Sulpice. Both sociétaires of the Comédie Française troupe, their marriage is mentioned in the casting register from that day."
+        },
+        "hamlet" : {
+          "date":"1769.09.30",
+          "caption": "Debut performance of Hamlet",
+          "text": "In 1769, Molé plays Hamlet in its debut performance, because Lekain, who was supposed to play this role, refused it for unclear reasons. This is the 18th debut role played by Molé; over the course of his career, he would become the actor to perform the most debut roles. He creates 132 different roles during the period covered by the casting registers, nearly double the amount performed by any other member of the troupe. Several years later, in 1772, Molé plays Romeo in the debut performance of Roméo et Juliette. This role, in addition to Hamlet, marks his ascent to tragic leading roles."
+        },
+        "malade" : {
+          "date":"1773.01.25",
+          "caption":"Illness",
+          "text":"In 1773, Molé is ill for several months. His letters to the troupe explain his absences and his ailments. This letter from January 25 explains his ability to play certain roles, but that others require too much exertion."
+        },
+        "absence" : {
+          "date":"1774.02.13",
+          "caption":"Absence from the assembly",
+          "text":"One day in 1774, Molé writes to the semainier of the Comédie to excuse his absence from the assembly. He must instead learn the role that he had forgotten.This occasion, along with his prolonged illnesses, seem to indicate a great deal of absences on his part, but Molé plays more roles than nearly any other actor in the troupe: with 4290 performances over the course of more than 40 years, only 3 actors surpass him in number of performances."
+        },
+        "specialisation" : {
+          "date":"1778",
+          "caption":"Specialisation in comedy",
+          "text":"Following the death of M. Bellecour in 1778, Molé replaces the late actor in his comedic roles. From that year onward, Molé performs in fewer tragedies, and after 1784, he is found nearly exclusively in comedic roles."
+        },
+        "eleve" : {
+          "date":"1785.12.01",
+          "caption":"Letter about his student",
+          "text":"Molé writes to M. Des Entelles, administrator of the troupe, disappointed that he did not support his request to receive his student, Mlle Candeille, into the troupe.Three other actors received a reception order, but not Candeille, and Molé expresses that this disappointment nearly led him to leave the Comédie. He affirms that he would never make a request that was not in the best interests of the Comédie, and that he will only be content if Mlle Candeille is received with seniority over Mlle Vanhove, one of the newly received actresses. Mlle Candeille was eventually received a few weeks later, on January 29, 1786 . This letter reveals the teacher-student relationship between certain actors, as well as the tensions that arise from preferential treatment for certain new actors."
+        },
+        "tensions" : {
+          "date":"1791.02.15",
+          "caption":"Tensions with the National Assembly",
+          "text":""
+        },
+        "regles" : {
+          "date":"1791.12.08",
+          "caption":"Warning about a fine",
+          "text":"In 1791, Molé receives a letter from the troupe when he misses an assembly. In this letter, he is addressed as head of the troupe; the writer seems cautious and avoids blaming Molé for his absence, but reminds the actor of the laws and fines related to absences from assemblies without condemning his behaviour."
+        },
+        "retour" : {
+          "date":"1793.03.25",
+          "caption":"Returning from leave",
+          "text":"When Molé is on leave from the Comédie in 1793, the troupe begs him to return in the interest of the audience and of his colleagues."
+        },
+        "pension" : {
+          "date":"1793.07.15",
+          "caption":"Pensions during the Revolution",
+          "text":""
+        },
+        "mort" : {
+          "date":"1802.12.11",
+          "caption":"Death",
+          "text":"Molé dies on December 11, 1802; the troupe had just given a performance for his benefit several days prior. He performed on the stage of the Comédie-Française until the months before his death, in many of the same roles he had created in the previous forty years of his career."
+        }
     },
     "preville": {
       "title": {
@@ -358,4 +444,5 @@
       "content":"Despite M. and Mme Bellecour’s nearly three decades of marriage and working together at the Comédie-Française, the archival documents of the theatre present the couple as two contrasting personalities. M. Bellecour is known for his kindness and his peacemaking, and while he bitterly denounces some of his colleagues’ decisions in his final years, he remains a voice of reason within the troupe. Mme Bellecour, on the other hand, experiences more personal conflict with her fellow actors. A letter she writes to the Assembly on October 5, 1780 in regard to an “dishonest scene” caused by Mlle La Chassaigne shows Mme Bellecour acknowledging her own impetuous character."
     }
   }
+}
 }
