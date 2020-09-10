@@ -1,5 +1,5 @@
 //global config to make gh pages/local dev easier
-var prefix =  '/'
+var prefix =  '/rcf-comediens/'
 //for scale
 var vh = window.innerHeight/100;
 
