@@ -16,7 +16,7 @@
       "replique": "Joly soutient son innocence en regard des plaintes portées contre elle",
       "prison":"Joly est un des membres de la troupe emprisonnée lors de la révolution",
       "mort": "Mademoiselle Joly est morte",
-      "filles-1": "Les filles de Joly écrivent à la comédie dans les années qui suivent sa mort",
+      "filles-1": "Les filles de Joly écrivent à la comédie dans les années qui suivent sa mort avec plusieurs demandes",
       "filles-2": "",
       "filles-3": "",
       "filles-4": "",
@@ -138,7 +138,12 @@
         "suspension":"Document des avis de la troupe pour la suspension de Joly suivant plusieurs plaintes",
         "replique":"Lettre de Joly qui maintient son innocence",
         "prison":"Lettre de Joly lorsqu'elle est en prison",
-        "mort":"Tombeau de Joly à Sousmont-Saint-Quentin"
+        "mort":"Tombeau de Joly à Sousmont-Saint-Quentin",
+        "filles_1":"1815.04.11 Louise Joly, fille de Marie Joly, écrit à la Comédie, lui demandant de la considérer pour un début. Elle a déjà demandé quelques années plus tôt, mais elle reconnaît qu’elle n’était pas encore prête à cet époque-là.",
+        "filles_2":"1815.05.18 Louise Joly répond à la Comédie après le refus de son demande de début, espérant que la Comédie pourra lui donner une occasion de jouer pendant son séjour à Paris.",
+        "filles_3":"1823.04.14 La femme Jourdan née Joly écrit à la Comédie pour demander une entrée gratis au spectacle.",
+        "filles_4":"1825.03.10 Cette lettre de la vraie Louise Joly condamne les actions d’une inconnue, celle qui a écrit les lettres de 1815 aux comédiens français en demandant son début. Louise les assure qu’elle n’aurait jamais demandé une telle chose.",
+        "filles_5":"1828.05.12 Femme Jourdan, née Joly Fouquet Dulomboy, écrit encore à la Comédie pour lui demander de maintenir son entrée gratis au théâtre."
       },
       "sections": {
         "naissance": {
@@ -310,7 +315,7 @@
     "mole": {
       "title": {
         "main": "François-René Molé",
-        "sub": "« Garder sa tête et livrer sa coeur »"
+        "sub": "« Garder sa tête et livrer son cœur »"
       },
       "captions": {
       },
@@ -318,32 +323,32 @@
         "naissance" : {
           "date":"1734.11.24",
           "caption":"Naissance",
-          "text":"François-René Molé est né le 24 novembre 1734 à Paris à une famille assez pauvre. Son père est graveur, mais maladif. (Mémoires de Molé)"
+          "text":"François-René Molé est né le 24 novembre 1734 à Paris d’une famille d’artisans graveurs."
         },
         "pere" : {
           "date":"1749.11.02",
           "caption":"Mort de son père",
-          "text":"Atteint d’une maladie de poitrine, le père de Molé meurt tôt, et sa mère manque les moyens de subvenir aux besoins de ses trois enfants. Pendant son adolescence, Molé parvient à un poste dans le bureau de l’intendant des finances, M. Blondel de Gagny. Il n’aime pas ce travail, et s’intéresse déjà au théâtre. (Mémoires de Molé)"
+          "text":"Atteint d’une maladie de poitrine, le père de Molé meurt tôt et sa mère manque de moyens pour subvenir aux besoins de ses trois enfants. Pendant son adolescence, Molé obtient un poste au bureau de l’intendant des finances, M. Blondel de Gagny. Or, son intérêt se porte déjà au théâtre. (Mémoires de Molé)"
         },
         "debut" : {
           "date":"1754.11.07",
-          "caption": "Début initial",
-          "text": "En 1754, Molé se soumet aux jugements de la Comédie Française pour la première fois, à l’âge de vingt ans. Malgré un certain talent, il n’est pas jugé suffisant pour une réception à la troupe. Il part donc en province pour y développer ses compétences avant de retourner à Paris. (Lyonnet)"
+          "caption": "Premier début",
+          "text": "En 1754, Molé se soumet aux jugements de la troupe de Comédie-Française pour la première fois. Il est alors âgé de vingt ans. Malgré un certain talent, il n’est pas jugé suffisamment bon pour être reçu au sein de la troupe. Il part donc en province pour y développer ses compétences avant de revenir à Paris (Lyonnet)"
         },
         "societariat" : {
           "date":"1761.03.30",
-          "caption":"Réception à la troupe",
-          "text":"De retour de la province, Molé fait un deuxième début plus réussi en 1760. L’année suivante, Molé devient sociétaire de la Comédie Française en 1761. (Lyonnet)"
+          "caption":"Réception à la Comédie-Française",
+          "text":"De retour de la province, Molé fait un deuxième début plus réussi en 1760. L’année suivante, il devient le 144e sociétaire de la Comédie-Française. (Lyonnet)"
         },
         "mariage" : {
           "date":"1769.01.10",
           "caption":"Mariage",
-          "text":"Molé se marie avec Mlle Dépinay le 10 janvier 1769 à l’église Saint-Sulpice. Tous les deux sociétaires, leur mariage est indiquée dans le registre des feux de cette journée."
+          "text":"Molé se marie avec Mlle Dépinay, également comédienne de la troupe, le 10 janvier 1769 à l’église Saint-Sulpice. Tous les deux sociétaires, leur mariage est indiquée dans le registre des feux de cette journée."
         },
         "hamlet" : {
           "date":"1769.09.30",
           "caption": "Création de Hamlet",
-          "text": "En 1769, Molé joue le rôle de Hamlet dans sa création, car Lekain, qui était censé le jouer, a refusé de le faire pour des raisons incertaines. C’est le 18eme rôle qu’a créé Molé, et il sera, pendant la suite de son carrière, le comédien qui aura assisté à le plus de créations de pièces; il joue 132 rôles de créations dans la période des registres des feux, presque le double de tous.tes les autres comédiens.nes. Quelques années plus tard en 1772, Molé crée le rôle de Roméo dans Roméo et Juliette. Ce rôle, ainsi que celui de Hamlet, marque son ascension aux premiers rôles tragiques."
+          "text": "En 1769, Molé joue le rôle de Hamlet de Ducis lors de la création de la pièce, car Lekain, qui devait être le créateur de ce rôle, se retire pour des raisons inconnues. Il en est alors à son 18ième rôle de création et il sera, pour la suite de sa carrière, le comédien ayant le plus de créations de pièces :  il joue 132 rôles de créations dans la période 1765-1793, presque le double de tous.tes les autres comédiens.nes. Quelques années plus tard en 1772, Molé crée le rôle de Roméo dans Roméo et Juliette. Ce rôle, ainsi que celui de Hamlet, marque son ascension aux premiers rôles tragiques."
         },
         "malade" : {
           "date":"1773.01.25",

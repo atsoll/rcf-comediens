@@ -56,6 +56,12 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.mariage.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/mariage.png'>
+            <div class="img-caption">{{'content.mole.captions.mariage'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-hamlet">
@@ -66,6 +72,12 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.hamlet.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/hamlet.png'>
+            <div class="img-caption">{{'content.mole.captions.hamlet'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-malade">
@@ -76,6 +88,16 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.malade.text' | translate}}</div>
+        <div class="img-content">
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/mole/maladie.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-1'}" src='style/img/mole/maladie.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.mole.captions.maladie'| translate}}</div>
+          </div>
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-absence">
@@ -86,6 +108,22 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.absence.text' | translate}}</div>
+        <div class="img-content">
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/mole/absence.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-2'}" src='style/img/mole/absence.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.mole.captions.absence'| translate}}</div>
+          </div>
+        </div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/représentations.png'>
+            <div class="img-caption">{{'content.mole.captions.représentations'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-specialisation">
@@ -96,6 +134,18 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.specialisation.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/spécialisation_1.png'>
+            <div class="img-caption">{{'content.mole.captions.spécialisation_1'| translate}}</div>
+          </div>
+        </div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/spécialisation_2.png'>
+            <div class="img-caption">{{'content.mole.captions.spécialisation_2'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-eleve">
@@ -106,6 +156,29 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.eleve.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/eleve_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-3'}" src='style/img/mole/eleve_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/eleve_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-4'}" src='style/img/mole/eleve_2.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/eleve_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-5'}" src='style/img/mole/eleve_3.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/eleve_4.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-6'}" src='style/img/mole/eleve_4.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.mole.captions.eleve'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <img src='style/img/mole/candeille.png'>
+            <div class="img-caption">{{'content.mole.captions.candeille'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-tensions">
@@ -116,6 +189,22 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.tensions.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/tensions_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-7'}" src='style/img/mole/tensions_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/tensions_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-8'}" src='style/img/mole/tensions_2.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/tensions_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-9'}" src='style/img/mole/tensions_3.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.mole.captions.tensions'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-regles">
@@ -126,6 +215,16 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.regles.text' | translate}}</div>
+        <div class="img-content">
+          <div class="transcription col-md-6 ">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+          <div class="img-wrapper col-md-6">
+            <img ez-plus ezp-model="{large:'style/img/mole/regles.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-10'}" src='style/img/mole/regles.jpg' style="height: 45vh">
+            <div class="img-caption">{{'content.mole.captions.regles'| translate}}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-retour">
@@ -136,6 +235,21 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.retour.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/retour_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-11'}" src='style/img/mole/retour_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/retour_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-12'}" src='style/img/mole/retour_2.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.mole.captions.retour'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-pension">
@@ -146,6 +260,23 @@
       </div>
       <div class="timeline-event" style="border-color: {{model.curr.colour}}">
         <div class="content">{{'content.mole.sections.pension.text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/pension_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-13'}" src='style/img/mole/pension_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/pension_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-14'}" src='style/img/mole/pension_2.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/pension_3.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-15'}" src='style/img/mole/pension_3.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/pension_4.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-16'}" src='style/img/mole/pension_4.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.mole.captions.pension'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-passeport">
@@ -156,17 +287,21 @@
       </div>
       <div class="timeline-event" style="border-color: rgba(0,0,0,0)">
         <div class="content">{{'content.mole.sections.passeport.text' | translate}}</div>
-      </div>
-    </div>
-    <div class= "content-item timepoint"  id="mole-vacances">
-      <div class="timeline-point" section="mole-vacances" style="border-color: {{model.curr.colour}}"></div>
-      <div class="timepoint-heading">
-        <span class="date">{{'content.mole.sections.vacances.date' | translate}}</span>
-        <span class="caption"> {{'content.mole.sections.vacances.caption' | translate}}</span>
-      </div>
-      <div class="timeline-event" style="border-color: {{model.curr.colour}}">
-        <div class="content">{{'content.mole.sections.vacances
-          .text' | translate}}</div>
+        <div class="img-content" style="display:block !important">
+          <div class="img-wrapper">
+            <div class="carousel" style="width: 50%; margin-left: 24%">
+               <slick class="slider carous" settings="slickConfig">
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/passeport_1.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-17'}" src='style/img/mole/passeport_1.jpg'></div>
+                 <div><img ez-plus ezp-model="{large:'style/img/mole/passeport_2.jpg'}" ezp-options="{scrollZoom: true, easing:true, container:'m-18'}" src='style/img/mole/passeport_2.jpg'></div>
+               </slick>
+            </div>
+            <div class="img-caption">{{'content.mole.captions.passeport'| translate}}</div>
+          </div>
+          <div class="transcription">
+            <i class="fas fa-quote-left" style="color:{{model.curr.colour}}"></i>
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class= "content-item timepoint"  id="mole-mort">
